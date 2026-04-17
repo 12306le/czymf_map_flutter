@@ -1,0 +1,45 @@
+name: czymf_map
+description: 创造与魔法地图工具 Flutter版
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 地图相关
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  
+  # 状态管理
+  provider: ^6.1.1
+  
+  # 本地存储
+  shared_preferences: ^2.2.2
+  
+  # JSON解析
+  json_annotation: ^4.8.1
+  
+  # 拼音搜索
+  lpinyin: ^2.0.3
+  
+  # UI组件
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/data/
+    - assets/icons/

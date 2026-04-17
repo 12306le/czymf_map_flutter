@@ -1,0 +1,1749 @@
+{
+  "items": [
+    {
+      "name": "灰马",
+      "name_exif": "灰马饲料:胡萝卜",
+      "share": "1",
+      "pinyin": "huim",
+      "key": "p_huim",
+      "filter": "坐骑",
+      "html": "灰马饲料:胡萝卜<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#666699\" size=\"3\">灰马</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/15135K510J.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：坐骑（1级可捕捉）</td><td>胡萝卜</td></tr><tr><td><b>速度</b>：6500~7000</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>负重</b>：20~25kg</td><td>各大陆均有出现，很普遍的生物</td></tr></tbody></table><br>",
+      "cover": "img/p_huim.jpg",
+      "imgs": [
+        "img/p_huim.jpg"
+      ]
+    },
+    {
+      "name": "火马",
+      "name_exif": "火马饲料(它吃10包):优质饲喂肉+饲喂料小麦+饲喂料辣椒",
+      "share": "1",
+      "pinyin": "huom",
+      "key": "p_huom",
+      "filter": "坐骑",
+      "html": "火马饲料(它吃10包):优质饲喂肉+饲喂料小麦+饲喂料辣椒<br> <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1808/26142A11S5.jpg\" width=\"100% ><br>生物属性 ：坐骑<br>饲料 ：辣椒饲料包+小麦饲料包+优质肉<br>资质： <br><table width=\"100% ><tbody><tr><td bgcolor=\"#379ada\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500~8000</td></tr><tr><td bgcolor=\"#379ada\" height=\"30\" align=\"center\">负重</td><td align=\"center\">30~35</td></tr></tbody></table><br>分布： （图片资源来源筑梦团赤城）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1808/26142P914F.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1808/26142Q94b8.jpg\" width=\"100% ><br>",
+      "cover": "img/p_huom.jpg",
+      "imgs": [
+        "img/p_huom.jpg"
+      ]
+    },
+    {
+      "name": "蓝马",
+      "name_exif": "蓝马饲料(它吃8包):河豚+饲喂料小麦+饲喂料玉米",
+      "share": "1",
+      "pinyin": "lanm",
+      "key": "p_lanm",
+      "filter": "坐骑",
+      "html": "蓝马饲料(它吃8包):河豚+饲喂料小麦+饲喂料玉米<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#00ccff\" size=\"3\">蓝马</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/151131112U3.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：坐骑（1级可捕捉）</td><td>玉米包+小麦包+河豚</td></tr><tr><td><b>速度</b>：7000~7500</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>负重</b>：25~30kg</td><td>各大陆很普遍的生物，随便逛逛都能遇到</td></tr></tbody></table><br>",
+      "cover": "img/p_lanm.jpg",
+      "imgs": [
+        "img/p_lanm.jpg"
+      ]
+    },
+    {
+      "name": "黑马",
+      "name_exif": "黑马饲料(它吃52~101包):饲喂料蓝莲花+饲喂料小麦+鲍鱼",
+      "share": "1",
+      "pinyin": "heim",
+      "key": "p_heim",
+      "filter": "坐骑",
+      "html": "黑马饲料(它吃52~101包):饲喂料蓝莲花+饲喂料小麦+鲍鱼<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/1G05F445L.jpg\" width=\"100% ><br>生物属性 ：陆地坐骑<br>饲料 ：小麦饲喂料+蓝莲饲喂料+鲍鱼（45包稳）<br>资质： <br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500~8500</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">35~45</td></tr></tbody></table><br>分布： （图片资源来自筑梦团月初）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/1G05T09442.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/1G05U15017.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/1G05U62561.jpg\" width=\"100% ><br>",
+      "cover": "img/p_heim.jpg",
+      "imgs": [
+        "img/p_heim.jpg"
+      ]
+    },
+    {
+      "name": "骆驼",
+      "name_exif": "骆驼饲料(小麦宠物粮,它吃6包):饲喂料玉米+饲喂料小麦",
+      "share": "1",
+      "pinyin": "luot",
+      "key": "p_luot",
+      "filter": "坐骑",
+      "html": "骆驼饲料(小麦宠物粮,它吃6包):饲喂料玉米+饲喂料小麦<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/231S12J602.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑（1级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">6500~7000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">35~40kg</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\"><p>小麦饲料包+玉米饲料包（7包）</p></td></tr></tbody></table><br>分布： 主要生活在沙漠地带。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/231S13E454.jpg\" width=\"100% ><br>",
+      "cover": "img/p_luot.jpg",
+      "imgs": [
+        "img/p_luot.jpg"
+      ]
+    },
+    {
+      "name": "陆行鸟",
+      "name_exif": "陆行鸟饲料(胡萝卜饲料,它吃10包):饲喂料小麦+饲喂料胡萝卜",
+      "share": "1",
+      "pinyin": "luxn",
+      "key": "p_luxn",
+      "filter": "坐骑",
+      "html": "陆行鸟饲料(胡萝卜饲料,它吃10包):饲喂料小麦+饲喂料胡萝卜<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/1QP42H057.jpg\" width=\"100% ><br>生物属性 ：陆地坐骑<br>饲料 ：胡萝卜饲料包+小麦饲料包（保底12包）<br>资质： <br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500~8000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">25~30kg</td></tr></tbody></table><br>分布： （下图资源来自筑梦团赤城）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/1Q053092W0.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/1Q053144M7.jpg\" width=\"100% ><br>",
+      "cover": "img/p_luxn.jpg",
+      "imgs": [
+        "img/p_luxn.jpg"
+      ]
+    },
+    {
+      "name": "青色陆行鸟",
+      "name_exif": "青色陆行鸟(青鸟饲料,它吃101包):饲喂料红莲花+饲喂料洋葱+罕见饲喂料",
+      "share": "1",
+      "pinyin": "qingslxn",
+      "key": "p_qingslxn",
+      "filter": "坐骑",
+      "html": "青色陆行鸟(青鸟饲料,它吃101包):饲喂料红莲花+饲喂料洋葱+罕见饲喂料<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/151J6316091.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑（1级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500~8500</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">35~45kg</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">红莲饲料包+洋葱饲料包+罕见肉（110包）</td></tr></tbody></table><br>分布 ：枯骨山脉左边沙漠刷新<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1905/261430063960.jpg\" width=\"100% ><br>",
+      "cover": "img/p_qingslxn.jpg",
+      "imgs": [
+        "img/p_qingslxn.jpg"
+      ]
+    },
+    {
+      "name": "黑色陆行鸟",
+      "name_exif": "黑色陆行鸟:560人民币",
+      "share": "1",
+      "pinyin": "heislxn",
+      "key": "p_heislxn",
+      "filter": "坐骑",
+      "html": "黑色陆行鸟:560人民币<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/151KQ55348.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑（1级可骑乘）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43kg</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>商城花费5600点券购买获得（560RMB）</p></td></tr></tbody></table><br>",
+      "cover": "img/p_heislxn.jpg",
+      "imgs": [
+        "img/p_heislxn.jpg"
+      ]
+    },
+    {
+      "name": "独角兽",
+      "name_exif": "独角兽饲料(它吃100~200包):饲喂料草莓+精灵鱼+帝王蟹",
+      "share": "1",
+      "pinyin": "dujs",
+      "key": "p_dujs",
+      "filter": "坐骑",
+      "html": "独角兽饲料(它吃100~200包):饲喂料草莓+精灵鱼+帝王蟹<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1808/2414311333H.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">精灵鱼+草莓饲料包+帝王蟹（110包保底）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500~8500</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">35~45</td></tr></tbody></table>分布 ： <br>具体捕捉攻略：【创造与魔法独角兽在哪里 独角兽饲料配方及坐标】<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1808/2414135K9D.jpg\" width=\"100% ><br>▍ 独角兽进阶图鉴<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/211050423555.jpg\" width=\"100% ><br>▍ 独角兽各阶段升级变化<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">等阶</td><td bgcolor=\"#23c268\" align=\"center\">地面速度</td><td bgcolor=\"#23c268\" align=\"center\">飞行速度</td><td bgcolor=\"#23c268\" align=\"center\">负重</td></tr><tr><td height=\"30\" align=\"center\">0阶</td><td align=\"center\">7500-8500</td><td align=\"center\">无变化</td><td align=\"center\"><p>35-45</p></td></tr><tr><td height=\"30\" align=\"center\">1阶</td><td align=\"center\"><p>（7500-7800）8000</p><p>（7801-8200）+200</p><p>（8201-8500）+200</p></td><td align=\"center\">&mdash;&mdash;</td><td align=\"center\"><p>35-45</p></td></tr><tr><td height=\"30\" align=\"center\">2阶</td><td align=\"center\"><p>8320</p><p>第一阶段+120</p></td><td align=\"center\">&mdash;&mdash;</td><td align=\"center\"><p>35-45</p></td></tr><tr><td height=\"30\" align=\"center\">3阶</td><td align=\"center\"><p>8600</p><p>第二阶段+80</p></td><td align=\"center\">15500</td><td align=\"center\"><p>35-45</p></td></tr></tbody></table><br>",
+      "cover": "img/p_dujs.jpg",
+      "imgs": [
+        "img/p_dujs.jpg"
+      ]
+    },
+    {
+      "name": "毒液龙",
+      "name_exif": "毒液龙饲料(它吃17~21包):饲喂料毒蘑菇+鸡蛋+稀有饲喂肉",
+      "share": "1",
+      "pinyin": "duyl",
+      "key": "p_duyl",
+      "filter": "坐骑",
+      "html": "毒液龙饲料(它吃17~21包):饲喂料毒蘑菇+鸡蛋+稀有饲喂肉<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/22163ZY603.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物 （坐骑需要到商城中购买）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">毒蘑菇饲料包+鸡蛋+稀有肉(16包)</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.2 - 1.6</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\">毒液：攻击附带被动毒液伤害，可叠加层数，最多五层 </td></tr></tbody></table><br>分布： <br>在雪山广泛分布（下图白色部分）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/221F6294362.jpg\" width=\"100% ><br>",
+      "cover": "img/p_duyl.jpg",
+      "imgs": [
+        "img/p_duyl.jpg"
+      ]
+    },
+    {
+      "name": "毒液龙王",
+      "name_exif": "毒液龙王饲料(它吃19~22包):毒蘑菇饲料＋乌龟蛋＋罕见肉",
+      "share": "1",
+      "pinyin": "duylw",
+      "key": "p_duylw",
+      "filter": "坐骑",
+      "html": "毒液龙王饲料(它吃19~22包):毒蘑菇饲料＋乌龟蛋＋罕见肉<br> <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/22163ZY603.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">战斗宠物（55级可捕捉） / BOSS</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">毒蘑菇包+乌龟蛋+罕见肉(25包)</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">1.5 - 1.8</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\">毒液：攻击中含有剧毒，逐渐侵蚀敌人的生命 </td></tr></tbody></table><br>分布： （以下图片资源来自筑梦团阿九）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/221640422A9.jpg\" width=\"100% ><br>",
+      "cover": "img/p_duylw.jpg",
+      "imgs": [
+        "img/p_duylw.jpg"
+      ]
+    },
+    {
+      "name": "云斑鹦鸟",
+      "name_exif": "云斑鹦鸟饲料(它吃55包打底):鲍鱼+辣椒饲料包+小麦饲料包",
+      "share": "1",
+      "pinyin": "yunbyn",
+      "key": "p_yunbyn",
+      "filter": "坐骑",
+      "html": "云斑鹦鸟饲料(它吃55包打底):鲍鱼+辣椒饲料包+小麦饲料包<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1809/2910010DY7.jpg\" width=\"100% ><br>生物属性 ：坐骑<br>饲料 ：鲍鱼+辣椒饲料包+小麦饲料包（保底55包）<br>刷新时间：大约6个小时一只（每次刷新有2~3个刷新点会随机刷新，不要只蹲一个点哦）<br>资质： <br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">6500~8000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">8000~9000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">35~45</td></tr></tbody></table><br>分布： <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/0315344V530.jpg\" width=\"100% ><br>",
+      "cover": "img/p_yunbyn.jpg",
+      "imgs": [
+        "img/p_yunbyn.jpg"
+      ]
+    },
+    {
+      "name": "幼鲭鲨",
+      "name_exif": "幼鲭鲨饲料(它吃25包):优质肉+生羊排+象拔蚌",
+      "share": "1",
+      "pinyin": "youqs",
+      "key": "p_youqs",
+      "filter": "坐骑",
+      "html": "幼鲭鲨饲料(它吃25包):优质肉+生羊排+象拔蚌<br> <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1809/161509234Z3.jpg\" width=\"100% ><br>生物属性 ：水中坐骑<br>饲料 ：优质肉+生羊排+象拔蚌（25包稳）<br>资质： <br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">水上速度</td><td align=\"center\">7500~8200</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">水上冲刺</td><td align=\"center\">15500~16500</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">25</td></tr></tbody></table><br>分布： 下图红点为灰鲭鲨位置（图片资源来自筑梦团赤城）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1809/251HH54214.jpg\" width=\"100% ><br>",
+      "cover": "img/p_youqs.jpg",
+      "imgs": [
+        "img/p_youqs.jpg"
+      ]
+    },
+    {
+      "name": "虎皮鲨",
+      "name_exif": "虎皮鲨饲料(它吃110包):罕见肉+金龙鱼+小丑鱼",
+      "share": "1",
+      "pinyin": "hups",
+      "key": "p_hups",
+      "filter": "坐骑",
+      "html": "虎皮鲨饲料(它吃110包):罕见肉+金龙鱼+小丑鱼<br> <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1809/12112JS521.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">世界BOSS / 坐骑（55级可捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">罕见肉+金龙鱼+小丑鱼（110包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">水上速度</td><td align=\"center\">9500 - 10200</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">水上冲刺</td><td align=\"center\">19000 - 20400</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">35 - 40kg</td></tr></tbody></table><br>分布： （图片资源来自筑梦团赤城）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1809/251HRA919.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1809/251HS133P.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1809/251HS564L.jpg\" width=\"100% ><br>",
+      "cover": "img/p_hups.jpg",
+      "imgs": [
+        "img/p_hups.jpg"
+      ]
+    },
+    {
+      "name": "灰鲭鲨",
+      "name_exif": "灰鲭鲨饲料(它吃60包):稀有肉+蓝莲饲喂包+小丑鱼",
+      "share": "1",
+      "pinyin": "huiqs",
+      "key": "p_huiqs",
+      "filter": "坐骑",
+      "html": "灰鲭鲨饲料(它吃60包):稀有肉+蓝莲饲喂包+小丑鱼<br> <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1809/121123221R1.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\"></td><td align=\"center\">水中坐骑（50级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">稀有肉+蓝莲饲喂包+小丑鱼（60包打底）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">水上速度</td><td align=\"center\">8500 - 9200</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">水上冲刺</td><td align=\"center\">17000 - 18400</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">25 - 30kg</td></tr></tbody></table><br>分布： 灰鲭鲨分布范围为四个灯塔的四周，每次只在一个刷新点刷新。<br>下面看下筑梦团奈奈的分享的分布图片：<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/0Q63I1Y59.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/0Q63I624Q.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/0Q63J03140.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/0Q63J54292.jpg\" width=\"100% ><br>",
+      "cover": "img/p_huiqs.jpg",
+      "imgs": [
+        "img/p_huiqs.jpg"
+      ]
+    },
+    {
+      "name": "狮鹫",
+      "name_exif": "狮鹫饲料(它吃110包):鲨鱼心脏+精灵鱼+罕见肉",
+      "share": "1",
+      "pinyin": "shij",
+      "key": "p_shij",
+      "filter": "坐骑",
+      "html": "狮鹫饲料(它吃110包):鲨鱼心脏+精灵鱼+罕见肉<br> <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1808/240T93V535.jpg\" width=\"100% ><br>生物属性 ：坐骑<br>饲料 ：鲨鱼心脏+精灵鱼+罕见肉（建议准备110包）<br>※鲨鱼心脏可以通过击杀灰鲭鲨获得<br>资质： <br><table width=\"100% ><tbody><tr><td bgcolor=\"#379ada\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7000~8000</td></tr><tr><td bgcolor=\"#379ada\" height=\"30\" align=\"center\">负重</td><td align=\"center\">35~40</td></tr><tr><td bgcolor=\"#379ada\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10000~11000</td></tr></tbody></table><br>分布： （5559，14065）（15872,11387）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1808/240THX0Z.jpg\" width=\"100% ><br>",
+      "cover": "img/p_shij.jpg",
+      "imgs": [
+        "img/p_shij.jpg"
+      ]
+    },
+    {
+      "name": "飞龙",
+      "name_exif": "飞龙饲料(它吃100包):精灵鱼+龙涎果+罕见肉",
+      "share": "1",
+      "pinyin": "feil",
+      "key": "p_feil",
+      "filter": "坐骑",
+      "html": "飞龙饲料(它吃100包):精灵鱼+龙涎果+罕见肉<br> <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1808/231006024314.jpg\" width=\"100% ><br>生物属性 ：坐骑<br>饲料 ：精灵鱼+龙涎草+罕见肉（81~100包保底）<br>资质： <br><table width=\"100% ><tbody><tr><td bgcolor=\"#379ada\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8000~8500</td></tr><tr><td bgcolor=\"#379ada\" height=\"30\" align=\"center\">负重</td><td align=\"center\">53</td></tr><tr><td bgcolor=\"#379ada\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">14000~15000</td></tr></tbody></table><br>分布： <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1808/23102255I63.jpg\" width=\"100% ><br>详细飞龙捕捉攻略推荐 ：【创造与魔法飞龙在哪 飞龙捕捉攻略】<br>",
+      "cover": "img/p_feil.jpg",
+      "imgs": [
+        "img/p_feil.jpg"
+      ]
+    },
+    {
+      "name": "精灵鹿",
+      "name_exif": "精灵鹿:560人民币",
+      "share": "1",
+      "pinyin": "jingll",
+      "key": "p_jingll",
+      "filter": "坐骑",
+      "html": "精灵鹿:560人民币<br> <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/21162P51521.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">在商店中花费5600购买获得</td></tr></tbody></table><br> 坐骑说明： <br>身材修长的小鹿，配合冰晶蓝色，以及鹿角的流光特效高端、大气上档次。奔跑起来的小鹿蹦蹦跳跳不失活泼可爱。在鹿上射箭也不用担心不稳定。<br>",
+      "cover": "img/p_jingll.jpg",
+      "imgs": [
+        "img/p_jingll.jpg"
+      ]
+    },
+    {
+      "name": "小创君的宝贝",
+      "name_exif": "小创君的宝贝:双十一期间99个单身狗能量碎片兑换",
+      "share": "1",
+      "pinyin": "xiaocjdbb",
+      "key": "p_xiaocjdbb",
+      "filter": "坐骑",
+      "html": "小创君的宝贝:双十一期间99个单身狗能量碎片兑换<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/0G145096131.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>11月5日~11月12日期间，在双十一活动中使用99个单身狗能量碎片兑换获得</p><p>活动详情：【<a href=\"http://m.news.4399.com/xinwen/czymf/m/868790.html\">攒单身狗能量碎片兑奖励 创造与魔法双十一活动来啦</a>】</p></td></tr></tbody></table>",
+      "cover": "img/p_xiaocjdbb.jpg",
+      "imgs": [
+        "img/p_xiaocjdbb.jpg"
+      ]
+    },
+    {
+      "name": "牛郎",
+      "name_exif": "牛郎:在七夕兑换商店中消耗880个同心喜鹊兑换获得,限时：8月6日-8月20日期间",
+      "share": "1",
+      "pinyin": "niul",
+      "key": "p_niul",
+      "filter": "坐骑",
+      "html": "牛郎:在七夕兑换商店中消耗880个同心喜鹊兑换获得,限时：8月6日-8月20日期间<br>创造与魔法牛郎怎么得 牛郎属性表2019-08-0600<br>牛郎是创造与魔法中的坐骑之一，那么创造与魔法牛郎在哪得？牛郎吃怎么获得，下面小编就带来创造与魔法牛郎获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">双人坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7700</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">42</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>在七夕兑换商店中消耗880个同心喜鹊兑换获得</p><p>限时：8月6日-8月20日期间</p></td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1908/061U1431227.jpg\" width=\"100% ><br>",
+      "cover": "img/p_niul.jpg",
+      "imgs": [
+        "img/p_niul.jpg"
+      ]
+    },
+    {
+      "name": "浴焰凤凰",
+      "name_exif": "浴焰凤凰:在商店--幸运转盘中抽奖有概率获得",
+      "share": "1",
+      "pinyin": "yuyfh",
+      "key": "p_yuyfh",
+      "filter": "坐骑",
+      "cover": "img/p_yuyfh.jpg"
+    },
+    {
+      "name": "冰毒液龙",
+      "name_exif": "冰毒液龙饲料(它吃45包):冰精＋北极冰鱼饲料包＋鸡蛋饲料包",
+      "share": "1",
+      "pinyin": "bingdyl",
+      "key": "p_bingdyl",
+      "filter": "坐骑",
+      "html": "冰毒液龙饲料(它吃45包):冰精＋北极冰鱼饲料包＋鸡蛋饲料包<br>创造与魔法冰毒液龙位置分布图 冰毒液龙饲料配方2020-04-0900<br>冰毒液龙是创造与魔法游戏中的坐骑生物之一，可以捕捉成为坐骑，许多小伙伴不知道冰毒液龙饲料配方是什么，冰毒液龙在哪里，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1907/121951562195.jpg\" width=\"100% ><br><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑/宠物（55级）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">冰精＋北极冰鱼饲料包＋鸡蛋饲料包（45包稳）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500左右</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">30左右</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">击杀掉落</td><td align=\"center\">冰精</td></tr></tbody></table><br>※冰毒液龙的属性数据正在收集中，也欢迎大家在评论中分享自己抓到的冰毒液龙王数据。<br>▍ 饲料材料分布： <br>冰精 ：可以通过击杀冰毒液龙、冰毒液龙王、北境雪人获得（这三种怪物都出没在北境岛上）<br>北极冰鱼饲料包：在北境周围的海域垂钓获得北极冰鱼，（推荐使用蚯蚓类钓饵、小龙虾大闸蟹钓饵）在工具台道具分类下合成北极冰鱼饲料包。<br>鸡蛋饲料包 ：击杀鸡掉落鸡蛋，或者饲养鸡繁殖获得鸡蛋。在工具台的道具分类下合成鸡蛋饲料包<br>▍ 冰毒液龙分布： <br>冰毒液龙在北境岛上广泛分布。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1907/11144P12L5.jpg\" width=\"100% ><br>▍ 推荐阅读： <br>创造与魔法饲料大全 最新最全宠物坐骑饲料配方 <br>创造与魔法坐骑如何获得 怎么驯服坐骑<br>创造与魔法宠物如何获得 怎么驯服宠物<br>地图攻略| 攻略心得| 游戏资讯| 生物大全| 物品大全<br>站住~游戏爱好者！我强烈建议你下个好游快爆APP。APP里有丰富的攻略秘籍，还有时下热门的爆款新游和实用工具，动起你的手指，与志同道合的朋友一起玩这个好玩的APP吧，快快快！<br><img src=\"http://newsimg.5054399.com/uploads/userup/1708/12135R4T64.gif\" width=\"100% ><img src=\"http://newsimg.5054399.com/uploads/userup/1503/04110I96257.jpg\" width=\"100% > 游戏资料 新手必看材料工具热门生物开荒技巧魔法图案地形等级分布驯服坐骑捕捉宠物饲料配方钓鱼概率地图资源附魔石分布迦放2代荧光剂佛特T1佛特T3杰普行者战船雄文号红/蓝莲花橡胶项圈狮鹫独角兽飞龙猛犸象暗黑霸王龙水池龟巨猿雪狼王毒液龙王 最新热门进入专区  <img src=\"http://newsimg.5054399.com/uploads/userup/2005/0Q503109548.jpg\" width=\"100% > 创造与魔法怎么赚钱快 怎么快速赚金币05-13创造与魔法金币怎么获得？怎么快速赚取金币？下面就介绍下这方面的攻略。<br>05-08创造与魔法九命萌猫怎么得 九命萌猫属性05-07创造与魔法全新坐骑 九命萌猫来袭05-06创造与魔法电脑端服务器更新维护通知05-06微端游戏百科词典 <img src=\"http://newsimg.5054399.com/uploads/userup/2005/0Q503109548.jpg\" width=\"100% > 创造与魔法怎么赚钱快 怎么快速赚金币05-13创造与魔法金币怎么获得？怎么快速赚取金币？下面就介绍下这方面的攻略。<br>05-07创造与魔法全新坐骑 九命萌猫来袭05-06创造与魔法电脑端服务器更新维护通知05-01【活动】超级变变变，奇妙的搭配冒险开始了！04-30创造与魔法五一活动开启 不负春风 劳动光荣评论0条评论<br>还没有评论，快来抢沙发吧！<br>说两句 手游人气榜 查看榜单精彩推荐进入原创专题 <img src=\"http://newsimg.5054399.com/uploads/userup/1908/26095U62O2.jpg\" width=\"100% >本周开测 <img src=\"http://newsimg.5054399.com/uploads/userup/1708/04094124BG.jpg\" width=\"100% >话题讨论 <img src=\"http://newsimg.5054399.com/uploads/userup/1706/111502145501.jpg\" width=\"100% >好游推荐 <img src=\"http://newsimg.5054399.com/uploads/userup/1802/0310463VS0.jpg\" width=\"100% >小编也在玩 <img src=\"http://newsimg.5054399.com/uploads/userup/2005/0G02J0O25.jpg\" width=\"100% >新游大宝鉴 <img src=\"http://newsimg.5054399.com/uploads/userup/1711/0F934454640.jpg\" width=\"100% >游戏百科 <img src=\"http://newsimg.5054399.com/uploads/userup/1703/231423234152.jpg\" width=\"100% >一周大事件 <img src=\"http://newsimg.5054399.com/uploads/userup/2001/1Q5193135E.jpg\" width=\"100% >一周神回复 大家都在看更多+热门游戏专区更多+<img src=\"http://newsimg.5054399.com/uploads/userup/1905/0Q639492596.jpg\" width=\"100% >和平精英<img src=\"http://newsimg.5054399.com/uploads/allimg/161202/237_1358205893.jpg\" width=\"100% >王者荣耀<img src=\"http://newsimg.5054399.com/uploads/userup/1811/ertong_87aed1d9d73c6d8b03b17f5789db8288.jpg?1\" width=\"100% >明日之后<img src=\"http://newsimg.5054399.com/uploads/userup/1804/ertong_3ef603d7085a9d6bf98327ecdf9e2854.jpg?1\" width=\"100% >方舟：生存进化<img src=\"http://newsimg.5054399.com/uploads/allimg/161202/237_1358204275.jpg\" width=\"100% >我的世界<img src=\"http://f02.img4399.com/ma~a_big_119746~250x250?1539482681\" width=\"100% >堡垒之夜手游全站导航手游门户专区大全原创频道苹果游戏安卓游戏新游频道好游快爆4399游戏盒资讯频道 写评论取消发布一般！+此游戏暂无下载，可以先下载4399游戏盒，寻找同类型游戏<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-logo.png\" width=\"100% ><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-i1.png\" width=\"100% >热门好玩手游<br><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-i2.png\" width=\"100% >海量免费礼包<br><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-i3.png\" width=\"100% >精品资讯攻略<br><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-bico.png\" width=\"100% >点击下载4399游戏盒此游戏暂无相关下载.此游戏暂无IOS版下载，可用安卓手机下载体验大家都在玩的好玩游戏：<img src=\"http://f1.img4399.com/mi~167517~78x78?1480391809\" width=\"100% >口袋妖怪VS<img src=\"http://newsimg.5054399.com/uploads/userup/1612/161340363L3.jpg\" width=\"100% >无限纷争·死神<img src=\"http://f1.img4399.com/mi~167483~78x78?1479952755\" width=\"100% >口袋妖怪重制<img src=\"http://f1.img4399.com/mi~168232~78x78?1481683046\" width=\"100% >数码宝贝tri<img src=\"http://f1.img4399.com/mi~167693~78x78?1476868144\" width=\"100% >口袋妖怪复刻<img src=\"http://f1.img4399.com/mi~168166~78x78?1480834040\" width=\"100% >悟空大乱斗<img src=\"http://f1.img4399.com/ma~a_41755~78x78?1479258641\" width=\"100% >去吧皮卡丘<img src=\"http://f1.img4399.com/ma~a_50024~78x78?1480557031\" width=\"100% >火线精英此游戏暂无安卓版下载，可用苹果手机下载体验大家都在玩的好玩游戏/APP：<img src=\"http://f1.img4399.com/mi~164129~78x78?1480555912\" width=\"100% >王者荣耀<img src=\"https://fs.img4399.com/sykb~sykb/20181020/13432850028\" width=\"100% >明日之后<img src=\"https://fs.img4399.com/sykb~sykb/20180830/09264462784\" width=\"100% >第五人格<img src=\"http://f1.img4399.com/ma~a_50743~78x78?1478761307\" width=\"100% >奇迹暖暖<img src=\"https://newsimg.5054399.com/hykb/wap/v3/images/logo-img.png\" width=\"100% >好游快爆<img src=\"http://f1.img4399.com/ma~a_403~78x78?1479807362\" width=\"100% >我的世界<img src=\"https://fs.img4399.com/sykb~sykb/20180705/11031070090\" width=\"100% >刺激战争<img src=\"http://f1.img4399.com/ma~a_29307~78x78?1475140767\" width=\"100% >植物2寻找更多好玩游戏，请下载4399游戏盒：<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/gboximg.png\" width=\"100% >点击下载4399游戏盒安装必读如何解决“未受信任的企业级开发”1打开iPhone设置通用<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg1.png\" width=\"100% > <img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg2.png\" width=\"100% >设备管理（旧版IOS为描述文件）2找到对应的开发者  点击添加信任  完成查看完整版安装图文说明关闭安装必读如何解决“未受信任的企业级开发”1打开iPhone设置通用<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg1.png\" width=\"100% > <img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg2.png\" width=\"100% >设备管理（旧版IOS为描述文件）2找到对应的开发者  点击添加信任  完成请复制下方游戏下载地址，并在safari浏览器中打开，可直接安装游戏：一键复制查看完整版安装图文说明关闭                    ",
+      "cover": "img/p_bingdyl.jpg",
+      "imgs": [
+        "img/p_bingdyl.jpg"
+      ]
+    },
+    {
+      "name": "冰毒液龙王",
+      "name_exif": "冰毒液龙王饲料(它吃55包):冰精＋霜冻之花＋乌龟蛋饲料包",
+      "share": "1",
+      "pinyin": "bingdylw",
+      "key": "p_bingdylw",
+      "filter": "坐骑",
+      "html": "冰毒液龙王饲料(它吃55包):冰精＋霜冻之花＋乌龟蛋饲料包<br>创造与魔法冰毒液龙王位置分布图 冰毒液龙王饲料配方2019-07-1200<br>冰毒液龙王是创造与魔法游戏中的坐骑生物之一，可以捕捉成为坐骑，许多小伙伴不知道冰毒液龙王饲料配方是什么，冰毒液龙王在哪里，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1907/121923121147.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑/宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">冰精＋霜冻之花＋乌龟蛋饲料包（55包保底）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500~8800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">35左右</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">击杀掉落</td><td align=\"center\">冰精</td></tr></tbody></table><br>※冰毒液龙王的属性数据正在收集中，也欢迎大家在评论中分享自己抓到的冰毒液龙王数据。<br>▍ 饲料材料分布： <br>冰精 ：可以通过击杀冰毒液龙、冰毒液龙王、北境雪人获得（这三种怪物都出没在北境岛上）<br>霜冻之花分布图：<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1907/121946091N4.jpg\" width=\"100% ><br>乌龟蛋饲料包 ：击杀海龟掉落龟蛋，在工具台的道具分类下合成乌龟蛋饲料包<br>▍ 冰毒液龙王分布图： <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1907/121921222336.jpg\" width=\"100% ><br>▍ 推荐阅读： <br>创造与魔法饲料大全 最新最全宠物坐骑饲料配方 <br>创造与魔法坐骑如何获得 怎么驯服坐骑<br>创造与魔法宠物如何获得 怎么驯服宠物<br>地图攻略| 攻略心得| 游戏资讯| 生物大全| 物品大全<br>站住~游戏爱好者！我强烈建议你下个好游快爆APP。APP里有丰富的攻略秘籍，还有时下热门的爆款新游和实用工具，动起你的手指，与志同道合的朋友一起玩这个好玩的APP吧，快快快！<br><img src=\"http://newsimg.5054399.com/uploads/userup/1708/12135R4T64.gif\" width=\"100% ><img src=\"http://newsimg.5054399.com/uploads/userup/1503/04110I96257.jpg\" width=\"100% > 游戏资料 新手必看材料工具热门生物开荒技巧魔法图案地形等级分布驯服坐骑捕捉宠物饲料配方钓鱼概率地图资源附魔石分布迦放2代荧光剂佛特T1佛特T3杰普行者战船雄文号红/蓝莲花橡胶项圈狮鹫独角兽飞龙猛犸象暗黑霸王龙水池龟巨猿雪狼王毒液龙王 最新热门进入专区  <img src=\"http://newsimg.5054399.com/uploads/userup/2005/0Q503109548.jpg\" width=\"100% > 创造与魔法怎么赚钱快 怎么快速赚金币05-13创造与魔法金币怎么获得？怎么快速赚取金币？下面就介绍下这方面的攻略。<br>05-08创造与魔法九命萌猫怎么得 九命萌猫属性05-07创造与魔法全新坐骑 九命萌猫来袭05-06创造与魔法电脑端服务器更新维护通知05-06微端游戏百科词典 <img src=\"http://newsimg.5054399.com/uploads/userup/2005/0Q503109548.jpg\" width=\"100% > 创造与魔法怎么赚钱快 怎么快速赚金币05-13创造与魔法金币怎么获得？怎么快速赚取金币？下面就介绍下这方面的攻略。<br>05-07创造与魔法全新坐骑 九命萌猫来袭05-06创造与魔法电脑端服务器更新维护通知05-01【活动】超级变变变，奇妙的搭配冒险开始了！04-30创造与魔法五一活动开启 不负春风 劳动光荣评论0条评论<br>还没有评论，快来抢沙发吧！<br>说两句 手游人气榜 查看榜单精彩推荐进入原创专题 <img src=\"http://newsimg.5054399.com/uploads/userup/1908/26095U62O2.jpg\" width=\"100% >本周开测 <img src=\"http://newsimg.5054399.com/uploads/userup/1708/04094124BG.jpg\" width=\"100% >话题讨论 <img src=\"http://newsimg.5054399.com/uploads/userup/1706/111502145501.jpg\" width=\"100% >好游推荐 <img src=\"http://newsimg.5054399.com/uploads/userup/1802/0310463VS0.jpg\" width=\"100% >小编也在玩 <img src=\"http://newsimg.5054399.com/uploads/userup/2005/0G02J0O25.jpg\" width=\"100% >新游大宝鉴 <img src=\"http://newsimg.5054399.com/uploads/userup/1711/0F934454640.jpg\" width=\"100% >游戏百科 <img src=\"http://newsimg.5054399.com/uploads/userup/1703/231423234152.jpg\" width=\"100% >一周大事件 <img src=\"http://newsimg.5054399.com/uploads/userup/2001/1Q5193135E.jpg\" width=\"100% >一周神回复 大家都在看更多+热门游戏专区更多+<img src=\"http://newsimg.5054399.com/uploads/userup/1905/0Q639492596.jpg\" width=\"100% >和平精英<img src=\"http://newsimg.5054399.com/uploads/allimg/161202/237_1358205893.jpg\" width=\"100% >王者荣耀<img src=\"http://newsimg.5054399.com/uploads/userup/1811/ertong_87aed1d9d73c6d8b03b17f5789db8288.jpg?1\" width=\"100% >明日之后<img src=\"http://newsimg.5054399.com/uploads/userup/1804/ertong_3ef603d7085a9d6bf98327ecdf9e2854.jpg?1\" width=\"100% >方舟：生存进化<img src=\"http://newsimg.5054399.com/uploads/allimg/161202/237_1358204275.jpg\" width=\"100% >我的世界<img src=\"http://f02.img4399.com/ma~a_big_119746~250x250?1539482681\" width=\"100% >堡垒之夜手游全站导航手游门户专区大全原创频道苹果游戏安卓游戏新游频道好游快爆4399游戏盒资讯频道 写评论取消发布一般！+此游戏暂无下载，可以先下载4399游戏盒，寻找同类型游戏<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-logo.png\" width=\"100% ><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-i1.png\" width=\"100% >热门好玩手游<br><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-i2.png\" width=\"100% >海量免费礼包<br><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-i3.png\" width=\"100% >精品资讯攻略<br><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-bico.png\" width=\"100% >点击下载4399游戏盒此游戏暂无相关下载.此游戏暂无IOS版下载，可用安卓手机下载体验大家都在玩的好玩游戏：<img src=\"http://f1.img4399.com/mi~167517~78x78?1480391809\" width=\"100% >口袋妖怪VS<img src=\"http://newsimg.5054399.com/uploads/userup/1612/161340363L3.jpg\" width=\"100% >无限纷争·死神<img src=\"http://f1.img4399.com/mi~167483~78x78?1479952755\" width=\"100% >口袋妖怪重制<img src=\"http://f1.img4399.com/mi~168232~78x78?1481683046\" width=\"100% >数码宝贝tri<img src=\"http://f1.img4399.com/mi~167693~78x78?1476868144\" width=\"100% >口袋妖怪复刻<img src=\"http://f1.img4399.com/mi~168166~78x78?1480834040\" width=\"100% >悟空大乱斗<img src=\"http://f1.img4399.com/ma~a_41755~78x78?1479258641\" width=\"100% >去吧皮卡丘<img src=\"http://f1.img4399.com/ma~a_50024~78x78?1480557031\" width=\"100% >火线精英此游戏暂无安卓版下载，可用苹果手机下载体验大家都在玩的好玩游戏/APP：<img src=\"http://f1.img4399.com/mi~164129~78x78?1480555912\" width=\"100% >王者荣耀<img src=\"https://fs.img4399.com/sykb~sykb/20181020/13432850028\" width=\"100% >明日之后<img src=\"https://fs.img4399.com/sykb~sykb/20180830/09264462784\" width=\"100% >第五人格<img src=\"http://f1.img4399.com/ma~a_50743~78x78?1478761307\" width=\"100% >奇迹暖暖<img src=\"https://newsimg.5054399.com/hykb/wap/v3/images/logo-img.png\" width=\"100% >好游快爆<img src=\"http://f1.img4399.com/ma~a_403~78x78?1479807362\" width=\"100% >我的世界<img src=\"https://fs.img4399.com/sykb~sykb/20180705/11031070090\" width=\"100% >刺激战争<img src=\"http://f1.img4399.com/ma~a_29307~78x78?1475140767\" width=\"100% >植物2寻找更多好玩游戏，请下载4399游戏盒：<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/gboximg.png\" width=\"100% >点击下载4399游戏盒安装必读如何解决“未受信任的企业级开发”1打开iPhone设置通用<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg1.png\" width=\"100% > <img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg2.png\" width=\"100% >设备管理（旧版IOS为描述文件）2找到对应的开发者  点击添加信任  完成查看完整版安装图文说明关闭安装必读如何解决“未受信任的企业级开发”1打开iPhone设置通用<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg1.png\" width=\"100% > <img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg2.png\" width=\"100% >设备管理（旧版IOS为描述文件）2找到对应的开发者  点击添加信任  完成请复制下方游戏下载地址，并在safari浏览器中打开，可直接安装游戏：一键复制查看完整版安装图文说明关闭                    ",
+      "cover": "img/p_bingdylw.jpg",
+      "imgs": [
+        "img/p_bingdylw.jpg"
+      ]
+    },
+    {
+      "name": "北境犀鸟",
+      "name_exif": "北境犀鸟饲料(它吃110包):冰精+北极松果饲料包+鳐鱼",
+      "share": "1",
+      "pinyin": "beijxn",
+      "key": "p_beijxn",
+      "filter": "坐骑",
+      "html": "北境犀鸟饲料(它吃110包):冰精+北极松果饲料包+鳐鱼<br>创造与魔法北境犀鸟位置分布图 北境冰鸟饲料配方2019-07-1200<br>北境犀鸟是创造与魔法游戏中的坐骑生物之一，可以捕捉成为坐骑，许多小伙伴不知道北境犀鸟饲料配方是什么，北境犀鸟在哪里，下面一起来看看吧。<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">冰精+北极松果饲料包+鳐鱼（110包打底）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7588左右</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10885左右</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">38左右</td></tr></tbody></table><br>※北境犀鸟的属性数据正在收集中，也欢迎大家在评论中分享自己抓到的犀鸟数据。<br>▍ 饲料材料分布： <br>冰精 ：可以通过击杀冰毒液龙、冰毒液龙王、北境雪人获得（这三种怪物都出没在北境岛上）<br>北极松果饲料包：在北境岛上拾取北极松果（岛上大量刷新），在工具台的道具分类下合成北极松果饲料包<br>鳐鱼：在北境周围的海域垂钓可得（推荐使用小龙虾钓饵和大闸蟹钓饵）<br>▍ 北境犀鸟分布图： <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1907/121T630c45.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1907/121T635B03.jpg\" width=\"100% ><br>▍ 推荐阅读： <br>创造与魔法饲料大全 最新最全宠物坐骑饲料配方 <br>创造与魔法坐骑如何获得 怎么驯服坐骑<br>创造与魔法宠物如何获得 怎么驯服宠物<br>地图攻略| 攻略心得| 游戏资讯| 生物大全| 物品大全<br>站住~游戏爱好者！我强烈建议你下个好游快爆APP。APP里有丰富的攻略秘籍，还有时下热门的爆款新游和实用工具，动起你的手指，与志同道合的朋友一起玩这个好玩的APP吧，快快快！<br><img src=\"http://newsimg.5054399.com/uploads/userup/1708/12135R4T64.gif\" width=\"100% ><img src=\"http://newsimg.5054399.com/uploads/userup/1503/04110I96257.jpg\" width=\"100% > 游戏资料 新手必看材料工具热门生物开荒技巧魔法图案地形等级分布驯服坐骑捕捉宠物饲料配方钓鱼概率地图资源附魔石分布迦放2代荧光剂佛特T1佛特T3杰普行者战船雄文号红/蓝莲花橡胶项圈狮鹫独角兽飞龙猛犸象暗黑霸王龙水池龟巨猿雪狼王毒液龙王 最新热门进入专区  <img src=\"http://newsimg.5054399.com/uploads/userup/2005/0Q503109548.jpg\" width=\"100% > 创造与魔法怎么赚钱快 怎么快速赚金币05-13创造与魔法金币怎么获得？怎么快速赚取金币？下面就介绍下这方面的攻略。<br>05-08创造与魔法九命萌猫怎么得 九命萌猫属性05-07创造与魔法全新坐骑 九命萌猫来袭05-06创造与魔法电脑端服务器更新维护通知05-06微端游戏百科词典 <img src=\"http://newsimg.5054399.com/uploads/userup/2005/0Q503109548.jpg\" width=\"100% > 创造与魔法怎么赚钱快 怎么快速赚金币05-13创造与魔法金币怎么获得？怎么快速赚取金币？下面就介绍下这方面的攻略。<br>05-07创造与魔法全新坐骑 九命萌猫来袭05-06创造与魔法电脑端服务器更新维护通知05-01【活动】超级变变变，奇妙的搭配冒险开始了！04-30创造与魔法五一活动开启 不负春风 劳动光荣评论0条评论<br>还没有评论，快来抢沙发吧！<br>说两句 手游人气榜 查看榜单精彩推荐进入原创专题 <img src=\"http://newsimg.5054399.com/uploads/userup/1908/26095U62O2.jpg\" width=\"100% >本周开测 <img src=\"http://newsimg.5054399.com/uploads/userup/1708/04094124BG.jpg\" width=\"100% >话题讨论 <img src=\"http://newsimg.5054399.com/uploads/userup/1706/111502145501.jpg\" width=\"100% >好游推荐 <img src=\"http://newsimg.5054399.com/uploads/userup/1802/0310463VS0.jpg\" width=\"100% >小编也在玩 <img src=\"http://newsimg.5054399.com/uploads/userup/2005/0G02J0O25.jpg\" width=\"100% >新游大宝鉴 <img src=\"http://newsimg.5054399.com/uploads/userup/1711/0F934454640.jpg\" width=\"100% >游戏百科 <img src=\"http://newsimg.5054399.com/uploads/userup/1703/231423234152.jpg\" width=\"100% >一周大事件 <img src=\"http://newsimg.5054399.com/uploads/userup/2001/1Q5193135E.jpg\" width=\"100% >一周神回复 大家都在看更多+热门游戏专区更多+<img src=\"http://newsimg.5054399.com/uploads/userup/1905/0Q639492596.jpg\" width=\"100% >和平精英<img src=\"http://newsimg.5054399.com/uploads/allimg/161202/237_1358205893.jpg\" width=\"100% >王者荣耀<img src=\"http://newsimg.5054399.com/uploads/userup/1811/ertong_87aed1d9d73c6d8b03b17f5789db8288.jpg?1\" width=\"100% >明日之后<img src=\"http://newsimg.5054399.com/uploads/userup/1804/ertong_3ef603d7085a9d6bf98327ecdf9e2854.jpg?1\" width=\"100% >方舟：生存进化<img src=\"http://newsimg.5054399.com/uploads/allimg/161202/237_1358204275.jpg\" width=\"100% >我的世界<img src=\"http://f02.img4399.com/ma~a_big_119746~250x250?1539482681\" width=\"100% >堡垒之夜手游全站导航手游门户专区大全原创频道苹果游戏安卓游戏新游频道好游快爆4399游戏盒资讯频道 写评论取消发布一般！+此游戏暂无下载，可以先下载4399游戏盒，寻找同类型游戏<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-logo.png\" width=\"100% ><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-i1.png\" width=\"100% >热门好玩手游<br><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-i2.png\" width=\"100% >海量免费礼包<br><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-i3.png\" width=\"100% >精品资讯攻略<br><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-bico.png\" width=\"100% >点击下载4399游戏盒此游戏暂无相关下载.此游戏暂无IOS版下载，可用安卓手机下载体验大家都在玩的好玩游戏：<img src=\"http://f1.img4399.com/mi~167517~78x78?1480391809\" width=\"100% >口袋妖怪VS<img src=\"http://newsimg.5054399.com/uploads/userup/1612/161340363L3.jpg\" width=\"100% >无限纷争·死神<img src=\"http://f1.img4399.com/mi~167483~78x78?1479952755\" width=\"100% >口袋妖怪重制<img src=\"http://f1.img4399.com/mi~168232~78x78?1481683046\" width=\"100% >数码宝贝tri<img src=\"http://f1.img4399.com/mi~167693~78x78?1476868144\" width=\"100% >口袋妖怪复刻<img src=\"http://f1.img4399.com/mi~168166~78x78?1480834040\" width=\"100% >悟空大乱斗<img src=\"http://f1.img4399.com/ma~a_41755~78x78?1479258641\" width=\"100% >去吧皮卡丘<img src=\"http://f1.img4399.com/ma~a_50024~78x78?1480557031\" width=\"100% >火线精英此游戏暂无安卓版下载，可用苹果手机下载体验大家都在玩的好玩游戏/APP：<img src=\"http://f1.img4399.com/mi~164129~78x78?1480555912\" width=\"100% >王者荣耀<img src=\"https://fs.img4399.com/sykb~sykb/20181020/13432850028\" width=\"100% >明日之后<img src=\"https://fs.img4399.com/sykb~sykb/20180830/09264462784\" width=\"100% >第五人格<img src=\"http://f1.img4399.com/ma~a_50743~78x78?1478761307\" width=\"100% >奇迹暖暖<img src=\"https://newsimg.5054399.com/hykb/wap/v3/images/logo-img.png\" width=\"100% >好游快爆<img src=\"http://f1.img4399.com/ma~a_403~78x78?1479807362\" width=\"100% >我的世界<img src=\"https://fs.img4399.com/sykb~sykb/20180705/11031070090\" width=\"100% >刺激战争<img src=\"http://f1.img4399.com/ma~a_29307~78x78?1475140767\" width=\"100% >植物2寻找更多好玩游戏，请下载4399游戏盒：<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/gboximg.png\" width=\"100% >点击下载4399游戏盒安装必读如何解决“未受信任的企业级开发”1打开iPhone设置通用<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg1.png\" width=\"100% > <img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg2.png\" width=\"100% >设备管理（旧版IOS为描述文件）2找到对应的开发者  点击添加信任  完成查看完整版安装图文说明关闭安装必读如何解决“未受信任的企业级开发”1打开iPhone设置通用<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg1.png\" width=\"100% > <img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg2.png\" width=\"100% >设备管理（旧版IOS为描述文件）2找到对应的开发者  点击添加信任  完成请复制下方游戏下载地址，并在safari浏览器中打开，可直接安装游戏：一键复制查看完整版安装图文说明关闭                    ",
+      "cover": "img/p_beijxn.jpg",
+      "imgs": [
+        "img/p_beijxn.jpg"
+      ]
+    },
+    {
+      "name": "北境骨龙",
+      "name_exif": "北境骨龙饲料(包数待定):冰精＋冰龙涎草＋北极鳕鱼",
+      "share": "1",
+      "pinyin": "beijgl",
+      "key": "p_beijgl",
+      "filter": "坐骑",
+      "html": "北境骨龙饲料(包数待定):冰精＋冰龙涎草＋北极鳕鱼<br>创造与魔法北境骨龙饲料 冰龙怎么抓2019-07-1200<br>北境骨龙是创造与魔法游戏中的世界BOSS之一，可以捕捉成为坐骑或者宠物，许多小伙伴不知道北境骨龙饲料配方是什么，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1907/1216115II3.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">世界BOSS / 坐骑（65级可捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">冰精＋冰龙涎草＋北极鳕鱼（95包稳）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8100~8500</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">14500~15000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">50左右</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">击杀掉落</td><td align=\"center\">冰龙鳞</td></tr></tbody></table><br>▍ 饲料材料出处： <br>冰精 ：可以通过击杀冰毒液龙、冰毒液龙王、北境雪人获得（这三种怪物都出没在北境岛上）<br>冰龙涎草分布图 ：<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1907/121F1061360.jpg\" width=\"100% ><br>北极鳕鱼：在北境周围的海域垂钓可得（推荐使用小龙虾钓饵和大闸蟹钓饵）<br>▍ 北境骨龙分布图： <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1907/121F100Y38.jpg\" width=\"100% ><br>▍ 推荐阅读： <br>创造与魔法饲料大全 最新最全宠物坐骑饲料配方 <br>创造与魔法坐骑如何获得 怎么驯服坐骑<br>创造与魔法宠物如何获得 怎么驯服宠物<br>地图攻略| 攻略心得| 游戏资讯| 生物大全| 物品大全<br>站住~游戏爱好者！我强烈建议你下个好游快爆APP。APP里有丰富的攻略秘籍，还有时下热门的爆款新游和实用工具，动起你的手指，与志同道合的朋友一起玩这个好玩的APP吧，快快快！<br><img src=\"http://newsimg.5054399.com/uploads/userup/1708/12135R4T64.gif\" width=\"100% ><img src=\"http://newsimg.5054399.com/uploads/userup/1503/04110I96257.jpg\" width=\"100% > 游戏资料 新手必看材料工具热门生物开荒技巧魔法图案地形等级分布驯服坐骑捕捉宠物饲料配方钓鱼概率地图资源附魔石分布迦放2代荧光剂佛特T1佛特T3杰普行者战船雄文号红/蓝莲花橡胶项圈狮鹫独角兽飞龙猛犸象暗黑霸王龙水池龟巨猿雪狼王毒液龙王 最新热门进入专区  <img src=\"http://newsimg.5054399.com/uploads/userup/2005/0Q503109548.jpg\" width=\"100% > 创造与魔法怎么赚钱快 怎么快速赚金币05-13创造与魔法金币怎么获得？怎么快速赚取金币？下面就介绍下这方面的攻略。<br>05-08创造与魔法九命萌猫怎么得 九命萌猫属性05-07创造与魔法全新坐骑 九命萌猫来袭05-06创造与魔法电脑端服务器更新维护通知05-06微端游戏百科词典 <img src=\"http://newsimg.5054399.com/uploads/userup/2005/0Q503109548.jpg\" width=\"100% > 创造与魔法怎么赚钱快 怎么快速赚金币05-13创造与魔法金币怎么获得？怎么快速赚取金币？下面就介绍下这方面的攻略。<br>05-07创造与魔法全新坐骑 九命萌猫来袭05-06创造与魔法电脑端服务器更新维护通知05-01【活动】超级变变变，奇妙的搭配冒险开始了！04-30创造与魔法五一活动开启 不负春风 劳动光荣评论0条评论<br>还没有评论，快来抢沙发吧！<br>说两句 手游人气榜 查看榜单精彩推荐进入原创专题 <img src=\"http://newsimg.5054399.com/uploads/userup/1908/26095U62O2.jpg\" width=\"100% >本周开测 <img src=\"http://newsimg.5054399.com/uploads/userup/1708/04094124BG.jpg\" width=\"100% >话题讨论 <img src=\"http://newsimg.5054399.com/uploads/userup/1706/111502145501.jpg\" width=\"100% >好游推荐 <img src=\"http://newsimg.5054399.com/uploads/userup/1802/0310463VS0.jpg\" width=\"100% >小编也在玩 <img src=\"http://newsimg.5054399.com/uploads/userup/2005/0G02J0O25.jpg\" width=\"100% >新游大宝鉴 <img src=\"http://newsimg.5054399.com/uploads/userup/1711/0F934454640.jpg\" width=\"100% >游戏百科 <img src=\"http://newsimg.5054399.com/uploads/userup/1703/231423234152.jpg\" width=\"100% >一周大事件 <img src=\"http://newsimg.5054399.com/uploads/userup/2001/1Q5193135E.jpg\" width=\"100% >一周神回复 大家都在看更多+热门游戏专区更多+<img src=\"http://newsimg.5054399.com/uploads/userup/1905/0Q639492596.jpg\" width=\"100% >和平精英<img src=\"http://newsimg.5054399.com/uploads/allimg/161202/237_1358205893.jpg\" width=\"100% >王者荣耀<img src=\"http://newsimg.5054399.com/uploads/userup/1811/ertong_87aed1d9d73c6d8b03b17f5789db8288.jpg?1\" width=\"100% >明日之后<img src=\"http://newsimg.5054399.com/uploads/userup/1804/ertong_3ef603d7085a9d6bf98327ecdf9e2854.jpg?1\" width=\"100% >方舟：生存进化<img src=\"http://newsimg.5054399.com/uploads/allimg/161202/237_1358204275.jpg\" width=\"100% >我的世界<img src=\"http://f02.img4399.com/ma~a_big_119746~250x250?1539482681\" width=\"100% >堡垒之夜手游全站导航手游门户专区大全原创频道苹果游戏安卓游戏新游频道好游快爆4399游戏盒资讯频道 写评论取消发布一般！+此游戏暂无下载，可以先下载4399游戏盒，寻找同类型游戏<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-logo.png\" width=\"100% ><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-i1.png\" width=\"100% >热门好玩手游<br><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-i2.png\" width=\"100% >海量免费礼包<br><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-i3.png\" width=\"100% >精品资讯攻略<br><img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/img/gpop-bico.png\" width=\"100% >点击下载4399游戏盒此游戏暂无相关下载.此游戏暂无IOS版下载，可用安卓手机下载体验大家都在玩的好玩游戏：<img src=\"http://f1.img4399.com/mi~167517~78x78?1480391809\" width=\"100% >口袋妖怪VS<img src=\"http://newsimg.5054399.com/uploads/userup/1612/161340363L3.jpg\" width=\"100% >无限纷争·死神<img src=\"http://f1.img4399.com/mi~167483~78x78?1479952755\" width=\"100% >口袋妖怪重制<img src=\"http://f1.img4399.com/mi~168232~78x78?1481683046\" width=\"100% >数码宝贝tri<img src=\"http://f1.img4399.com/mi~167693~78x78?1476868144\" width=\"100% >口袋妖怪复刻<img src=\"http://f1.img4399.com/mi~168166~78x78?1480834040\" width=\"100% >悟空大乱斗<img src=\"http://f1.img4399.com/ma~a_41755~78x78?1479258641\" width=\"100% >去吧皮卡丘<img src=\"http://f1.img4399.com/ma~a_50024~78x78?1480557031\" width=\"100% >火线精英此游戏暂无安卓版下载，可用苹果手机下载体验大家都在玩的好玩游戏/APP：<img src=\"http://f1.img4399.com/mi~164129~78x78?1480555912\" width=\"100% >王者荣耀<img src=\"https://fs.img4399.com/sykb~sykb/20181020/13432850028\" width=\"100% >明日之后<img src=\"https://fs.img4399.com/sykb~sykb/20180830/09264462784\" width=\"100% >第五人格<img src=\"http://f1.img4399.com/ma~a_50743~78x78?1478761307\" width=\"100% >奇迹暖暖<img src=\"https://newsimg.5054399.com/hykb/wap/v3/images/logo-img.png\" width=\"100% >好游快爆<img src=\"http://f1.img4399.com/ma~a_403~78x78?1479807362\" width=\"100% >我的世界<img src=\"https://fs.img4399.com/sykb~sykb/20180705/11031070090\" width=\"100% >刺激战争<img src=\"http://f1.img4399.com/ma~a_29307~78x78?1475140767\" width=\"100% >植物2寻找更多好玩游戏，请下载4399游戏盒：<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/gboximg.png\" width=\"100% >点击下载4399游戏盒安装必读如何解决“未受信任的企业级开发”1打开iPhone设置通用<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg1.png\" width=\"100% > <img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg2.png\" width=\"100% >设备管理（旧版IOS为描述文件）2找到对应的开发者  点击添加信任  完成查看完整版安装图文说明关闭安装必读如何解决“未受信任的企业级开发”1打开iPhone设置通用<img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg1.png\" width=\"100% > <img src=\"http://newsimg.5054399.com/mobileStyle/v4/index/images/azimg2.png\" width=\"100% >设备管理（旧版IOS为描述文件）2找到对应的开发者  点击添加信任  完成请复制下方游戏下载地址，并在safari浏览器中打开，可直接安装游戏：一键复制查看完整版安装图文说明关闭                    ",
+      "cover": "img/p_beijgl.jpg",
+      "imgs": [
+        "img/p_beijgl.jpg"
+      ]
+    },
+    {
+      "name": "酷酷狗",
+      "name_exif": "酷酷狗:1、在家园商店花费50家园币兑换获得。2、挑战3/4级家园BOSS后获得的酷酷狗礼盒中，有概率开出酷酷狗。",
+      "share": "1",
+      "pinyin": "kukg",
+      "key": "p_kukg",
+      "filter": "坐骑",
+      "html": "酷酷狗:1、在家园商店花费50家园币兑换获得。2、挑战3/4级家园BOSS后获得的酷酷狗礼盒中，有概率开出酷酷狗。<br>创造与魔法酷酷狗怎么得 酷酷狗在哪里兑换2019-06-2300<br>酷酷狗是创造与魔法游戏中的宠物之一，可以直接在家园商店兑换获得，下面一起来看看吧。<br>▍ 酷酷狗获得方法获得方法<table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>1、在家园商店花费50家园币兑换获得。</p><p>2、挑战3/4级家园BOSS后获得的酷酷狗礼盒中，有概率开出酷酷狗。</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><!--StartFragment --><div>重击：宠物蓄势待发，准备好痛击它的敌人。</div></td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1906/231150222A7.jpg\" width=\"100% ><br>▍ 酷酷狗进阶图鉴<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/21094FI235.jpg\" width=\"100% ><br>▍ 酷酷狗各阶段升级变化<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">等阶</td><td bgcolor=\"#23c268\" align=\"center\">进化所需</td><td bgcolor=\"#23c268\" align=\"center\">增加资质</td><td bgcolor=\"#23c268\" align=\"center\">技能</td></tr><tr><td height=\"30\" align=\"center\">1阶</td><td align=\"center\">15个进化碎片</td><td align=\"center\">无变化</td><td align=\"center\">重击、精通拳术</td></tr><tr><td height=\"30\" align=\"center\">2阶</td><td align=\"center\">45个进化碎片</td><td align=\"center\">生命+4%，攻击+4%</td><td align=\"center\"><p>重击、精通拳术</p></td></tr><tr><td height=\"30\" align=\"center\">3阶</td><td align=\"center\">12个进化石</td><td align=\"center\">生命+4%，攻击+4%</td><td align=\"center\"><p>重击、精通拳术、回旋踢</p></td></tr><tr><td height=\"30\" align=\"center\">4阶</td><td align=\"center\">25个进化石</td><td align=\"center\">生命+4%，攻击+4%</td><td align=\"center\"><p>重击、精通拳术、回旋踢</p></td></tr><tr><td height=\"30\" align=\"center\">5阶</td><td align=\"center\">30个进化石</td><td align=\"center\">生命+5%，攻击+3%</td><td align=\"center\"><p>重击、精通拳术、酷狗摆尾</p></td></tr><tr><td height=\"30\" align=\"center\">6阶</td><td align=\"center\">35个进化石</td><td align=\"center\"><p>生命+5%，攻击+5%</p><p>（等级上限提升到70级）</p></td><td align=\"center\"><p>重击、精通拳术、酷狗摆尾</p></td></tr><tr><td height=\"30\" colspan=\"5\"><p><strong><font color=\"#23c268\">▍ </font>技能说明</strong></p><p>重击：宠物蓄势待发，准备好痛击它的敌人。 </p><p>精通拳术：酷酷狗在交战中会逐渐洞察对手的弱点，每次攻击附加一定的伤害。 </p><p>回旋踢：酷酷狗在交战中抓住机会，会使出一记威力十足的回旋踢。 </p><p>酷狗摆尾：酷酷狗在交战中抓住机会时，会使出一记威力十足的酷狗摆尾，被命中的敌人将受到内伤</p><p>在一定时间内持续损失生命值。</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_kukg.jpg",
+      "imgs": [
+        "img/p_kukg.jpg"
+      ]
+    },
+    {
+      "name": "灵狐",
+      "name_exif": "灵狐:活动期间，在商店购买灵狐礼盒有0.4%概率直接开出灵狐坐骑。也可以在9折期间用5040点卷直接购买获得",
+      "share": "1",
+      "pinyin": "lingh",
+      "key": "p_lingh",
+      "filter": "坐骑",
+      "html": "灵狐:活动期间，在商店购买灵狐礼盒有0.4%概率直接开出灵狐坐骑。也可以在9折期间用5040点卷直接购买获得<br>创造与魔法灵狐怎么得 灵狐属性2019-06-0800<br>灵狐是创造与魔法中的坐骑之一，那么创造与魔法灵狐在哪得？灵狐怎么获得，下面小编就带来创造与魔法灵狐获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\"><font color=\"#ff0000\">坐骑</font></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">活动期间，在商店购买灵狐礼盒有0.4%概率直接开出灵狐坐骑。 <br />也可以在9折期间用5040点卷直接购买获得</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1906/0P953425N3.jpg\" width=\"100% ><br>",
+      "cover": "img/p_lingh.jpg",
+      "imgs": [
+        "img/p_lingh.jpg"
+      ]
+    },
+    {
+      "name": "火烈鸟气垫船",
+      "name_exif": "火烈鸟气垫船:可以用3600点卷在商店直接购买获得",
+      "share": "1",
+      "pinyin": "huolnqdc",
+      "key": "p_huolnqdc",
+      "filter": "坐骑",
+      "html": "火烈鸟气垫船:可以用3600点卷在商店直接购买获得<br>创造与魔法火烈鸟气垫船怎么得 火烈鸟气垫船属性2019-06-0600<br>火烈鸟气垫船是创造与魔法中的坐骑之一，那么创造与魔法火烈鸟气垫船在哪得？火烈鸟气垫船怎么获得，下面小编就带来创造与魔法火烈鸟气垫船获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\"><font color=\"#ff0000\">坐骑</font></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">水中速度</td><td align=\"center\">数据收集中</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">数据收集中</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>可以用3600点卷在商店直接购买获得 </p></td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1906/061T5123624.jpg\" width=\"100% ><br>",
+      "cover": "img/p_huolnqdc.jpg",
+      "imgs": [
+        "img/p_huolnqdc.jpg"
+      ]
+    },
+    {
+      "name": "五彩筋斗云",
+      "name_exif": "五彩筋斗云:可以用3600点卷在商店直接购买获得或购买限时上架的20点卷一个礼盒，0.55%概率开出",
+      "share": "1",
+      "pinyin": "wucjdy",
+      "key": "p_wucjdy",
+      "filter": "坐骑",
+      "html": "五彩筋斗云:可以用3600点卷在商店直接购买获得或购买限时上架的20点卷一个礼盒，0.55%概率开出<br>创造与魔法五彩筋斗云怎么得 五彩筋斗云属性2019-05-1700<br>五彩筋斗云是创造与魔法中的坐骑之一，那么创造与魔法五彩筋斗云在哪得？五彩筋斗云怎么获得，下面小编就带来创造与魔法五彩筋斗云获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\"><font color=\"#ff0000\">坐骑</font></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>可以用3600点卷在商店直接购买获得 </p><p>或购买限时上架的20点卷一个礼盒，0.55%概率开出</p></td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1905/1GP920K11.jpg\" width=\"100% ><br>",
+      "cover": "img/p_wucjdy.jpg",
+      "imgs": [
+        "img/p_wucjdy.jpg"
+      ]
+    },
+    {
+      "name": "黑夜龙",
+      "name_exif": "黑夜龙:商城购买黑夜龙礼包，开启后有概率获得",
+      "share": "1",
+      "pinyin": "heiyl",
+      "key": "p_heiyl",
+      "filter": "坐骑",
+      "html": "黑夜龙:商城购买黑夜龙礼包，开启后有概率获得<br>创造与魔法黑夜龙怎么获得 黑夜龙资质2019-03-2800<br>黑夜是创造与魔法中的坐骑之一，那么创造与魔法黑夜在哪得？黑夜速度多少，负重多少，下面小编就带来创造与魔法黑夜获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1903/211135143A7.gif\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8200</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">45</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">13000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">商城购买黑夜龙礼包，开启后有概率获得</td></tr></tbody></table><br>",
+      "cover": "img/p_heiyl.jpg",
+      "imgs": [
+        "img/p_heiyl.jpg"
+      ]
+    },
+    {
+      "name": "白昼龙",
+      "name_exif": "白昼龙:商城购买白昼龙礼包，开启后有概率获得",
+      "share": "1",
+      "pinyin": "baizl",
+      "key": "p_baizl",
+      "filter": "坐骑",
+      "html": "白昼龙:商城购买白昼龙礼包，开启后有概率获得<br>创造与魔法白昼龙怎么得 白昼龙资质2019-03-2800<br>白昼是创造与魔法中的坐骑之一，那么创造与魔法白昼龙在哪得？白昼龙速度如何，负重多少，白昼怎么获得，下面小编就带来创造与魔法白昼龙获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1903/2QR12bE6.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8200</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">45</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">13000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">商城购买白昼龙礼包，开启后有概率获得</td></tr></tbody></table><br>",
+      "cover": "img/p_baizl.jpg",
+      "imgs": [
+        "img/p_baizl.jpg"
+      ]
+    },
+    {
+      "name": "情缘",
+      "name_exif": "情缘:在商城消耗5200点券购买获得",
+      "share": "1",
+      "pinyin": "qingy",
+      "key": "p_qingy",
+      "filter": "坐骑",
+      "html": "情缘:在商城消耗5200点券购买获得<br>创造与魔法情缘属性 情缘怎么获得2019-03-1500<br>情缘是创造与魔法中的坐骑之一，那么创造与魔法情缘在哪得？情缘怎么获得，下面小编就带来创造与魔法情缘获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\"><font color=\"#ff0000\">双人载具</font></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">无限</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">在商城消耗5200点券购买获得</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1903/1516134292U.jpg\" width=\"100% ><br>",
+      "cover": "img/p_qingy.jpg",
+      "imgs": [
+        "img/p_qingy.jpg"
+      ]
+    },
+    {
+      "name": "金刚鹦鸟",
+      "name_exif": "金刚鹦鸟:3月1日-3日抽幸运转盘7%概率抽取获得此次幸运转盘全抽完共需19800点卷（330礼包卷）",
+      "share": "1",
+      "pinyin": "jingyn",
+      "key": "p_jingyn",
+      "filter": "坐骑",
+      "html": "金刚鹦鸟:3月1日-3日抽幸运转盘7%概率抽取获得此次幸运转盘全抽完共需19800点卷（330礼包卷）<br>创造与魔法金刚鹦鸟获得方法 金刚鹦鸟属性2019-03-0100<br>金刚鹦鸟是创造与魔法中的坐骑之一，那么创造与魔法金刚鹦鸟在哪得？金刚鹦鸟怎么获得，下面小编就带来创造与魔法金刚鹦鸟获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">3月1日-3日抽幸运转盘7%概率抽取获得 <br />此次幸运转盘全抽完共需19800点卷（330礼包卷）</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1903/0116134933c.jpg\" width=\"100% ><br>",
+      "cover": "img/p_jingyn.jpg",
+      "imgs": [
+        "img/p_jingyn.jpg"
+      ]
+    },
+    {
+      "name": "壮壮的猪猪怪",
+      "name_exif": "壮壮的猪猪怪:使用新年红包兑换猪猪进化石，将神奇猪猪怪进化获得",
+      "share": "1",
+      "pinyin": "zhuangzdzzg",
+      "key": "p_zhuangzdzzg",
+      "filter": "坐骑",
+      "html": "壮壮的猪猪怪:使用新年红包兑换猪猪进化石，将神奇猪猪怪进化获得<br>创造与魔法壮壮的猪猪怪怎么得 壮壮的猪猪怪资质2019-02-1700<br>壮壮的猪猪怪是创造与魔法中的坐骑之一，那么创造与魔法壮壮的猪猪怪在哪得？壮壮的猪猪怪吃怎么获得，下面小编就带来创造与魔法壮壮的猪猪怪获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7777</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">7777</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">25</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">使用新年红包兑换猪猪进化石，将神奇猪猪怪进化获得</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1902/1G509224025.jpg\" width=\"100% ><br>猪猪进化石：<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1902/1G5152bD9.jpg\" width=\"100% ><br>",
+      "cover": "img/p_zhuangzdzzg.jpg",
+      "imgs": [
+        "img/p_zhuangzdzzg.jpg"
+      ]
+    },
+    {
+      "name": "神奇猪猪怪",
+      "name_exif": "神奇猪猪怪:199个新年福袋兑换获得/299个新年红包兑换获得",
+      "share": "1",
+      "pinyin": "shenqzzg",
+      "key": "p_shenqzzg",
+      "filter": "坐骑",
+      "html": "神奇猪猪怪:199个新年福袋兑换获得/299个新年红包兑换获得<br>创造与魔法神奇猪猪怪怎么得 神奇猪猪怪资质2019-02-1700<br>神奇猪猪怪是创造与魔法中的坐骑之一，那么创造与魔法神奇猪猪怪在哪得？神奇猪猪怪吃怎么获得，下面小编就带来创造与魔法神奇猪猪怪获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑/1级可捕捉</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">6500</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">25</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">199个新年福袋兑换获得/299个新年红包兑换获得</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1902/1G509224025.jpg\" width=\"100% ><br>",
+      "cover": "img/p_shenqzzg.jpg",
+      "imgs": [
+        "img/p_shenqzzg.jpg"
+      ]
+    },
+    {
+      "name": "淘汰郎酷狗",
+      "name_exif": "淘汰郎酷狗:参加淘汰郎火锅联名活动获得",
+      "share": "1",
+      "pinyin": "taotlkg",
+      "key": "p_taotlkg",
+      "filter": "坐骑",
+      "html": "淘汰郎酷狗:参加淘汰郎火锅联名活动获得<br>创造与魔法淘汰郎酷狗怎么得 淘汰郎酷狗资质2019-02-1700<br>淘汰郎酷狗是创造与魔法中的宠物之一，那么创造与魔法淘汰郎酷狗在哪得？淘汰郎酷狗吃怎么获得，下面小编就带来创造与魔法淘汰郎酷狗获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">战宠</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.2-1.2-1.0</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\">挑衅：宠物挑衅野兽或怪物，使其更能吸引敌人的注意</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">参加淘汰郎火锅联名活动获得</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1902/1G45932O57.jpg\" width=\"100% ><br>",
+      "cover": "img/p_taotlkg.jpg",
+      "imgs": [
+        "img/p_taotlkg.jpg"
+      ]
+    },
+    {
+      "name": "云龙",
+      "name_exif": "云龙:商店花费99点券购买云龙礼包，每个礼包有0.4%几率开出",
+      "share": "1",
+      "pinyin": "yunl",
+      "key": "p_yunl",
+      "filter": "坐骑",
+      "html": "云龙:商店花费99点券购买云龙礼包，每个礼包有0.4%几率开出<br>创造与魔法云龙怎么获得 云龙资质2019-02-0600<br>云龙是创造与魔法中的坐骑之一，那么创造与魔法云龙在哪得？云龙吃怎么获得，下面小编就带来创造与魔法云龙获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8700</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">55</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">17000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">商店花费99点券购买云龙礼包，每个礼包有0.4%几率开出</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1902/061926204c0.jpg\" width=\"100% ><br>",
+      "cover": "img/p_yunl.jpg",
+      "imgs": [
+        "img/p_yunl.jpg"
+      ]
+    },
+    {
+      "name": "绒绒兔",
+      "name_exif": "绒绒兔:商城花费3600点券购买获得（永久3600，30天1800）",
+      "share": "1",
+      "pinyin": "rongrt",
+      "key": "p_rongrt",
+      "filter": "坐骑",
+      "html": "绒绒兔:商城花费3600点券购买获得（永久3600，30天1800）<br>创造与魔法绒绒兔怎么获得 绒绒兔资质2018-12-1400<br>绒绒兔是创造与魔法中的坐骑之一，那么创造与魔法绒绒兔在哪得？绒绒兔吃怎么获得，下面小编就带来创造与魔法绒绒兔获得方法！ <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1812/141019243119.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">商城花费3600点券购买获得（永久3600，30天1800）</td></tr></tbody></table><br>",
+      "cover": "img/p_rongrt.jpg",
+      "imgs": [
+        "img/p_rongrt.jpg"
+      ]
+    },
+    {
+      "name": "九命萌猫",
+      "name_exif": "九命萌猫:商城礼盒25点券0.5%概率开出",
+      "share": "1",
+      "pinyin": "jiummm",
+      "key": "p_jiummm",
+      "filter": "坐骑",
+      "html": "九命萌猫:商城礼盒25点券0.5%概率开出<br>创造与魔法九命萌猫怎么得 九命萌猫属性2020-05-0800<br>九命萌猫是创造与魔法中的坐骑之一，那么创造与魔法九命萌猫在哪得？九命萌猫怎么获得，下面小编就带来创造与魔法九命萌猫获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/2005/0Q01603YV.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">陆空坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>商城礼盒25点券 0.5%概率开出</p></td></tr></tbody></table>",
+      "cover": "img/p_jiummm.jpg",
+      "imgs": [
+        "img/p_jiummm.jpg"
+      ]
+    },
+    {
+      "name": "白玉葫芦",
+      "name_exif": "白玉葫芦:在商店（限时出售）购买礼盒，打开后有0.5%的概率获得",
+      "share": "1",
+      "pinyin": "baiyhl",
+      "key": "p_baiyhl",
+      "filter": "坐骑",
+      "html": "白玉葫芦:在商店（限时出售）购买礼盒，打开后有0.5%的概率获得<br>创造与魔法白玉葫芦怎么得 白玉葫芦属性2020-04-1700<br>白玉葫芦是创造与魔法中的坐骑之一，那么创造与魔法白玉葫芦在哪得？白玉葫芦怎么获得，下面小编就带来创造与魔法白玉葫芦获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/2004/1GHU64a3.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">陆空坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>在商店（限时出售）购买礼盒，打开后有0.5%的概率获得</p></td></tr></tbody></table><br>",
+      "cover": "img/p_baiyhl.jpg",
+      "imgs": [
+        "img/p_baiyhl.jpg"
+      ]
+    },
+    {
+      "name": "紫金葫芦",
+      "name_exif": "紫金葫芦:在商店（限时出售）购买礼盒，打开后有0.5%的概率获得",
+      "share": "1",
+      "pinyin": "zijhl",
+      "key": "p_zijhl",
+      "filter": "坐骑",
+      "html": "紫金葫芦:在商店（限时出售）购买礼盒，打开后有0.5%的概率获得<br>创造与魔法紫金葫芦怎么得 紫金葫芦属性2020-04-1700<br>紫金葫芦是创造与魔法中的坐骑之一，那么创造与魔法紫金葫芦在哪得？紫金葫芦怎么获得，下面小编就带来创造与魔法紫金葫芦获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/2004/1GHI1K02.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">陆空坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>在商店（限时出售）购买礼盒，打开后有0.5%的概率获得</p></td></tr></tbody></table><br>",
+      "cover": "img/p_zijhl.jpg",
+      "imgs": [
+        "img/p_zijhl.jpg"
+      ]
+    },
+    {
+      "name": "心心相印秋千",
+      "name_exif": "心心相印秋千:情人节期间在商店消耗3344点券购买，或者购买情人节礼盒有概率开出（限时出售）",
+      "share": "1",
+      "pinyin": "xinxxyqq",
+      "key": "p_xinxxyqq",
+      "filter": "坐骑",
+      "html": "心心相印秋千:情人节期间在商店消耗3344点券购买，或者购买情人节礼盒有概率开出（限时出售）<br>创造与魔法心心相印秋千怎么得 心心相印秋千属性2020-02-1400<br>心心相印秋千是创造与魔法中的坐骑之一，那么创造与魔法心心相印秋千在哪得？心心相印秋千怎么获得，下面小编就带来创造与魔法心心相印秋千获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/2002/14135134Q48.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">双人坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">数据收集中，欢迎大家在评论中补充</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">数据收集中，欢迎大家在评论中补充</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>情人节期间在商店消耗3344点券购买，或者购买情人节礼盒有概率开出（限时出售）</p></td></tr></tbody></table><br>",
+      "cover": "img/p_xinxxyqq.jpg",
+      "imgs": [
+        "img/p_xinxxyqq.jpg"
+      ]
+    },
+    {
+      "name": "玉龙",
+      "name_exif": "玉龙:春节期间限时出售（目前已绝版）",
+      "share": "1",
+      "pinyin": "yul",
+      "key": "p_yul",
+      "filter": "坐骑",
+      "html": "玉龙:春节期间限时出售（目前已绝版）<br>创造与魔法玉龙怎么得 玉龙属性2020-02-1300<br>玉龙是创造与魔法中的坐骑之一，那么创造与魔法玉龙在哪得？玉龙怎么获得，下面小编就带来创造与魔法玉龙获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/2001/231K30421H.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">2020春节限定坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8700</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">55</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">17500</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>春节期间限时出售（目前已绝版）</p></td></tr></tbody></table><br>",
+      "cover": "img/p_yul.jpg",
+      "imgs": [
+        "img/p_yul.jpg"
+      ]
+    },
+    {
+      "name": "富贵锦鲤",
+      "name_exif": "富贵锦鲤:春节期间限时出售（目前已绝版）",
+      "share": "1",
+      "pinyin": "fugjl",
+      "key": "p_fugjl",
+      "filter": "坐骑",
+      "html": "富贵锦鲤:春节期间限时出售（目前已绝版）<br>创造与魔法富贵锦鲤怎么得 富贵锦鲤属性2020-02-1300<br>富贵锦鲤是创造与魔法中的坐骑之一，那么创造与魔法富贵锦鲤在哪得？富贵锦鲤怎么获得，下面小编就带来创造与魔法富贵锦鲤获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/2001/231K1212C7.gif\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">海陆空三栖坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8700</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">55</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">17000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">水上速度</td><td align=\"center\">11000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">冲刺速度</td><td align=\"center\">22000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>春节期间限时出售（目前已绝版）</p></td></tr></tbody></table><br>",
+      "cover": "img/p_fugjl.jpg",
+      "imgs": [
+        "img/p_fugjl.jpg"
+      ]
+    },
+    {
+      "name": "云顶仙鹤",
+      "name_exif": "云顶仙鹤:在商店花费5600点券直接购买获得",
+      "share": "1",
+      "pinyin": "yundxh",
+      "key": "p_yundxh",
+      "filter": "坐骑",
+      "html": "云顶仙鹤:在商店花费5600点券直接购买获得<br>创造与魔法云顶仙鹤怎么得 云顶仙鹤属性2020-02-1100<br>云顶仙鹤是创造与魔法中的坐骑之一，那么创造与魔法云顶仙鹤在哪得？云顶仙鹤怎么获得，下面小编就带来创造与魔法云顶仙鹤获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/2002/111IIIX6.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>在商店花费5600点券直接购买获得</p></td></tr></tbody></table><br>",
+      "cover": "img/p_yundxh.jpg",
+      "imgs": [
+        "img/p_yundxh.jpg"
+      ]
+    },
+    {
+      "name": "ST-17飞行器",
+      "name_exif": "ST-17飞行器:在商店（限时出售）购买ST-17礼盒，打开后有0.5%的概率获得ST-17飞行器",
+      "share": "1",
+      "pinyin": "st-17fxq",
+      "key": "p_st-17fxq",
+      "filter": "坐骑",
+      "html": "ST-17飞行器:在商店（限时出售）购买ST-17礼盒，打开后有0.5%的概率获得ST-17飞行器<br>创造与魔法ST-17飞行器怎么获得 ST-17属性2020-02-1100<br>ST-17是创造与魔法中的坐骑之一，那么创造与魔法ST-17在哪得？ST-17怎么获得，下面小编就带来创造与魔法ST-17获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/2002/111A92T501.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>在商店（限时出售）购买ST-17礼盒，打开后有0.5%的概率获得ST-17飞行器</p></td></tr></tbody></table>",
+      "cover": "img/p_st-17fxq.jpg",
+      "imgs": [
+        "img/p_st-17fxq.jpg"
+      ]
+    },
+    {
+      "name": "粉抱抱熊",
+      "name_exif": "粉抱抱熊:在融合系统中融合获得",
+      "share": "1",
+      "pinyin": "fenbbx",
+      "key": "p_fenbbx",
+      "filter": "坐骑",
+      "html": "粉抱抱熊:在融合系统中融合获得<br>创造与魔法粉抱抱熊怎么合成 粉抱抱熊怎么得2020-01-0900<br>粉抱抱熊是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道粉抱抱熊怎么合成，下面一起来看看吧。<br>▍ 粉抱抱熊获得方法<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/2001/091512151458.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>熊（15）+熊（15）=兰抱抱熊<br />兰抱抱熊（25）+雪原熊（25）=蓝抱抱熊<br />蓝抱抱熊（30）+棕熊（30）=黄抱抱熊<br />黄抱抱熊（40）+雪原熊大（40）=棕抱抱熊 <br />棕抱抱熊（50）+棕熊大（50）=粉抱抱熊</p><div>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</div></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><div>初级熊熊耐寒：冷了就抱抱小熊，可小幅度增加自己和周围8米的范围内家园成员的防寒能力哦！（真是创魔的暖宝宝）</div><div>初级耕地丰收：耕地丰收时小熊也会带上背包帮助小主人进行收集，会让小主人有极小概率获得额外的耕地收获！（神奇的背包）</div></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_fenbbx.jpg",
+      "imgs": [
+        "img/p_fenbbx.jpg"
+      ]
+    },
+    {
+      "name": "雪人",
+      "name_exif": "雪人:圣诞活动期间兑换获得",
+      "share": "1",
+      "pinyin": "xuer",
+      "key": "p_xuer",
+      "filter": "坐骑",
+      "html": "雪人:圣诞活动期间兑换获得<br>创造与魔法雪人怎么得 雪人属性表2019-12-2100<br>雪人是创造与魔法中的坐骑之一，那么创造与魔法雪人在哪得？雪人属性如何，下面小编就带来创造与魔法雪人获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>12月20日~12月26日圣诞活动期间兑换获得</p><p>使用【雪人炫彩齿轮】可将雪人进化成幸运雪人坐骑</p></td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1912/21104F1c25.jpg\" width=\"100% ><br>",
+      "cover": "img/p_xuer.jpg",
+      "imgs": [
+        "img/p_xuer.jpg"
+      ]
+    },
+    {
+      "name": "圣焰神皇",
+      "name_exif": "圣焰神皇:消耗进化果实，由紫焰魔皇进化而来",
+      "share": "1",
+      "pinyin": "shengysh",
+      "key": "p_shengysh",
+      "filter": "坐骑",
+      "html": "圣焰神皇:消耗进化果实，由紫焰魔皇进化而来<br>创造与魔法圣焰神皇怎么得 圣焰神皇属性表2019-11-2600<br>圣焰神皇是创造与魔法中的坐骑之一，那么创造与魔法圣焰神皇在哪得？圣焰神皇属性如何，下面小编就带来创造与魔法圣焰神皇获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8700</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">17000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">55</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">消耗进化果实，由紫焰魔皇进化而来</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/26112IM5H.jpg\" width=\"100% ><br>",
+      "cover": "img/p_shengysh.jpg",
+      "imgs": [
+        "img/p_shengysh.jpg"
+      ]
+    },
+    {
+      "name": "紫焰魔皇",
+      "name_exif": "紫焰魔皇:消耗进化果实，由浴焰凤皇进化而来",
+      "share": "1",
+      "pinyin": "ziymh",
+      "key": "p_ziymh",
+      "filter": "坐骑",
+      "html": "紫焰魔皇:消耗进化果实，由浴焰凤皇进化而来<br>创造与魔法紫焰魔皇怎么得 紫焰魔皇属性表2019-11-2600<br>紫焰魔皇是创造与魔法中的坐骑之一，那么创造与魔法紫焰魔皇在哪得？紫焰魔皇属性如何，下面小编就带来创造与魔法紫焰魔皇获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8600</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">16000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">50</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">消耗进化果实，由浴焰凤皇进化而来</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/26112411Q34.jpg\" width=\"100% ><br>",
+      "cover": "img/p_ziymh.jpg",
+      "imgs": [
+        "img/p_ziymh.jpg"
+      ]
+    },
+    {
+      "name": "夜魇",
+      "name_exif": "夜魇:消耗进化果实，由梦魇进化而来",
+      "share": "1",
+      "pinyin": "yey",
+      "key": "p_yey",
+      "filter": "坐骑",
+      "html": "夜魇:消耗进化果实，由梦魇进化而来<br>创造与魔法夜魇怎么得 夜魇属性表2019-11-2600<br>夜魇是创造与魔法中的坐骑之一，那么创造与魔法夜魇在哪得？夜魇属性如何，下面小编就带来创造与魔法夜魇获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8620</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">15000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">45</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">消耗进化果实，由梦魇进化而来</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/261121594005.jpg\" width=\"100% ><br>",
+      "cover": "img/p_yey.jpg",
+      "imgs": [
+        "img/p_yey.jpg"
+      ]
+    },
+    {
+      "name": "梦魇",
+      "name_exif": "梦魇:消耗进化果实，由亡灵战马进化而来",
+      "share": "1",
+      "pinyin": "mengy",
+      "key": "p_mengy",
+      "filter": "坐骑",
+      "html": "梦魇:消耗进化果实，由亡灵战马进化而来<br>创造与魔法梦魇怎么得 梦魇属性表2019-11-2600<br>梦魇是创造与魔法中的坐骑之一，那么创造与魔法梦魇在哪得？梦魇属性如何，下面小编就带来创造与魔法梦魇获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8500</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">45</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">消耗进化果实，由亡灵战马进化而来</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/26111SL640.jpg\" width=\"100% ><br>",
+      "cover": "img/p_mengy.jpg",
+      "imgs": [
+        "img/p_mengy.jpg"
+      ]
+    },
+    {
+      "name": "鎏金龙",
+      "name_exif": "鎏金龙:消耗进化果实，由凌风龙进化而来",
+      "share": "1",
+      "pinyin": "liujl",
+      "key": "p_liujl",
+      "filter": "坐骑",
+      "html": "鎏金龙:消耗进化果实，由凌风龙进化而来<br>创造与魔法鎏金龙怎么得 鎏金龙属性表2019-11-2600<br>鎏金龙是创造与魔法中的坐骑之一，那么创造与魔法鎏金龙在哪得？鎏金龙属性如何，下面小编就带来创造与魔法鎏金龙获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8700</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">17000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">55</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">消耗进化果实，由凌风龙进化而来</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/26104300E52.jpg\" width=\"100% ><br>",
+      "cover": "img/p_liujl.jpg",
+      "imgs": [
+        "img/p_liujl.jpg"
+      ]
+    },
+    {
+      "name": "凌风龙",
+      "name_exif": "凌风龙:消耗进化果实，由黑蚀龙进化而来",
+      "share": "1",
+      "pinyin": "lingfl",
+      "key": "p_lingfl",
+      "filter": "坐骑",
+      "html": "凌风龙:消耗进化果实，由黑蚀龙进化而来<br>创造与魔法凌风龙怎么得 凌风龙属性表2019-11-2600<br>凌风龙是创造与魔法中的坐骑之一，那么创造与魔法凌风龙在哪得？凌风龙属性如何，下面小编就带来创造与魔法凌风龙获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8600</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">16000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">50</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">消耗进化果实，由黑蚀龙进化而来</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/26103T53a3.jpg\" width=\"100% ><br>",
+      "cover": "img/p_lingfl.jpg",
+      "imgs": [
+        "img/p_lingfl.jpg"
+      ]
+    },
+    {
+      "name": "黑蚀龙",
+      "name_exif": "黑蚀龙:在商店--魔法转盘中抽奖有0.5%概率抽取获得（限时）",
+      "share": "1",
+      "pinyin": "heisl",
+      "key": "p_heisl",
+      "filter": "坐骑",
+      "html": "黑蚀龙:在商店--魔法转盘中抽奖有0.5%概率抽取获得（限时）<br>创造与魔法黑蚀龙怎么得 黑蚀龙资质2019-11-2600<br>黑蚀龙是创造与魔法中的坐骑之一，那么创造与魔法黑蚀龙在哪得？黑蚀龙属性如何，下面小编就带来创造与魔法黑蚀龙获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">14800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">50</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">在商店--魔法转盘中抽奖有0.5%概率抽取获得（限时）</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/2610310Mc8.jpg\" width=\"100% ><br>",
+      "cover": "img/p_heisl.jpg",
+      "imgs": [
+        "img/p_heisl.jpg"
+      ]
+    },
+    {
+      "name": "雾隐鹿",
+      "name_exif": "雾隐鹿:消耗进化果实由熔岩鹿进化而来",
+      "share": "1",
+      "pinyin": "wuyl",
+      "key": "p_wuyl",
+      "filter": "坐骑",
+      "html": "雾隐鹿:消耗进化果实由熔岩鹿进化而来<br>创造与魔法雾隐鹿Ⅰ怎么得 雾隐鹿Ⅱ属性2019-11-2100<br>雾隐鹿是创造与魔法游戏中的在坐骑之一，需要又熔岩鹿进化而来，许多小伙伴不知道雾隐鹿怎么获得，雾隐鹿属性怎么样，下面一起来看看吧。<br>▍ 雾隐鹿获得方法<br>消耗进化果实由熔岩鹿进化而来<br>▍ 雾隐鹿进化图鉴<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/211G9554600.jpg\" width=\"100% ><br>▍ 雾隐鹿各阶段升级变化<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">等阶</td><td bgcolor=\"#23c268\" align=\"center\">名字</td><td bgcolor=\"#23c268\" align=\"center\">地面速度</td><td bgcolor=\"#23c268\" align=\"center\">负重</td><td bgcolor=\"#23c268\" align=\"center\">水上速度</td><td bgcolor=\"#23c268\" align=\"center\">水上冲刺速度</td></tr><tr><td height=\"30\" align=\"center\">1阶</td><td align=\"center\">雾隐鹿I</td><td align=\"center\">8500</td><td align=\"center\"><p>43</p></td><td align=\"center\">&mdash;&mdash;</td><td align=\"center\">&mdash;&mdash;</td></tr><tr><td height=\"30\" align=\"center\">2阶</td><td align=\"center\">雾隐鹿II</td><td align=\"center\">8620</td><td align=\"center\"><p>43</p></td><td align=\"center\">11000</td><td align=\"center\">22000</td></tr></tbody></table><br>",
+      "cover": "img/p_wuyl.jpg",
+      "imgs": [
+        "img/p_wuyl.jpg"
+      ]
+    },
+    {
+      "name": "熔岩鹿",
+      "name_exif": "熔岩鹿:在商店--坐骑载具中花费5600点券购买获得",
+      "share": "1",
+      "pinyin": "rongyl",
+      "key": "p_rongyl",
+      "filter": "坐骑",
+      "html": "熔岩鹿:在商店--坐骑载具中花费5600点券购买获得<br>创造与魔法熔岩鹿怎么得 熔岩鹿属性表2019-11-2100<br>熔岩鹿是创造与魔法中的坐骑之一，那么创造与魔法熔岩鹿在哪得？熔岩鹿怎么获得，下面小编就带来创造与魔法熔岩鹿获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/211F1133M1.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">在商店--坐骑载具中花费5600点券购买获得</td></tr></tbody></table><br>",
+      "cover": "img/p_rongyl.jpg",
+      "imgs": [
+        "img/p_rongyl.jpg"
+      ]
+    },
+    {
+      "name": "雾屿鹿",
+      "name_exif": "雾屿鹿:消耗进化果实由精灵鹿进化而来",
+      "share": "1",
+      "pinyin": "wuyl",
+      "key": "p_wuyl",
+      "filter": "坐骑",
+      "html": "雾屿鹿:消耗进化果实由精灵鹿进化而来<br>创造与魔法雾屿鹿Ⅰ怎么得 雾屿鹿Ⅱ属性2019-11-2100<br>雾屿鹿是创造与魔法游戏中的在坐骑之一，需要又精灵鹿进化而来，许多小伙伴不知道雾屿鹿怎么获得，雾屿鹿属性怎么样，下面一起来看看吧。<br>▍ 雾屿鹿获得方法<br>消耗进化果实由精灵鹿进化而来<br>▍ 雾屿鹿进化图鉴<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/211A041NQ.jpg\" width=\"100% ><br>▍ 雾屿鹿各阶段升级变化<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">等阶</td><td bgcolor=\"#23c268\" align=\"center\">名字</td><td bgcolor=\"#23c268\" align=\"center\">地面速度</td><td bgcolor=\"#23c268\" align=\"center\">负重</td><td bgcolor=\"#23c268\" align=\"center\">水上速度</td><td bgcolor=\"#23c268\" align=\"center\">水上冲刺速度</td></tr><tr><td height=\"30\" align=\"center\">1阶</td><td align=\"center\">雾屿鹿I</td><td align=\"center\">8500</td><td align=\"center\"><p>43</p></td><td align=\"center\">&mdash;&mdash;</td><td align=\"center\">&mdash;&mdash;</td></tr><tr><td height=\"30\" align=\"center\">2阶</td><td align=\"center\">雾屿鹿II</td><td align=\"center\">8620</td><td align=\"center\"><p>43</p></td><td align=\"center\">11000</td><td align=\"center\">22000</td></tr></tbody></table><br>",
+      "cover": "img/p_wuyl.jpg",
+      "imgs": [
+        "img/p_wuyl.jpg"
+      ]
+    },
+    {
+      "name": "磐石巨人",
+      "name_exif": "磐石巨人:由水晶巨人进阶而来",
+      "share": "1",
+      "pinyin": "pansjr",
+      "key": "p_pansjr",
+      "filter": "坐骑",
+      "html": "磐石巨人:由水晶巨人进阶而来<br>创造与魔法磐石巨人怎么得 磐石巨人属性2019-11-2000<br>磐石巨人是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得水晶巨人，水晶巨人进化变成磐石巨人，许多小伙伴不知道磐石巨人怎么获得，磐石巨人属性，下面一起来看看吧。<br>▍ 磐石巨人获得方法<br>由水晶巨人进阶而来<br>▍ 磐石巨人进阶图鉴<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/20155H5L20.jpg\" width=\"100% ><br>▍ 磐石巨人各阶段升级变化<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">等阶</td><td bgcolor=\"#23c268\" align=\"center\">进化所需</td><td bgcolor=\"#23c268\" align=\"center\">增加资质</td><td bgcolor=\"#23c268\" align=\"center\">技能</td></tr><tr><td height=\"30\" align=\"center\">1阶</td><td align=\"center\">15个进化碎片</td><td align=\"center\">无变化</td><td align=\"center\"><p>高级嘲讽、高级壁垒</p></td></tr><tr><td height=\"30\" align=\"center\">2阶</td><td align=\"center\">45个进化碎片</td><td align=\"center\">生命+3%，防御+3%</td><td align=\"center\"><p>高级嘲讽、高级壁垒</p></td></tr><tr><td height=\"30\" align=\"center\">3阶</td><td align=\"center\">12个进化石</td><td align=\"center\">生命+3%，防御+3%</td><td align=\"center\"><p>高级嘲讽、高级壁垒</p><p>初级震慑</p></td></tr><tr><td height=\"30\" align=\"center\">4阶</td><td align=\"center\">25个进化石</td><td align=\"center\">生命+4%，防御+4%</td><td align=\"center\"><p>高级剧毒、高级腐蚀</p><p>初级震慑</p></td></tr><tr><td height=\"30\" align=\"center\">5阶</td><td align=\"center\">30个进化石</td><td align=\"center\">生命+1%，防御+1%</td><td align=\"center\"><p>高级剧毒、高级腐蚀</p><p>高级震慑</p></td></tr><tr><td height=\"30\" align=\"center\">6阶</td><td align=\"center\">35个进化石</td><td align=\"center\"><p>生命+4%，防御+4%</p><p>（等级上限提升到70级）</p></td><td align=\"center\"><p>高级剧毒、高级腐蚀</p><p>高级震慑</p></td></tr><tr><td height=\"30\" colspan=\"5\"><p><strong><font color=\"#23c268\">▍ </font>技能说明</strong></p><p>高级嘲讽：宠物向敌人发出怒吼，强迫敌人长时间攻击自己 </p><p>高级壁垒：宠物与生俱来的能力，增加自己血量 </p><p>初级震慑：宠物的攻击有较小几率使敌人缴械 </p><p>高级震慑：宠物的攻击有中等几率使敌人缴械 </p><p>六阶时技能震慑升级，宠物攻击速度提升</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_pansjr.jpg",
+      "imgs": [
+        "img/p_pansjr.jpg"
+      ]
+    },
+    {
+      "name": "毒蝠龙",
+      "name_exif": "毒蝠龙:由紫蝠龙进阶而来",
+      "share": "1",
+      "pinyin": "dufl",
+      "key": "p_dufl",
+      "filter": "坐骑",
+      "html": "毒蝠龙:由紫蝠龙进阶而来<br>创造与魔法毒蝠龙怎么得 毒蝠龙属性2019-11-1900<br>毒蝠龙是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得紫蝠龙，紫蝠龙进化变成毒蝠龙，许多小伙伴不知道毒蝠龙怎么获得，毒蝠龙属性，下面一起来看看吧。<br>▍ 毒蝠龙获得方法<br>由紫蝠龙进阶而来<br>▍ 毒蝠龙进阶图鉴<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/19162KD124.jpg\" width=\"100% ><br>▍ 毒蝠龙各阶段升级变化<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">等阶</td><td bgcolor=\"#23c268\" align=\"center\">进化所需</td><td bgcolor=\"#23c268\" align=\"center\">增加资质</td><td bgcolor=\"#23c268\" align=\"center\">技能</td></tr><tr><td height=\"30\" align=\"center\">1阶</td><td align=\"center\">15个进化碎片</td><td align=\"center\">无变化</td><td align=\"center\"><p>高级剧毒、高级腐蚀</p></td></tr><tr><td height=\"30\" align=\"center\">2阶</td><td align=\"center\">45个进化碎片</td><td align=\"center\">生命+3%，攻击+3%</td><td align=\"center\"><p>高级剧毒、高级腐蚀</p></td></tr><tr><td height=\"30\" align=\"center\">3阶</td><td align=\"center\">12个进化石</td><td align=\"center\">生命+3%，攻击+3%</td><td align=\"center\"><p>高级剧毒、高级腐蚀</p><p>初级禁锢</p></td></tr><tr><td height=\"30\" align=\"center\">4阶</td><td align=\"center\">25个进化石</td><td align=\"center\">生命+4%，攻击+4%</td><td align=\"center\"><p>高级剧毒、高级腐蚀</p><p>初级禁锢</p></td></tr><tr><td height=\"30\" align=\"center\">5阶</td><td align=\"center\">30个进化石</td><td align=\"center\">生命+1%，攻击+1%</td><td align=\"center\"><p>高级剧毒、高级腐蚀</p><p>高级禁锢</p></td></tr><tr><td height=\"30\" align=\"center\">6阶</td><td align=\"center\">35个进化石</td><td align=\"center\"><p>生命+4%，攻击+4%</p><p>（等级上限提升到75级）</p></td><td align=\"center\"><p>高级剧毒、高级腐蚀</p><p>高级禁锢</p></td></tr><tr><td height=\"30\" colspan=\"5\"><p><strong><font color=\"#23c268\">▍ </font>技能说明</strong></p><p>高级剧毒：宠物的攻击蕴含着剧毒，能使敌人持续流血（造成更高伤害）。</p><p>高级腐蚀：攻击中的酸性物质与剧毒发生反应能使敌人护甲降低，并且技能：剧毒可对怪物叠加 </p><p>初级禁锢：宠物散发出能量，有较小概率使敌人一定时间内无法移动 </p><p>高级进度：宠物散发出能量，有中等概率使敌人一定时间内无法移动 </p><p>六阶时毒液升级，可对所有敌人叠加</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_dufl.jpg",
+      "imgs": [
+        "img/p_dufl.jpg"
+      ]
+    },
+    {
+      "name": "碧波海马",
+      "name_exif": "碧波海马:在商店花费3600点券直接购买获得,在商店花费18点券购买碧波海马礼包开启有概率获得",
+      "share": "1",
+      "pinyin": "bibhm",
+      "key": "p_bibhm",
+      "filter": "坐骑",
+      "html": "碧波海马:在商店花费3600点券直接购买获得,在商店花费18点券购买碧波海马礼包开启有概率获得<br>创造与魔法碧波海马怎么得 碧波海马属性2019-11-0100<br>碧波海马是创造与魔法中的坐骑之一，那么创造与魔法碧波海马在哪得？碧波海马怎么获得，下面小编就带来创造与魔法碧波海马获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/01105S45911.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8400</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">38</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">水上速度</td><td align=\"center\">10000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">冲刺速度</td><td align=\"center\">20000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>在商店花费3600点券直接购买获得</p><p>在商店花费18点券购买碧波海马礼包开启有概率获得</p></td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/01105TX956.jpg\" width=\"100% ><br>",
+      "cover": "img/p_bibhm.jpg",
+      "imgs": [
+        "img/p_bibhm.jpg"
+      ]
+    },
+    {
+      "name": "梦幻南瓜车",
+      "name_exif": "梦幻南瓜车:在商店花费5600点券直接购买获得",
+      "share": "1",
+      "pinyin": "menghngc",
+      "key": "p_menghngc",
+      "filter": "坐骑",
+      "html": "梦幻南瓜车:在商店花费5600点券直接购买获得<br>创造与魔法梦幻南瓜车怎么获得 梦幻南瓜车属性2019-11-0100<br>梦幻南瓜车是创造与魔法中的坐骑之一，那么创造与魔法梦幻南瓜车在哪得？梦幻南瓜车怎么获得，下面小编就带来创造与魔法梦幻南瓜车获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/011051122952.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">数据收集中</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">数据收集中</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>在商店花费5600点券直接购买获得</p><p><font color=\"#ff0000\">上架7天内打7折，只需3920点券</font></p></td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/0110513010U.jpg\" width=\"100% ><br>",
+      "cover": "img/p_menghngc.jpg",
+      "imgs": [
+        "img/p_menghngc.jpg"
+      ]
+    },
+    {
+      "name": "炎阳风火轮",
+      "name_exif": "炎阳风火轮:在商店花费3600点券直接购买获得,在商店花费20点券购买幸运礼包开启有概率获得",
+      "share": "1",
+      "pinyin": "yanyfhl",
+      "key": "p_yanyfhl",
+      "filter": "坐骑",
+      "html": "炎阳风火轮:在商店花费3600点券直接购买获得,在商店花费20点券购买幸运礼包开启有概率获得<br>创造与魔法炎阳风火轮怎么获得 炎阳风火轮属性2019-10-1800<br>炎阳风火轮是创造与魔法中的坐骑之一，那么创造与魔法炎阳风火轮在哪得？炎阳风火轮怎么获得，下面小编就带来创造与魔法炎阳风火轮获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1910/1Q40144Z64.jpg\" width=\"100% ><br>点击查看：【创造与魔法炎阳风火轮效果介绍 轮上起火足下起风】<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>在商店花费3600点券直接购买获得</p><p>在商店花费20点券购买幸运礼包开启有概率获得</p></td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1910/1Q40151C92.jpg\" width=\"100% ><br>",
+      "cover": "img/p_yanyfhl.jpg",
+      "imgs": [
+        "img/p_yanyfhl.jpg"
+      ]
+    },
+    {
+      "name": "魔法扫把",
+      "name_exif": "魔法扫把:在商店花费3600点券直接购买获得",
+      "share": "1",
+      "pinyin": "mofsb",
+      "key": "p_mofsb",
+      "filter": "坐骑",
+      "html": "魔法扫把:在商店花费3600点券直接购买获得<br>创造与魔法魔法扫把怎么获得 魔法扫把属性2019-09-2800<br>魔法扫把是创造与魔法中的坐骑之一，那么创造与魔法魔法扫把在哪得？魔法扫把怎么获得，下面小编就带来创造与魔法魔法扫把获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1909/2Q0560Q063.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>在商店花费3600点券直接购买获得</p><p>在商店花费20点券购买幸运礼包开启有概率获得</p></td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1909/2Q055063F8.jpg\" width=\"100% ><br>",
+      "cover": "img/p_mofsb.jpg",
+      "imgs": [
+        "img/p_mofsb.jpg"
+      ]
+    },
+    {
+      "name": "浴焰凤皇",
+      "name_exif": "浴焰凤皇:在商店花费3600点券直接购买获得",
+      "share": "1",
+      "pinyin": "yuyfh",
+      "key": "p_yuyfh",
+      "filter": "坐骑",
+      "html": "浴焰凤皇:在商店花费3600点券直接购买获得<br>创造与魔法浴焰凤皇怎么获得 浴焰凤皇资质2019-08-2600<br>浴焰凤皇是创造与魔法中的坐骑之一，那么创造与魔法浴焰凤皇在哪得？浴焰凤皇吃怎么获得，下面小编就带来创造与魔法浴焰凤凰获得方法！<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1907/261G1533337.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">50</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">14800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">在商店--幸运转盘中抽奖有概率获得</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1907/261G3045519.jpg\" width=\"100% ><br>",
+      "cover": "img/p_yuyfh.jpg",
+      "imgs": [
+        "img/p_yuyfh.jpg"
+      ]
+    },
+    {
+      "name": "亡灵战马",
+      "name_exif": "亡灵战马:在商店--幸运转盘中抽奖有概率获得",
+      "share": "1",
+      "pinyin": "wanglzm",
+      "key": "p_wanglzm",
+      "filter": "坐骑",
+      "html": "亡灵战马:在商店--幸运转盘中抽奖有概率获得<br>创造与魔法亡灵战马怎么得 亡灵战马资质2019-08-2500<br>亡灵战马是创造与魔法中的坐骑之一，那么创造与魔法亡灵战马在哪得？亡灵战马吃怎么获得，下面小编就带来创造与魔法亡灵战马获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8300</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">在商店--魔法转盘中抽奖有0.5%概率抽取获得</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1908/2510402KW3.jpg\" width=\"100% ><br>",
+      "cover": "img/p_wanglzm.jpg",
+      "imgs": [
+        "img/p_wanglzm.jpg"
+      ]
+    },
+    {
+      "name": "咣鸡",
+      "name_exif": "咣鸡:在商店消耗5600点券购买获得",
+      "share": "1",
+      "pinyin": "guangj",
+      "key": "p_guangj",
+      "filter": "坐骑",
+      "html": "咣鸡:在商店消耗5600点券购买获得<br>创造与魔法咣鸡怎么得 咣鸡属性2019-08-2300<br>咣鸡是创造与魔法中的坐骑之一，那么创造与魔法咣鸡在哪得？咣鸡怎么获得，下面小编就带来创造与魔法咣鸡获得方法！<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\"><font color=\"#ff0000\">坐骑</font></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">43</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">飞行速度</td><td align=\"center\">10800</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">在商店消耗5600点券购买获得</td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1908/2314393EX1.jpg\" width=\"100% ><br>",
+      "cover": "img/p_guangj.jpg",
+      "imgs": [
+        "img/p_guangj.jpg"
+      ]
+    },
+    {
+      "name": "猛犸象",
+      "name_exif": "猛犸象饲料(它吃12包):松果+饲喂料胡萝卜+大龙虾",
+      "share": "1",
+      "pinyin": "mengmx",
+      "key": "p_mengmx",
+      "filter": "BOSS",
+      "html": "猛犸象饲料(它吃12包):松果+饲喂料胡萝卜+大龙虾<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/061054124S7.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">世界Boss（40级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.3-1.4-1.3</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">掉落</td><td align=\"center\">象牙</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">萝卜饲料包+松果+大龙虾（13包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p align=\"center\">重击：宠物蓄势待发，准备好痛击它的敌人</p><p align=\"center\">防御光环：可提高8米范围内家族成员的防御力</p></td></tr></tbody></table><br>分布：（图片素材来自筑梦团孤毒丶散人）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/06105IM209.jpg\" width=\"100% ><br>猛犸象捕捉方法<br>准备道具： <br>1、首先玩家先放火堆，再用箭撸猛犸。<br>2、铁箭(银箭)需要大概350发。<br>3、必备银弓一把(带四分修补材料)。<br>4、猛犸象饲料（胡萝卜+松果+大龙虾 ）。<br>5、最后最重要的捕捉器一个。<br>6、带点抗寒食物(这里推荐带两样一个是烤辣椒，一个羊排汤，羊排 胡罗卜烹饪)一个耐寒，一个水分食物各 50，耐力就不管了。<br>玩家至少铁甲一套稳一点，避免操作失误，不失误基本都是无伤的，最强猛犸就可以到手。<br>坐标：可以在丘陵地带找到猛犸象<br>捕捉过程：<br>1、在猛犸象前插一个篝火，之后开始用弓箭射它，由于篝火属于安全区，因此猛犸象会逃跑，这时可以追着猛犸象射，直到离开篝火的范围；<br>2、离开篝火之后猛犸象会掉头攻击，这时一边射一边往篝火跑，到篝火区域之后猛犸象会再次离开，重复之前的过程；<br>3、在猛犸象剩下四分之一血量时，用木棒敲晕它，然后就可以喂食草料，用捕兽器捕捉了！<br>PS：猛犸象血太厚，因此整个捕捉过程大概需要半个小时左右，小伙伴们要有耐心哦！<br>",
+      "cover": "img/p_mengmx.jpg",
+      "imgs": [
+        "img/p_mengmx.jpg"
+      ]
+    },
+    {
+      "name": "雪猛犸",
+      "name_exif": "雪猛犸饲料(它吃12包):饲喂料玉米+饲喂料土豆+大龙虾",
+      "share": "1",
+      "pinyin": "xuemm",
+      "key": "p_xuemm",
+      "filter": "BOSS",
+      "html": "雪猛犸饲料(它吃12包):饲喂料玉米+饲喂料土豆+大龙虾<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/061040035111.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">世界Boss（45级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">5.2-0.7-1.8</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">掉落</td><td align=\"center\">象牙</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">玉米饲料包+土豆饲料包+大龙虾（15包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>挑衅：挑衅野兽或者怪物，使其更吸引敌人注意</p><p>迟缓：攻击会麻痹敌人的神经使其速度降低</p></td></tr></tbody></table><br>分布 ：雪山周围的四个角落刷新（以下图片资源来自创造与魔法筑梦团）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/061043042X1.jpg\" width=\"100% ><br>",
+      "cover": "img/p_xuemm.jpg",
+      "imgs": [
+        "img/p_xuemm.jpg"
+      ]
+    },
+    {
+      "name": "霸王龙",
+      "name_exif": "霸王龙饲料(它吃12包):松露+优质饲喂肉+饲喂料土豆",
+      "share": "1",
+      "pinyin": "bawl",
+      "key": "p_bawl",
+      "filter": "BOSS",
+      "html": "霸王龙饲料(它吃12包):松露+优质饲喂肉+饲喂料土豆<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/2115233112A.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">战宠/世界BOSS（45级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">松露+土豆包+优质肉（保底15包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.3-2.0-0.5</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">掉落</td><td align=\"center\">龙牙</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>重击：宠物蓄势待发，准备好痛击它的敌人</p><p>横扫：可同时前方扇形区域中的两个目标</p></td></tr></tbody></table><br>分布： 图片来源与有瓜子的仓鼠<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/211523414M4.jpg\" width=\"100% ><br>",
+      "cover": "img/p_bawl.jpg",
+      "imgs": [
+        "img/p_bawl.jpg"
+      ]
+    },
+    {
+      "name": "暗黑霸王龙",
+      "name_exif": "暗黑霸王龙饲料(它吃40包):象拔蚌+罕见饲喂肉+稀有饲喂肉",
+      "share": "1",
+      "pinyin": "anhbwl",
+      "key": "p_anhbwl",
+      "filter": "BOSS",
+      "html": "暗黑霸王龙饲料(它吃40包):象拔蚌+罕见饲喂肉+稀有饲喂肉<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/19114Q942A.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">战斗宠物（50级可捕捉）/ 坐骑 / 世界BOSS</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">象拔蚌+罕见肉+稀有肉（55包稳）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">6500~7500</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">65</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.3 - 2.0 - 0.5</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p align=\"center\">撕咬：造成更高伤害的同时造成流血效果</p></td></tr></tbody></table><br>分布： <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/191150214026.jpg\" width=\"100% ><br>打法：<br>新版本Boss现在很容易打，一直跑Boss不会回去；<br>首先等级达到50级，然后准备剪头，最后围着刷新点转圈圈，边跑边射箭即可；<br>",
+      "cover": "img/p_anhbwl.jpg",
+      "imgs": [
+        "img/p_anhbwl.jpg"
+      ]
+    },
+    {
+      "name": "水池龟",
+      "name_exif": "水池龟饲料(它吃13包):三文鱼+鲶鱼",
+      "share": "1",
+      "pinyin": "shuicg",
+      "key": "p_shuicg",
+      "filter": "BOSS",
+      "html": "水池龟饲料(它吃13包):三文鱼+鲶鱼<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/091420345147.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">世界Boss（30级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">4.9-0.6-1.7</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">三文鱼+鲶鱼（14包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">掉落</td><td align=\"center\">龟壳</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p align=\"center\">挑衅：挑衅野兽或者怪物，使其更吸引敌人注意</p><p align=\"center\">弱化：攻击消耗敌人体质，使敌人的攻击降低</p></td></tr></tbody></table><br>分布 ：分布各大陆海滩边，被动Boss（图片来源：有瓜子的仓鼠）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/091435454D8.jpg\" width=\"100% ><br>",
+      "cover": "img/p_shuicg.jpg",
+      "imgs": [
+        "img/p_shuicg.jpg"
+      ]
+    },
+    {
+      "name": "岩浆海龟",
+      "name_exif": "岩浆海龟(它吃14包,世界Boss,35级可捕捉):大闸蟹+鲤鱼",
+      "share": "1",
+      "pinyin": "yanjhg",
+      "key": "p_yanjhg",
+      "filter": "BOSS",
+      "html": "岩浆海龟(它吃14包,世界Boss,35级可捕捉):大闸蟹+鲤鱼<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/061110161102.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">世界Boss（35级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.1-1.6-0</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">掉落</td><td align=\"center\">龟壳</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">大闸蟹+鲤鱼（14包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p align=\"center\">灼烧：身上的火焰引燃敌人造成持续燃烧性伤害</p><p>重击：蓄势待发准备好痛击它的敌人</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">分布</td><td align=\"center\">枯骨山脉地区2只；黑屋小岛2只</td></tr></tbody></table><br>分布图： <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/0F9205b1R.jpg\" width=\"100% ><br>",
+      "cover": "img/p_yanjhg.jpg",
+      "imgs": [
+        "img/p_yanjhg.jpg"
+      ]
+    },
+    {
+      "name": "巨猿",
+      "name_exif": "巨猿饲料(它吃16包):香蕉+松果+大闸蟹",
+      "share": "1",
+      "pinyin": "juy",
+      "key": "p_juy",
+      "filter": "BOSS",
+      "html": "巨猿饲料(它吃16包):香蕉+松果+大闸蟹<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/021633524347.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">世界Boss（40级可捕捉） / </td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">香蕉+松果+大闸蟹（17包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.3-1.4-1.3</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>重击：宠物蓄势待发，准备好痛击它的敌人</p><p>攻击光环：可提高8米范围内家族成员的攻击</p></td></tr></tbody></table><br>分布： 主要分布在热带雨林（乐乐河谷和银月丘陵）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/0216340L3X.jpg\" width=\"100% ><br>巨猿驯服方法<br>第一、不要坐骑;<br>第二、不能放宠物，除非你无限放宠物;<br>第三、怪物有仇恨值，抗伤害水晶装能抗俩下，回春术加俩次。<br>第四、一个人打不了，起码俩人轮流吸引仇恨值，扛不住记得跑，还不要跑的太远，不然队友打不到，你有可能被猩猩打死。<br>",
+      "cover": "img/p_juy.jpg",
+      "imgs": [
+        "img/p_juy.jpg"
+      ]
+    },
+    {
+      "name": "上古鳄龙",
+      "name_exif": "上古鳄龙饲料(它吃40包):鲍鱼+桂鱼+章鱼腿",
+      "share": "1",
+      "pinyin": "shanggel",
+      "key": "p_shanggel",
+      "filter": "BOSS",
+      "html": "上古鳄龙饲料(它吃40包):鲍鱼+桂鱼+章鱼腿<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/051J325V59.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">世界Boss（55级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.3 - 2.0 - 0</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">桂鱼+鲍鱼+章鱼=上古鳄龙饲料（55包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>破坏：攻击有一定几率对敌人造成内伤，内伤在数秒后对敌人造成伤害</p><p>重击：蓄势待发准备好痛击它的敌人</p></td></tr></tbody></table>分布： 在孤影雪山周围分布<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/051J34B0K.jpg\" width=\"100% ><br>",
+      "cover": "img/p_shanggel.jpg",
+      "imgs": [
+        "img/p_shanggel.jpg"
+      ]
+    },
+    {
+      "name": "熊猫福福",
+      "name_exif": "熊猫福福:360人民币",
+      "share": "1",
+      "pinyin": "xiongmff",
+      "key": "p_xiongmff",
+      "filter": "BOSS",
+      "cover": "img/p_xiongmff.jpg"
+    },
+    {
+      "name": "黄金猪",
+      "name_exif": "黄金猪:直播活动获得",
+      "share": "1",
+      "pinyin": "huangjz",
+      "key": "p_huangjz",
+      "filter": "BOSS",
+      "cover": "img/p_huangjz.jpg"
+    },
+    {
+      "name": "暴力兔",
+      "name_exif": "暴力兔饲料(它吃17~21包):稀有饲喂肉+饲喂料胡萝卜+牛奶",
+      "share": "1",
+      "pinyin": "baolt",
+      "key": "p_baolt",
+      "filter": "战宠",
+      "html": "暴力兔饲料(它吃17~21包):稀有饲喂肉+饲喂料胡萝卜+牛奶<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#808080\" size=\"3\">暴力兔</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://newsimg.5054399.com/uploads/userup/1803/1G42J61540.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：宠物（最低45级可捕捉）</td><td>萝卜包+牛奶+稀有肉</td></tr><tr><td><b>资质</b>：3.1-1.6-0</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>特产</b>：稀有肉</td><td>分布在超大陆，金谷附近很多</td></tr><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font size=\"3\">技能</font></b></font></p></td></tr><tr><td><p align=\"center\">重击</p></td><td><p align=\"center\">蓄势待发准备好痛击它的敌人</p></td></tr></tbody></table>",
+      "cover": "img/p_baolt.jpg",
+      "imgs": [
+        "img/p_baolt.jpg"
+      ]
+    },
+    {
+      "name": "暴力兔王",
+      "name_exif": "暴力兔王饲料(它吃20~25包):罕见饲喂肉+饲喂料萝卜+饲喂料竹笋",
+      "share": "1",
+      "pinyin": "baoltw",
+      "key": "p_baoltw",
+      "filter": "战宠",
+      "html": "暴力兔王饲料(它吃20~25包):罕见饲喂肉+饲喂料萝卜+饲喂料竹笋<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/0Q453026330.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物（50级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.2-1.8-0</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">萝卜饲料包+竹笋饲料包+罕见肉（25包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">掉落</td><td align=\"center\">罕见肉</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\"><p>重击：蓄势待发准备好痛击它的敌人</p><p>速度光环：奔跑形成气流，可使8米范围内的家族成员提高速度</p></td></tr></tbody></table><br>分布： 主要分布在雪山周围<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/0Q4561B322.jpg\" width=\"100% ><br>",
+      "cover": "img/p_baoltw.jpg",
+      "imgs": [
+        "img/p_baoltw.jpg"
+      ]
+    },
+    {
+      "name": "剑齿虎",
+      "name_exif": "剑齿虎饲料(它吃15~17包):小龙虾+饲喂肉+生牛排",
+      "share": "1",
+      "pinyin": "jianch",
+      "key": "p_jianch",
+      "filter": "战宠",
+      "html": "剑齿虎饲料(它吃15~17包):小龙虾+饲喂肉+生牛排<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/251425152293.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">（40级可捕捉） 宠物 / 坐骑</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">小龙虾+牛排+饲喂肉（13包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.1 - 1.6 - 0</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">23kg</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>重击：蓄势待发，准备好痛击它的敌人</p></td></tr></tbody></table><br>分布： 分布于火山和银月丘陵<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/25142K151Z.jpg\" width=\"100% ><br>",
+      "cover": "img/p_jianch.jpg",
+      "imgs": [
+        "img/p_jianch.jpg"
+      ]
+    },
+    {
+      "name": "剑齿虎王",
+      "name_exif": "剑齿虎王饲料(它吃15~17包):小龙虾+优质饲喂肉+生牛排",
+      "share": "1",
+      "pinyin": "jianchw",
+      "key": "p_jianchw",
+      "filter": "战宠",
+      "html": "剑齿虎王饲料(它吃15~17包):小龙虾+优质饲喂肉+生牛排<br><br><img src=\"http://newsimg.5054399.com/uploads/userup/1810/1G13F1U14.jpg\" width=\"100% ><br>生物属性 ：陆地坐骑/战宠/观赏宠物<br>饲料 ：小龙虾+优质肉+生牛排（13包稳）<br>资质： <br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">8000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">35kg</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.2-1.8-0</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p align=\"center\">重击：蓄势待发准备好痛击它的敌人</p><p align=\"center\">破甲：凶猛的撞击，可以突破敌人的防御</p></td></tr></tbody></table><br>分布： （图片资源来自筑梦团犯二）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/1G143201951.jpg\" width=\"100% ><br>",
+      "cover": "img/p_jianchw.jpg",
+      "imgs": [
+        "img/p_jianchw.jpg"
+      ]
+    },
+    {
+      "name": "岩火剑齿虎",
+      "name_exif": "岩火剑齿虎饲料(它吃17~21包):优质饲喂肉+稀有饲喂肉+饲喂料大扇贝",
+      "share": "1",
+      "pinyin": "yanhjch",
+      "key": "p_yanhjch",
+      "filter": "战宠",
+      "html": "岩火剑齿虎饲料(它吃17~21包):优质饲喂肉+稀有饲喂肉+饲喂料大扇贝<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/251430061139.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">观赏/坐骑/宠物（45级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">大扇贝包+优质肉+稀有肉（16包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.1-1.6-0</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500~8000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">30kg </td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>重击：蓄势待发准备好痛击它的敌人</p></td></tr></tbody></table><br>分布： 分布在拉鲁火山附近<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/25143139A37.jpg\" width=\"100% ><br>",
+      "cover": "img/p_yanhjch.jpg",
+      "imgs": [
+        "img/p_yanhjch.jpg"
+      ]
+    },
+    {
+      "name": "岩火剑齿虎王",
+      "name_exif": "岩火剑齿虎王饲料(它吃20~25包):罕见饲喂肉+稀有饲喂肉+饲喂料大扇贝",
+      "share": "1",
+      "pinyin": "yanhjchw",
+      "key": "p_yanhjchw",
+      "filter": "战宠",
+      "html": "岩火剑齿虎王饲料(它吃20~25包):罕见饲喂肉+稀有饲喂肉+饲喂料大扇贝<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/231354093427.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">战斗宠物（55级可捕捉） / BOSS</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">大扇贝包+罕见包+稀有肉（24包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.2 - 1.8 - 0</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500~8200</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">37kg </td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>重击：蓄势待发准备好痛击它的敌人</p><p>破甲：凶猛的撞击，可以突破敌人的防御</p></td></tr></tbody></table><br>分布： （以下图片资源来自筑梦团包子）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/231356492016.jpg\" width=\"100% ><br>",
+      "cover": "img/p_yanhjchw.jpg",
+      "imgs": [
+        "img/p_yanhjchw.jpg"
+      ]
+    },
+    {
+      "name": "孤狼",
+      "name_exif": "孤狼:优质饲喂肉+生羊排",
+      "share": "1",
+      "pinyin": "gul",
+      "key": "p_gul",
+      "filter": "战宠",
+      "html": "孤狼:优质饲喂肉+生羊排<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#993300\" size=\"3\">孤狼</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/1G129534963.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：观赏/坐骑/宠物（30级可捕捉）</td><td>羊排+优质肉</td></tr><tr><td><b>资质</b>：2.9-1.5-0</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>速度/负重</b>：8000/25kg</td><td>分布在各大陆，郁金香的小矿洞有1只</td></tr></tbody></table>",
+      "cover": "img/p_gul.jpg",
+      "imgs": [
+        "img/p_gul.jpg"
+      ]
+    },
+    {
+      "name": "狼王",
+      "name_exif": "狼王饲料(它吃10包):优质饲喂肉+生羊排",
+      "share": "1",
+      "pinyin": "langw",
+      "key": "p_langw",
+      "filter": "战宠",
+      "cover": "img/p_langw.jpg"
+    },
+    {
+      "name": "沙漠狼",
+      "name_exif": "沙漠狼饲料(它吃10包):饲喂肉+生羊排+饲喂料土豆",
+      "share": "1",
+      "pinyin": "shaml",
+      "key": "p_shaml",
+      "filter": "战宠",
+      "html": "沙漠狼饲料(它吃10包):饲喂肉+生羊排+饲喂料土豆<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#993300\" size=\"3\">沙漠狼</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/1G15054aY.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：观赏/坐骑/宠物（30级可捕捉）</td><td>土豆包+羊排+饲喂肉</td></tr><tr><td><b>资质</b>：3.0-1.5-0</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>速度</b>：7500</td><td>主要分布沙漠地带，可以去面包岛逛逛</td></tr><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font size=\"3\">技能</font></b></font></p></td></tr><tr><td><p align=\"center\">重击</p></td><td><p align=\"center\">蓄势待发准备好痛击它的敌人</p></td></tr></tbody></table>",
+      "cover": "img/p_shaml.jpg",
+      "imgs": [
+        "img/p_shaml.jpg"
+      ]
+    },
+    {
+      "name": "沙狼王",
+      "name_exif": "沙狼王饲料(它吃15包):优质饲喂肉+生羊排+饲喂料土豆",
+      "share": "1",
+      "pinyin": "shalw",
+      "key": "p_shalw",
+      "filter": "战宠",
+      "html": "沙狼王饲料(它吃15包):优质饲喂肉+生羊排+饲喂料土豆<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/021F3312C9.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">观赏（捕捉成家养生物后退化成黄色的狗）/坐骑/宠物（40级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">土豆饲料包+生羊排+优质肉（14包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500~8000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">25KG</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.1-1.7-0</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p align=\"center\">重击：蓄势待发准备好痛击它的敌人</p><p align=\"center\">流血：撕咬的伤口很难愈合，流血不止造成持续伤害</p></td></tr></tbody></table><br>分布：主要分布在枯骨山脉左边沙漠地带<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/021F5141117.jpg\" width=\"100% ><br>",
+      "cover": "img/p_shalw.jpg",
+      "imgs": [
+        "img/p_shalw.jpg"
+      ]
+    },
+    {
+      "name": "雪原狼",
+      "name_exif": "雪原狼饲料:饲喂肉+生羊排+饲喂料小麦",
+      "share": "1",
+      "pinyin": "xueyl",
+      "key": "p_xueyl",
+      "filter": "战宠",
+      "cover": "img/p_xueyl.jpg"
+    },
+    {
+      "name": "雪狼王",
+      "name_exif": "雪狼王饲料:优质饲喂肉+生羊排+饲喂料小麦",
+      "share": "1",
+      "pinyin": "xuelw",
+      "key": "p_xuelw",
+      "filter": "战宠",
+      "html": "雪狼王饲料:优质饲喂肉+生羊排+饲喂料小麦<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/1G34143NA.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">观赏/坐骑/宠物（30级活动）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">小麦包+羊排+优质肉（<font color=\"#ff0000\">暂时无法捕捉</font>）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500~8000</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">1.5-1.7</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">20 - 25kg</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">分布</td><td align=\"center\">分布于雪山附近，但暂时不可捕捉，只可通过活动获得。雪狼王宠物最高等级为50级。</td></tr></tbody></table><br>",
+      "cover": "img/p_xuelw.jpg",
+      "imgs": [
+        "img/p_xuelw.jpg"
+      ]
+    },
+    {
+      "name": "红蜥蜴",
+      "name_exif": "红蜥蜴饲料(它吃5包):红蘑菇+饲喂肉",
+      "share": "1",
+      "pinyin": "hongxy",
+      "key": "p_hongxy",
+      "filter": "战宠",
+      "html": "红蜥蜴饲料(它吃5包):红蘑菇+饲喂肉<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#ff0000\" size=\"3\">红蜥蜴</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/151410141491.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><p align=\"left\"><b>分类</b>：宠物（最低20级可捕捉）</p></td><td>饲喂肉 红蘑菇</td></tr><tr><td><p align=\"left\"><strong>资质</strong>：2.4-0.7-1</p></td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><strong>特产</strong>：优质肉</td><td>分布很广，白金海湾草丛较多</td></tr><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font size=\"3\">技能</font></b></font></p></td></tr><tr><td><p align=\"center\">抗寒光环</p></td><td><p align=\"center\">使周围8米内的温度升高</p></td></tr></tbody></table><br>",
+      "cover": "img/p_hongxy.jpg",
+      "imgs": [
+        "img/p_hongxy.jpg"
+      ]
+    },
+    {
+      "name": "蓝蜥蜴",
+      "name_exif": "蓝蜥蜴饲料(它吃5包):饲喂肉+蓝蘑菇",
+      "share": "1",
+      "pinyin": "lanxy",
+      "key": "p_lanxy",
+      "filter": "战宠",
+      "html": "蓝蜥蜴饲料(它吃5包):饲喂肉+蓝蘑菇<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#00ccff\" size=\"3\">蓝蜥蜴</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/151F42aM7.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：宠物（最低10级可捕捉）</td><td>饲喂肉</td></tr><tr><td><b>资质</b>：2.4-0.7-1</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>特产</b>：优质肉</td><td>分布很广，白金海湾丛林较多</td></tr><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font size=\"3\">技能</font></b></font></p></td></tr><tr><td><p align=\"center\">抗热光环</p></td><td><p align=\"center\">周围8米内的温度降低</p></td></tr></tbody></table>",
+      "cover": "img/p_lanxy.jpg",
+      "imgs": [
+        "img/p_lanxy.jpg"
+      ]
+    },
+    {
+      "name": "绿蜥蜴",
+      "name_exif": "绿蜥蜴:优质饲喂肉-未加工",
+      "share": "1",
+      "pinyin": "lvxy",
+      "key": "p_lvxy",
+      "filter": "战宠",
+      "html": "绿蜥蜴:优质饲喂肉-未加工<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font color=\"#ff0000\" size=\"3\"><b><font color=\"#ff0000\" size=\"3\">绿蜥蜴</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/151F25421O.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：宠物（最低10级可捕捉）</td><td>饲喂肉</td></tr><tr><td><b>资质</b>：2.3-0.9-0</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>特产</b>：优质肉</td><td>分布很广，白金海湾丛林较多</td></tr><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font size=\"3\">技能</font></b></font></p></td></tr><tr><td><p align=\"center\">重击</p></td><td><p align=\"center\">宠物蓄势待发，准备好痛击它的敌人</p></td></tr></tbody></table>",
+      "cover": "img/p_lvxy.jpg",
+      "imgs": [
+        "img/p_lvxy.jpg"
+      ]
+    },
+    {
+      "name": "黄蜥蜴",
+      "name_exif": "黄蜥蜴:优质饲喂肉-未加工",
+      "share": "1",
+      "pinyin": "huangxy",
+      "key": "p_huangxy",
+      "filter": "战宠",
+      "html": "黄蜥蜴:优质饲喂肉-未加工<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font color=\"#ff0000\" size=\"3\"><b><font color=\"#ff0000\" size=\"3\">黄蜥蜴</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/151A2323938.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：宠物（最低10级可捕捉）</td><td>饲喂肉</td></tr><tr><td><b>资质</b>：2.3-0.9-0</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>特产</b>：优质肉</td><td>主要分布在白金和沙滩，白金海湾丛林较多</td></tr><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font size=\"3\">技能</font></b></font></p></td></tr><tr><td><p align=\"center\">重击</p></td><td><p align=\"center\">宠物蓄势待发，准备好痛击它的敌人</p></td></tr></tbody></table>",
+      "cover": "img/p_huangxy.jpg",
+      "imgs": [
+        "img/p_huangxy.jpg"
+      ]
+    },
+    {
+      "name": "血蜥蜴",
+      "name_exif": "血蜥蜴:优质饲喂肉-未加工",
+      "share": "1",
+      "pinyin": "xuexy",
+      "key": "p_xuexy",
+      "filter": "战宠",
+      "html": "血蜥蜴:优质饲喂肉-未加工<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1903/141J9491A4.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物/战宠（30级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\"><p>优质饲喂肉（9个）</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">2.9-1.2-1.1</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p align=\"center\">重击：宠物蓄势待发，准备好痛击它的敌人</p><p align=\"center\">HP上限光环：提升周围8米内家族成员的生命值上限</p></td></tr></tbody></table>▍ 分布<br>主要分布于：分布于枯骨山脉，金谷，面包岛，黑屋岛<br>点击查看：【创造与魔法动物分布图 生物资源分布图】<br>▍ ",
+      "cover": "img/p_xuexy.jpg",
+      "imgs": [
+        "img/p_xuexy.jpg"
+      ]
+    },
+    {
+      "name": "狼",
+      "name_exif": "狼饲料:优质饲喂肉-未加工",
+      "share": "1",
+      "pinyin": "lang",
+      "key": "p_lang",
+      "filter": "战宠",
+      "html": "狼饲料:优质饲喂肉-未加工<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#666699\" size=\"3\">狼</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/151421594411.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：观赏/坐骑/宠物（25级可捕捉）</td><td>饲喂肉</td></tr><tr><td><b>速度</b>：7000左右</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><strong>资质</strong>：2.8-1.3-0</td><td>各大陆森林地带常见，推荐郁金香灯塔附近</td></tr></tbody></table><br>",
+      "cover": "img/p_lang.jpg",
+      "imgs": [
+        "img/p_lang.jpg"
+      ]
+    },
+    {
+      "name": "棕熊",
+      "name_exif": "棕熊饲料:饲喂肉+饲喂料蜂蜜+草莓",
+      "share": "1",
+      "pinyin": "zongx",
+      "key": "p_zongx",
+      "filter": "战宠",
+      "html": "棕熊饲料:饲喂肉+饲喂料蜂蜜+草莓<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#993300\" size=\"3\">粽熊</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/151H02N321.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：宠物（30级可捕捉）</td><td>蜂蜜包+草莓+饲喂肉</td></tr><tr><td><b>资质</b>：4.6-0.6-1.5</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>特产</b>：优质肉</td><td>分布很广，白金海湾丛林较多</td></tr><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font size=\"3\">技能</font></b></font></p></td></tr><tr><td><p align=\"center\">挑衅</p></td><td><p align=\"center\">挑衅野兽或怪物，使其更吸引敌人注意</p></td></tr></tbody></table>",
+      "cover": "img/p_zongx.jpg",
+      "imgs": [
+        "img/p_zongx.jpg"
+      ]
+    },
+    {
+      "name": "棕熊大",
+      "name_exif": "棕熊大饲料(它吃13~15包):饲喂肉+饲喂料蜂蜜+草莓",
+      "share": "1",
+      "pinyin": "zongxd",
+      "key": "p_zongxd",
+      "filter": "战宠",
+      "html": "棕熊大饲料(它吃13~15包):饲喂肉+饲喂料蜂蜜+草莓<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/131HK61X5.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物（45级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">5.2-0.6-1.7</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">掉落</td><td align=\"center\">优质肉</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">海带+带鱼+小麦饲料包（16包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>挑衅：挑衅野兽或怪物，使其更吸引敌人注意</p></td></tr></tbody></table><br>分布： 火山小岛北边一大一小俩湖边都有（图片来源：有瓜子的仓鼠）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/131I0124310.jpg\" width=\"100% ><br>",
+      "cover": "img/p_zongxd.jpg",
+      "imgs": [
+        "img/p_zongxd.jpg"
+      ]
+    },
+    {
+      "name": "蓝熊",
+      "name_exif": "蓝熊饲料:蜂蜜-未加工",
+      "share": "1",
+      "pinyin": "lanx",
+      "key": "p_lanx",
+      "filter": "战宠",
+      "html": "蓝熊饲料:蜂蜜-未加工<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#3366ff\" size=\"3\">蓝熊</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/151G2564P2.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：宠物（最低10级可捕捉）</td><td>蜂蜜</td></tr><tr><td><b>资质</b>：3.5-0.4-1.1</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>特产</b>：暂无</td><td>在旅行、晨露、郁金香的雪山地常见</td></tr><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font size=\"3\">技能</font></b></font></p></td></tr><tr><td><p align=\"center\">挑衅</p></td><td><p align=\"center\">挑衅野兽或怪物，使其更吸引敌人注意</p></td></tr></tbody></table>",
+      "cover": "img/p_lanx.jpg",
+      "imgs": [
+        "img/p_lanx.jpg"
+      ]
+    },
+    {
+      "name": "蓝熊大",
+      "name_exif": "蓝熊大饲料(它吃10~12包):优质饲喂肉+饲喂料蜂蜜",
+      "share": "1",
+      "pinyin": "lanxd",
+      "key": "p_lanxd",
+      "filter": "战宠",
+      "html": "蓝熊大饲料(它吃10~12包):优质饲喂肉+饲喂料蜂蜜<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#33cccc\" size=\"3\">蓝熊大</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/1513505H332.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><p align=\"left\"><b>分类</b>：头领（25级可捕捉）</p></td><td>优质肉+蜂蜜</td></tr><tr><td><p align=\"left\"><strong>资质</strong>：4.6-0.6-1.5</p></td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><strong>特产</strong>：暂无</td><td>目前只有在旅行者与晨雾的雪山遗迹才有</td></tr><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font size=\"3\">技能</font></b></font></p></td></tr><tr><td><p align=\"center\">挑衅</p></td><td><p align=\"center\">挑衅野兽或怪物，使其更受敌人注意</p></td></tr></tbody></table><br>",
+      "cover": "img/p_lanxd.jpg",
+      "imgs": [
+        "img/p_lanxd.jpg"
+      ]
+    },
+    {
+      "name": "雪原熊大",
+      "name_exif": "雪原熊大饲料(它吃13包45级可捕捉):优质饲喂肉+饲喂料蜂蜜",
+      "share": "1",
+      "pinyin": "xueyxd",
+      "key": "p_xueyxd",
+      "filter": "战宠",
+      "html": "雪原熊大饲料(它吃13包45级可捕捉):优质饲喂肉+饲喂料蜂蜜<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/131IT5J95.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物（45级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">5.2-0.6-1.7</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">优质肉+蜂蜜饲料包（13包）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>挑衅：挑衅野兽或怪物，使其更吸引敌人注意</p></td></tr></tbody></table><br>分布： 雪山（图片来源：有瓜子的仓鼠）<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/131J235X46.jpg\" width=\"100% ><br>",
+      "cover": "img/p_xueyxd.jpg",
+      "imgs": [
+        "img/p_xueyxd.jpg"
+      ]
+    },
+    {
+      "name": "猫",
+      "name_exif": "猫饲料(参考对应的虎饲料):把虎打晕，喂完饲料用项圈抓就变成猫,例如虎王变猫王",
+      "share": "1",
+      "pinyin": "mao",
+      "key": "p_mao",
+      "filter": "战宠",
+      "html": "猫饲料(参考对应的虎饲料):把虎打晕，喂完饲料用项圈抓就变成猫,例如虎王变猫王<br> <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/2Q41242X09.jpg\" width=\"100% ><br>捕捉方法 ：把剑齿虎敲晕，喂完饲料后使用项圈把剑齿虎捕捉成为家园宠物，你就可获得一只猫了。<br>※猫由普通的剑齿虎捕捉而来，猫王由剑齿虎王捕捉而来的。<br>点击查看剑齿虎与剑齿虎王分布图与捕捉方法：<br>【创造与魔法剑齿虎在哪 剑齿虎怎么捕捉】<br>【创造与魔法剑齿虎王在哪 剑齿虎王怎么捕捉】<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">观赏/战宠（对猫使用启灵药剂可成为战宠）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">2.0 - 1.0 - 0.0</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>重击：宠物蓄势待发，准备好痛击它的敌人 </p></td></tr></tbody></table><br>",
+      "cover": "img/p_mao.jpg",
+      "imgs": [
+        "img/p_mao.jpg"
+      ]
+    },
+    {
+      "name": "狗",
+      "name_exif": "狗饲料(参考对应的狼饲料):把狼打晕，喂完饲料用项圈抓就变成狗,例如狼王变狗王",
+      "share": "1",
+      "pinyin": "gou",
+      "key": "p_gou",
+      "filter": "战宠",
+      "html": "狗饲料(参考对应的狼饲料):把狼打晕，喂完饲料用项圈抓就变成狗,例如狼王变狗王<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">观赏/战宠（对狗使用启灵药剂可成为战宠）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">2.0 - 1.0 - 0.0</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>重击：宠物蓄势待发，准备好痛击它的敌人 </p></td></tr></tbody></table><br>捕捉方法 ：把狼敲晕，喂完饲料后使用项圈把狼捕捉成为家园宠物，你就可获得一只狗了。<br>※黑色的狗由普通的狼捕捉而来，红色的狗由狼王捕捉而来。黄色的沙狗由沙浪捕捉而来，沙狗王由沙狼王捕捉而来。<br>用宠物项圈捕捉普通狼获得黑色的狗。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/2Q425506163.jpg\" width=\"100% ><br>用宠物项圈捕捉狼王获得红色的狗。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/2Q4293IU9.jpg\" width=\"100% ><br>用宠物项圈捕捉沙浪获得黄色的狗。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1810/2Q43130VD.jpg\" width=\"100% ><br><br>",
+      "cover": "img/p_gou.jpg",
+      "imgs": [
+        "img/p_gou.jpg"
+      ]
+    },
+    {
+      "name": "豆娃",
+      "name_exif": "豆娃饲料:集齐30单身狗碎片+100豆娃碎片，即可在合成--道具--限时活动中直接合成豆娃。",
+      "share": "1",
+      "pinyin": "douw",
+      "key": "p_douw",
+      "filter": "战宠",
+      "html": "豆娃饲料:集齐30单身狗碎片+100豆娃碎片，即可在合成--道具--限时活动中直接合成豆娃。<br>创造与魔法豆娃怎么获得 豆娃在哪里2018-11-3000<br>豆娃是《创造与魔法》游戏中的一只战宠，创造与魔法豆娃在哪？豆娃吃什么？豆娃怎么获得？下面就一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/301S55Y937.jpg\" width=\"100% ><br>豆娃获得限时：2018年12月1日-12月12日24点<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">战宠</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.2-1.2-1.0</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\">挑衅：宠物挑衅野兽或怪物，使其更能吸引敌人的注意</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">单身狗碎片*1+豆娃碎片*1（<font color=\"#ff0000\">仅能作为升级饲料，无法喂食捕捉</font>）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">获得方法</td><td align=\"center\">集齐30单身狗碎片+100豆娃碎片，即可在<strong>合成--道具--限时活动中直接合成豆娃。</strong></td></tr></tbody></table><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/301SH4C54.jpg\" width=\"100% ><br>豆娃碎片可以通过击杀地图中的豆娃获得。（地图中的豆娃无法直接捕捉，只能击败后拾取豆娃碎片）<br>豆娃分布： <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/301S6119E8.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/301S6151U2.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/301S6204N2.jpg\" width=\"100% ><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/301S624Z10.jpg\" width=\"100% ><br>",
+      "cover": "img/p_douw.jpg",
+      "imgs": [
+        "img/p_douw.jpg"
+      ]
+    },
+    {
+      "name": "荒原牛",
+      "name_exif": "荒原牛饲料(草料,它吃6包):甘蔗+苹果+饲喂料小麦",
+      "share": "1",
+      "pinyin": "huangyn",
+      "key": "p_huangyn",
+      "filter": "家畜",
+      "html": "荒原牛饲料(草料,它吃6包):甘蔗+苹果+饲喂料小麦<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#993300\" size=\"3\">荒原牛</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://newsimg.5054399.com/uploads/userup/1803/1G4232RN7.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：坐骑/宠物（25级可捕捉）</td><td>小麦包+甘蔗+苹果</td></tr><tr><td><b>特产</b>：牛角、牛肉、牛筋</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>速度</b>：7500</td><td>主要分布超大陆，在金谷和樱树岭之间有踪影</td></tr></tbody></table>",
+      "cover": "img/p_huangyn.jpg",
+      "imgs": [
+        "img/p_huangyn.jpg"
+      ]
+    },
+    {
+      "name": "猪",
+      "name_exif": "猪饲料:黄豆-未加工",
+      "share": "1",
+      "pinyin": "zhu",
+      "key": "p_zhu",
+      "filter": "家畜",
+      "html": "猪饲料:黄豆-未加工<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#ff99cc\" size=\"3\">猪</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/1516353b618.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：观赏/坐骑（5级可捕捉）</td><td>黄豆</td></tr><tr><td><b>生产</b>：猪肉</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><strong>速度</strong>：3000左右</td><td>各大陆平原地带常见，推荐旅行者灯塔</td></tr></tbody></table>",
+      "cover": "img/p_zhu.jpg",
+      "imgs": [
+        "img/p_zhu.jpg"
+      ]
+    },
+    {
+      "name": "大角牛",
+      "name_exif": "大角牛饲料(它吃17~21包):白莲花+饲喂料小麦+稀有饲喂肉",
+      "share": "1",
+      "pinyin": "dajn",
+      "key": "p_dajn",
+      "filter": "家畜",
+      "html": "大角牛饲料(它吃17~21包):白莲花+饲喂料小麦+稀有饲喂肉<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#666699\" size=\"3\">大角牛</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/1516160162M.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：宠物/坐骑（45级可捕捉）</td><td>白莲包+小麦包+稀有肉</td></tr><tr><td><b>速度</b>：7500</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>特产</b>：稀有肉</td><td>分布在超大陆的平原地带</td></tr></tbody></table>",
+      "cover": "img/p_dajn.jpg",
+      "imgs": [
+        "img/p_dajn.jpg"
+      ]
+    },
+    {
+      "name": "大角牛王",
+      "name_exif": "大角牛王饲料:饲喂料白莲花+饲喂料小麦+罕见饲喂肉",
+      "share": "1",
+      "pinyin": "dajnw",
+      "key": "p_dajnw",
+      "filter": "家畜",
+      "html": "大角牛王饲料:饲喂料白莲花+饲喂料小麦+罕见饲喂肉<br> <br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/1411130J950.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物 / 坐骑（50级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">4.8 - 0.6 - 1.6</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\">7500</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">45kg</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\"><p align=\"center\">小麦饲料包+白莲饲料包+罕见肉（23包）</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>挑衅：宠物挑衅野兽或怪物，使其更能吸引敌人的注意</p><p>生命光环：家族内8米成员生命上限30</p></td></tr></tbody></table><br>I 分布：春日海岸左边的小岛上<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/14111604V53.jpg\" width=\"100% ><br>",
+      "cover": "img/p_dajnw.jpg",
+      "imgs": [
+        "img/p_dajnw.jpg"
+      ]
+    },
+    {
+      "name": "海龟",
+      "name_exif": "海龟饲料(初级鱼饲料,它吃4包):饲喂料小麦+鲤鱼",
+      "share": "1",
+      "pinyin": "haig",
+      "key": "p_haig",
+      "filter": "家畜",
+      "html": "海龟饲料(初级鱼饲料,它吃4包):饲喂料小麦+鲤鱼<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#3366ff\" size=\"3\">海龟</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/151641334001.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：宠物（5级可捕捉）</td><td>小麦包+鲤鱼</td></tr><tr><td><strong>资质</strong>：暂无</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>特产</b>：龟蛋</td><td>各大陆海滩边，白金较多</td></tr></tbody></table>",
+      "cover": "img/p_haig.jpg",
+      "imgs": [
+        "img/p_haig.jpg"
+      ]
+    },
+    {
+      "name": "红猪",
+      "name_exif": "红猪饲料(黄豆宠物粮,它吃10包):饲喂料黄豆+饲喂料小麦",
+      "share": "1",
+      "pinyin": "hongz",
+      "key": "p_hongz",
+      "filter": "家畜",
+      "html": "红猪饲料(黄豆宠物粮,它吃10包):饲喂料黄豆+饲喂料小麦<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font color=\"#ff0000\" size=\"3\"><b><font color=\"#ff0000\" size=\"3\">红猪</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/15162325T43.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：观赏/坐骑（20级可捕捉）</td><td>黄豆包+小麦包</td></tr><tr><td><strong>特产</strong>：猪肉</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>速度</b>：3000左右</td><td>主要超大陆和沙漠地带常见，推荐面包岛</td></tr></tbody></table>",
+      "cover": "img/p_hongz.jpg",
+      "imgs": [
+        "img/p_hongz.jpg"
+      ]
+    },
+    {
+      "name": "鸡",
+      "name_exif": "鸡饲料:小麦-未加工",
+      "share": "1",
+      "pinyin": "ji",
+      "key": "p_ji",
+      "filter": "家畜",
+      "html": "鸡饲料:小麦-未加工<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font color=\"#ff0000\" size=\"3\"><b><font color=\"#ff0000\" size=\"3\">鸡</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/15160P1ZQ.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：豢养（1级可捕捉）</td><td>小麦</td></tr><tr><td><b>生产</b>：鸡蛋</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>特产</b>：羽毛+鸡腿+鸡蛋</td><td>各大陆灯塔附近均有出现</td></tr></tbody></table>",
+      "cover": "img/p_ji.jpg",
+      "imgs": [
+        "img/p_ji.jpg"
+      ]
+    },
+    {
+      "name": "奶牛",
+      "name_exif": "奶牛饲料:小麦-未加工",
+      "share": "1",
+      "pinyin": "nain",
+      "key": "p_nain",
+      "filter": "家畜",
+      "html": "奶牛饲料:小麦-未加工<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#000000\" size=\"3\">奶牛</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://newsimg.5054399.com/uploads/userup/1803/15163225DM.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：豢养/坐骑（5级可捕捉）</td><td>小麦</td></tr><tr><td><b>生产</b>：牛奶</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>特产</b>：牛奶+牛肉+牛筋</td><td>各大陆灯塔附近均有出现</td></tr></tbody></table>",
+      "cover": "img/p_nain.jpg",
+      "imgs": [
+        "img/p_nain.jpg"
+      ]
+    },
+    {
+      "name": "绵羊",
+      "name_exif": "绵羊饲料:小麦-未加工",
+      "share": "1",
+      "pinyin": "miany",
+      "key": "p_miany",
+      "filter": "家畜",
+      "html": "绵羊饲料:小麦-未加工<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#808000\" size=\"3\">绵羊</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/15162I22153.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>饲料</b></font></p></td></tr><tr><td><b>分类</b>：豢养/坐骑（5级可捕捉）</td><td>小麦</td></tr><tr><td><b>生产</b>：羊毛/<b>特产</b>：羊排+羊毛</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>速度</b>：6000左右</td><td>主要森林和平原地带常见，推荐旅行者</td></tr></tbody></table>",
+      "cover": "img/p_miany.jpg",
+      "imgs": [
+        "img/p_miany.jpg"
+      ]
+    },
+    {
+      "name": "公牛",
+      "name_exif": "公牛饲料:小麦-未加工",
+      "share": "1",
+      "pinyin": "gongn",
+      "key": "p_gongn",
+      "filter": "家畜",
+      "html": "公牛饲料:小麦-未加工<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1812/261AU63500.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物/坐骑（10级可捕捉）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">资质</td><td align=\"center\">3.7-0.4-1.3</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">饲料</td><td align=\"center\">小麦</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">速度</td><td align=\"center\"><p>6500左右</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">负重</td><td align=\"center\">30kg</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">分布</td><td align=\"center\">在整个大陆均有分布（低等级的新手区分布较多）</td></tr></tbody></table><br>",
+      "cover": "img/p_gongn.jpg",
+      "imgs": [
+        "img/p_gongn.jpg"
+      ]
+    },
+    {
+      "name": "疯疯兔",
+      "name_exif": "疯疯兔:在融合系统中融合获得：（括号为宠物等级要求）暴力兔（45）+暴力兔（45）=兰兰兔兰兰兔（50）+暴力兔王（50）=疯疯兔",
+      "share": "1",
+      "pinyin": "fengft",
+      "key": "p_fengft",
+      "filter": "宠物",
+      "html": "疯疯兔:在融合系统中融合获得：（括号为宠物等级要求）暴力兔（45）+暴力兔（45）=兰兰兔兰兰兔（50）+暴力兔王（50）=疯疯兔<br>创造与魔法疯疯兔怎么合成 疯疯兔怎么得2019-05-0700<br>疯疯兔是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道疯疯兔怎么合成，下面一起来看看吧。<br>▍ 疯疯兔获得方法<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1904/261033045011.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>暴力兔（45）+暴力兔（45）=兰兰兔 </p><p>兰兰兔（50）+暴力兔王（50）=疯疯兔</p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><!--StartFragment --><div>高级兔兔快跑：持续为8米范围内家族成园加1000移动速度</div></td></tr></tbody></table><br>▍ 疯疯兔进阶图鉴<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/2013491J124.jpg\" width=\"100% ><br>▍ 疯疯兔各阶段升级变化<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">等阶</td><td bgcolor=\"#23c268\" align=\"center\">进化所需</td><td bgcolor=\"#23c268\" align=\"center\">增加资质</td><td bgcolor=\"#23c268\" align=\"center\">技能</td></tr><tr><td height=\"30\" align=\"center\">1阶</td><td align=\"center\">15个进化碎片</td><td align=\"center\">无变化</td><td align=\"center\"><p>高级兔兔快跑 <br />小小鱼上钩啦</p></td></tr><tr><td height=\"30\" align=\"center\">2阶</td><td align=\"center\">45个进化碎片</td><td align=\"center\">生命+3%，攻击+3%</td><td align=\"center\"><p>高级兔兔快跑 <br />小鱼上钩啦</p></td></tr><tr><td height=\"30\" align=\"center\">3阶</td><td align=\"center\">12个进化石</td><td align=\"center\">生命+3%，攻击+3%</td><td align=\"center\"><p>高级兔兔快跑 <br />小鱼上钩啦 <br />天生亲木</p></td></tr><tr><td height=\"30\" align=\"center\">4阶</td><td align=\"center\">25个进化石</td><td align=\"center\">生命+4%，攻击+4%</td><td align=\"center\"><p>高级兔兔快跑 <br />大鱼上钩啦 <br />天生亲木</p></td></tr><tr><td height=\"30\" align=\"center\">5阶</td><td align=\"center\">30个进化石</td><td align=\"center\">生命+1%，攻击+1%</td><td align=\"center\"><p>高级兔兔快跑 <br />大鱼上钩啦 <br />高级天生亲木</p></td></tr><tr><td height=\"30\" colspan=\"5\"><p><strong><font color=\"#23c268\">▍ </font>技能说明</strong></p><p>高级兔兔快跑：宠物奔跑形成助力气流可使周围8米范围内家园成员的速度提高 </p><p>小小鱼上钩啦：兔兔的祈祷可以帮助主人在钓鱼时有极小几率获得额外小鱼 </p><p>小鱼上钩啦：兔兔的祈祷可以帮助主人在钓鱼时有较小几率获得额外小鱼 </p><p>天生亲木：天生对树木的亲和使主人在用斧子攻击树木时可以有几率获得额外掉落 </p><p>大鱼上钩啦：兔兔的祈祷可以帮助主人在钓鱼时有小几率获得额外小鱼 </p><p>高级天生亲木：天生对树木的亲和使主人在用斧子攻击树木时可以有几率获得更好的额外掉落</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_fengft.jpg",
+      "imgs": [
+        "img/p_fengft.jpg"
+      ]
+    },
+    {
+      "name": "兰兰兔",
+      "name_exif": "兰兰兔:在融合系统中融合获得：（括号为宠物等级要求）暴力兔（45）+暴力兔（45）=兰兰兔",
+      "share": "1",
+      "pinyin": "lanlt",
+      "key": "p_lanlt",
+      "filter": "宠物",
+      "html": "兰兰兔:在融合系统中融合获得：（括号为宠物等级要求）暴力兔（45）+暴力兔（45）=兰兰兔<br>创造与魔法兰兰兔怎么合成 兰兰兔怎么得2019-04-2600<br>兰兰兔是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道兰兰兔怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1904/261023109354.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>暴力兔（45）+暴力兔（45）= 兰兰兔 </p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><!--StartFragment --><div>初级兔兔快跑：持续为8米范围内家族成园加移动速度</div></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_lanlt.jpg",
+      "imgs": [
+        "img/p_lanlt.jpg"
+      ]
+    },
+    {
+      "name": "狼人学徒",
+      "name_exif": "狼人学徒:在融合系统中融合获得：（括号为宠物等级要求）狼（25）+狼（30）=狼人学徒",
+      "share": "1",
+      "pinyin": "langrxt",
+      "key": "p_langrxt",
+      "filter": "宠物",
+      "html": "狼人学徒:在融合系统中融合获得：（括号为宠物等级要求）狼（25）+狼（30）=狼人学徒<br>创造与魔法狼人学徒怎么合成 狼人学徒怎么得2019-04-2500<br>狼人学徒是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道狼人学徒怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1903/2Q9160Q2A.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>狼（25）+狼（30）= 狼人学徒 </p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><!--StartFragment --><div>初级狼舞：狼人试图模仿图腾中描绘的舞蹈为主人献上祝福，已经渐渐熟练。能小幅度提升主人的攻击力与移动速度。<br />初级施法：狼人在学习中提升了法术能力，具备了远程攻击能力，并且可以通过短暂能蓄力减少狼舞的冷却时间。 </div></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_langrxt.jpg",
+      "imgs": [
+        "img/p_langrxt.jpg"
+      ]
+    },
+    {
+      "name": "狼人侍从",
+      "name_exif": "狼人侍从:狼（25）+狼（30）=狼人学徒狼人学徒（30）+狼王（40）=狼人侍从",
+      "share": "1",
+      "pinyin": "langrsc",
+      "key": "p_langrsc",
+      "filter": "宠物",
+      "html": "狼人侍从:狼（25）+狼（30）=狼人学徒狼人学徒（30）+狼王（40）=狼人侍从<br>创造与魔法狼人侍从怎么合成 狼人侍从怎么得2019-03-2800<br>狼人侍从是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道狼人侍从怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1903/2Q9121UA2.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>狼（25）+狼（30）= 狼人学徒 <br />狼人学徒（30）+狼王（40）=狼人侍从 </p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><!--StartFragment --><div>初级狼舞：狼人试图模仿图腾中描绘的舞蹈为主人献上祝福，已经渐渐熟练。能小幅度提升主人的攻击力与移动速度。<br />初级施法：狼人在学习中提升了法术能力，具备了远程攻击能力，并且可以通过短暂能蓄力减少狼舞的冷却时间。 </div></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_langrsc.jpg",
+      "imgs": [
+        "img/p_langrsc.jpg"
+      ]
+    },
+    {
+      "name": "狼人巫师",
+      "name_exif": "狼人巫师:狼（25）+狼（30）=狼人学徒狼人学徒（30）+狼王（40）=狼人侍从狼人侍从（35）+沙漠狼（45）=狼人巫师",
+      "share": "1",
+      "pinyin": "langrws",
+      "key": "p_langrws",
+      "filter": "宠物",
+      "html": "狼人巫师:狼（25）+狼（30）=狼人学徒狼人学徒（30）+狼王（40）=狼人侍从狼人侍从（35）+沙漠狼（45）=狼人巫师<br>创造与魔法狼人巫师怎么合成 狼人巫师怎么得2019-03-2800<br>狼人巫师是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道狼人巫师怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1903/2QZHH057.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>狼（25）+狼（30）= 狼人学徒 <br />狼人学徒（30）+狼王（40）=狼人侍从 <br />狼人侍从（35）+沙漠狼（45）=狼人巫师 </p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><!--StartFragment --><div>初级狼舞：狼人试图模仿图腾中描绘的舞蹈为主人献上祝福，已经渐渐熟练。能小幅度提升主人的攻击力与移动速度。<br />初级施法：狼人在学习中提升了法术能力，具备了远程攻击能力，并且可以通过短暂能蓄力减少狼舞的冷却时间。 </div></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_langrws.jpg",
+      "imgs": [
+        "img/p_langrws.jpg"
+      ]
+    },
+    {
+      "name": "狼人巫祝",
+      "name_exif": "狼人巫祝:狼（25）+狼（30）=狼人学徒狼人学徒（30）+狼王（40）=狼人侍从狼人侍从（35）+沙漠狼（45）=狼人巫师狼人巫师（40）+沙漠狼王（50）=狼人巫祝",
+      "share": "1",
+      "pinyin": "langrwz",
+      "key": "p_langrwz",
+      "filter": "宠物",
+      "html": "狼人巫祝:狼（25）+狼（30）=狼人学徒狼人学徒（30）+狼王（40）=狼人侍从狼人侍从（35）+沙漠狼（45）=狼人巫师狼人巫师（40）+沙漠狼王（50）=狼人巫祝<br>创造与魔法狼人巫祝怎么合成 狼人巫祝怎么得2019-03-2800<br>狼人巫祝是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道狼人巫祝怎么合成，下面一起来看看吧。<br>▍ 狼人巫祝获得方法<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1903/2QZ112QH.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>狼（25）+狼（30）= 狼人学徒 <br />狼人学徒（30）+狼王（40）=狼人侍从 <br />狼人侍从（35）+沙漠狼（45）=狼人巫师 <br />狼人巫师（40）+沙漠狼王（50）=狼人巫祝</p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><!--StartFragment --><div>高级狼舞：狼人试图模仿图腾中描绘的舞蹈为主人献上祝福，已经渐渐熟练。能小幅度提升主人的攻击力与移动速度。<br />初级施法：狼人在学习中提升了法术能力，具备了远程攻击能力，并且可以通过短暂能蓄力减少狼舞的冷却时间。 </div></td></tr></tbody></table><br>▍ 狼人巫祝进阶图鉴<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1911/201910054M1.jpg\" width=\"100% ><br>▍ 狼人巫祝各阶段升级变化<br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">等阶</td><td bgcolor=\"#23c268\" align=\"center\">进化所需</td><td bgcolor=\"#23c268\" align=\"center\">增加资质</td><td bgcolor=\"#23c268\" align=\"center\">技能</td></tr><tr><td height=\"30\" align=\"center\">1阶</td><td align=\"center\">15个进化碎片</td><td align=\"center\">无变化</td><td align=\"center\"><p>高级狼舞、高级施法</p></td></tr><tr><td height=\"30\" align=\"center\">2阶</td><td align=\"center\">45个进化碎片</td><td align=\"center\">生命+4%，魔法+4%</td><td align=\"center\"><p>高级狼舞、高级施法</p></td></tr><tr><td height=\"30\" align=\"center\">3阶</td><td align=\"center\">12个进化石</td><td align=\"center\">生命+4%，魔法+4%</td><td align=\"center\"><p>高级狼舞、高级施法</p><p>巫术迅击</p></td></tr><tr><td height=\"30\" align=\"center\">4阶</td><td align=\"center\">25个进化石</td><td align=\"center\">生命+4%，魔法+4%</td><td align=\"center\"><p>高级狼舞、高级施法</p><p>巫术迅击</p></td></tr><tr><td height=\"30\" align=\"center\">5阶</td><td align=\"center\">30个进化石</td><td align=\"center\">生命+1%，魔法+1%</td><td align=\"center\"><p>高级狼舞、高级施法</p><p>巫术连击</p></td></tr><tr><td height=\"30\" align=\"center\">6阶</td><td align=\"center\">35个进化石</td><td align=\"center\"><p>生命+4%，魔法+4%</p><p>（等级上限提升到70级）</p></td><td align=\"center\"><p>高级狼舞、高级施法</p><p>巫术连击</p></td></tr><tr><td height=\"30\" colspan=\"5\"><p><strong><font color=\"#23c268\">▍ </font>技能说明</strong></p><p>高级狼舞：狼人试图模仿图腾中描绘的舞蹈为主人献上祝福，已经渐渐熟练。能小幅度提升主人的攻击力与移动速度。 </p><p>高级施法：随着对法术的理解，狼人巫祝可以在攻击时造成更多伤害。 </p><p>巫术迅击：狼人巫祝血脉中的力量觉醒，使得攻击时有小概率在蓄力后连续攻击3次，但单次伤害降低 </p><p>巫术连击：狼人巫祝血脉中的力量再次觉醒，使得攻击时有小概率在蓄力后连续攻击3次，但是单次伤害奖励。</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_langrwz.jpg",
+      "imgs": [
+        "img/p_langrwz.jpg"
+      ]
+    },
+    {
+      "name": "绿巨人",
+      "name_exif": "绿巨人:在融合系统中融合获得：（括号为宠物等级要求）龟（5）+龟（5）=绿巨人",
+      "share": "1",
+      "pinyin": "lvjr",
+      "key": "p_lvjr",
+      "filter": "宠物",
+      "html": "绿巨人:在融合系统中融合获得：（括号为宠物等级要求）龟（5）+龟（5）=绿巨人<br>创造与魔法绿巨人怎么合成 绿巨人怎么得2019-01-2700<br>绿巨人是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道绿巨人怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1901/2G456243Z4.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>龟（5）+龟（5）=绿巨人 </p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>初级嘲讽：宠物向敌人发出怒吼，强迫敌人长时间攻击自己</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_lvjr.jpg",
+      "imgs": [
+        "img/p_lvjr.jpg"
+      ]
+    },
+    {
+      "name": "棕巨人",
+      "name_exif": "棕巨人:在融合系统中融合获得：（括号为宠物等级要求）龟（5）+龟（5）=绿巨人绿巨人（30）+水池龟（30）=棕巨人",
+      "share": "1",
+      "pinyin": "zongjr",
+      "key": "p_zongjr",
+      "filter": "宠物",
+      "html": "棕巨人:在融合系统中融合获得：（括号为宠物等级要求）龟（5）+龟（5）=绿巨人绿巨人（30）+水池龟（30）=棕巨人<br>创造与魔法棕巨人怎么合成 棕巨人怎么得2019-01-2700<br>棕巨人是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道棕巨人怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1901/2G44935VQ.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>龟（5）+龟（5）=绿巨人 <br />绿巨人（30）+水池龟（30）=棕巨人 </p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>初级嘲讽：宠物向敌人发出怒吼，强迫敌人长时间攻击自己</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_zongjr.jpg",
+      "imgs": [
+        "img/p_zongjr.jpg"
+      ]
+    },
+    {
+      "name": "粉巨人",
+      "name_exif": "粉巨人:在融合系统中融合获得：（括号为宠物等级要求）龟（5）+龟（5）=绿巨人绿巨人（30）+水池龟（30）=棕巨人棕巨人（35）+岩浆海龟（35）=粉巨人",
+      "share": "1",
+      "pinyin": "fenjr",
+      "key": "p_fenjr",
+      "filter": "宠物",
+      "html": "粉巨人:在融合系统中融合获得：（括号为宠物等级要求）龟（5）+龟（5）=绿巨人绿巨人（30）+水池龟（30）=棕巨人棕巨人（35）+岩浆海龟（35）=粉巨人<br>创造与魔法粉巨人怎么合成 粉巨人怎么得2019-01-2700<br>粉巨人是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道粉巨人怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1901/2G446233942.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>龟（5）+龟（5）=绿巨人 <br />绿巨人（30）+水池龟（30）=棕巨人 <br />棕巨人（35）+岩浆海龟（35）=粉巨人 </p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>初级嘲讽：宠物向敌人发出怒吼，强迫敌人长时间攻击自己<br />初级壁垒：宠物与生俱来的能力，能略微增强自身血量</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_fenjr.jpg",
+      "imgs": [
+        "img/p_fenjr.jpg"
+      ]
+    },
+    {
+      "name": "红巨人",
+      "name_exif": "红巨人:在融合系统中融合获得：（括号为宠物等级要求）龟（5）+龟（5）=绿巨人绿巨人（30）+水池龟（30）=棕巨人棕巨人（35）+岩浆海龟（35）=粉巨人粉巨人（40）+猛犸象（40）=红巨人",
+      "share": "1",
+      "pinyin": "hongjr",
+      "key": "p_hongjr",
+      "filter": "宠物",
+      "html": "红巨人:在融合系统中融合获得：（括号为宠物等级要求）龟（5）+龟（5）=绿巨人绿巨人（30）+水池龟（30）=棕巨人棕巨人（35）+岩浆海龟（35）=粉巨人粉巨人（40）+猛犸象（40）=红巨人<br>创造与魔法红巨人怎么合成 红巨人怎么得2019-01-2700<br>红巨人是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道红巨人怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1901/2G43U1a03.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>龟（5）+龟（5）=绿巨人 <br />绿巨人（30）+水池龟（30）=棕巨人 <br />棕巨人（35）+岩浆海龟（35）=粉巨人 <br />粉巨人（40）+猛犸象（40）=红巨人 </p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>初级嘲讽：宠物向敌人发出怒吼，强迫敌人长时间攻击自己<br />初级壁垒：宠物与生俱来的能力，能略微增强自身血量</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_hongjr.jpg",
+      "imgs": [
+        "img/p_hongjr.jpg"
+      ]
+    },
+    {
+      "name": "水晶巨人",
+      "name_exif": "水晶巨人:在融合系统中融合获得：（括号为宠物等级要求）龟（5）+龟（5）=绿巨人绿巨人（30）+水池龟（30）=棕巨人棕巨人（35）+岩浆海龟（35）=粉巨人粉巨人（40）+猛犸象（40）=红巨人红巨人（45）+雪猛犸（45）=水晶巨人",
+      "share": "1",
+      "pinyin": "shuijjr",
+      "key": "p_shuijjr",
+      "filter": "宠物",
+      "html": "水晶巨人:在融合系统中融合获得：（括号为宠物等级要求）龟（5）+龟（5）=绿巨人绿巨人（30）+水池龟（30）=棕巨人棕巨人（35）+岩浆海龟（35）=粉巨人粉巨人（40）+猛犸象（40）=红巨人红巨人（45）+雪猛犸（45）=水晶巨人<br>创造与魔法水晶巨人怎么合成 水晶巨人怎么得2019-01-2700<br>水晶巨人是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道水晶巨人怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1901/2G433292402.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>龟（5）+龟（5）=绿巨人 <br />绿巨人（30）+水池龟（30）=棕巨人 <br />棕巨人（35）+岩浆海龟（35）=粉巨人 <br />粉巨人（40）+猛犸象（40）=红巨人 <br />红巨人（45）+雪猛犸（45）=水晶巨人</p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>高级嘲讽：宠物向敌人发出怒吼，强迫敌人长时间攻击自己<br />初级壁垒：宠物与生俱来的能力，能略微增强自身血量</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_shuijjr.jpg",
+      "imgs": [
+        "img/p_shuijjr.jpg"
+      ]
+    },
+    {
+      "name": "灰蝠龙",
+      "name_exif": "灰蝠龙:在融合系统中融合获得：（括号为宠物等级要求）绿蜥蜴（10）+绿蜥蜴（10）=灰蝠龙",
+      "share": "1",
+      "pinyin": "huifl",
+      "key": "p_huifl",
+      "filter": "宠物",
+      "html": "灰蝠龙:在融合系统中融合获得：（括号为宠物等级要求）绿蜥蜴（10）+绿蜥蜴（10）=灰蝠龙<br>创造与魔法灰蝠龙怎么合成 灰蝠龙怎么获得2019-01-2700<br>灰蝠龙是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道灰蝠龙怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1901/2G422421349.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>绿蜥蜴（10）+绿蜥蜴 （10）=灰蝠龙 </p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>初级剧毒：宠物的攻击蕴含着剧毒，能使敌人持续流血。</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_huifl.jpg",
+      "imgs": [
+        "img/p_huifl.jpg"
+      ]
+    },
+    {
+      "name": "红蝠龙",
+      "name_exif": "红蝠龙:在融合系统中融合获得：（括号为宠物等级要求）绿蜥蜴（10）+绿蜥蜴（10）=灰蝠龙灰蝠龙（15）+蓝蜥蜴（20）=红蝠龙",
+      "share": "1",
+      "pinyin": "hongfl",
+      "key": "p_hongfl",
+      "filter": "宠物",
+      "html": "红蝠龙:在融合系统中融合获得：（括号为宠物等级要求）绿蜥蜴（10）+绿蜥蜴（10）=灰蝠龙灰蝠龙（15）+蓝蜥蜴（20）=红蝠龙<br>创造与魔法红蝠龙怎么合成 红蝠龙怎么得2019-01-2700<br>红蝠龙是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道红蝠龙怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1901/2G4134B2I.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>绿蜥蜴（10）+绿蜥蜴 （10）=灰蝠龙 <br />灰蝠龙（15）+蓝蜥蜴（20）=红蝠龙 </p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>初级剧毒：宠物的攻击蕴含着剧毒，能使敌人持续流血。</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_hongfl.jpg",
+      "imgs": [
+        "img/p_hongfl.jpg"
+      ]
+    },
+    {
+      "name": "蓝蝠龙",
+      "name_exif": "蓝蝠龙:在融合系统中融合获得：（括号为宠物等级要求）绿蜥蜴（10）+绿蜥蜴（10）=灰蝠龙灰蝠龙（15）+蓝蜥蜴（20）=红蝠龙红蝠龙（40）+血蜥蜴（30）=蓝蝠龙",
+      "share": "1",
+      "pinyin": "lanfl",
+      "key": "p_lanfl",
+      "filter": "宠物",
+      "html": "蓝蝠龙:在融合系统中融合获得：（括号为宠物等级要求）绿蜥蜴（10）+绿蜥蜴（10）=灰蝠龙灰蝠龙（15）+蓝蜥蜴（20）=红蝠龙红蝠龙（40）+血蜥蜴（30）=蓝蝠龙<br>创造与魔法蓝蝠龙怎么合成 蓝蝠龙怎么得2019-01-2700<br>蓝蝠龙是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道蓝蝠龙怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1901/2G40J0E50.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>绿蜥蜴（10）+绿蜥蜴 （10）=灰蝠龙 <br />灰蝠龙（15）+蓝蜥蜴（20）=红蝠龙 <br />红蝠龙（40）+血蜥蜴（30）=蓝蝠龙</p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>初级剧毒：宠物的攻击蕴含着剧毒，能使敌人持续流血。</p><p>初级腐蚀：宠物的攻击蕴含着酸性物质，能使敌人护甲降低。</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_lanfl.jpg",
+      "imgs": [
+        "img/p_lanfl.jpg"
+      ]
+    },
+    {
+      "name": "靛蓝蝠龙",
+      "name_exif": "靛蓝蝠龙:在融合系统中融合获得：（括号为宠物等级要求）绿蜥蜴（10）+绿蜥蜴（10）=灰蝠龙灰蝠龙（15）+蓝蜥蜴（20）=红蝠龙红蝠龙（40）+血蜥蜴（30）=蓝蝠龙蓝蝠龙（50）+毒液龙（50）=靛蓝蝠龙",
+      "share": "1",
+      "pinyin": "dianlfl",
+      "key": "p_dianlfl",
+      "filter": "宠物",
+      "html": "靛蓝蝠龙:在融合系统中融合获得：（括号为宠物等级要求）绿蜥蜴（10）+绿蜥蜴（10）=灰蝠龙灰蝠龙（15）+蓝蜥蜴（20）=红蝠龙红蝠龙（40）+血蜥蜴（30）=蓝蝠龙蓝蝠龙（50）+毒液龙（50）=靛蓝蝠龙<br>创造与魔法靛蓝蝠龙怎么合成 靛蓝蝠龙怎么得2019-01-2700<br>靛蓝蝠龙是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道靛蓝蝠龙怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1901/2G4003NE3.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>绿蜥蜴（10）+绿蜥蜴 （10）=灰蝠龙 <br />灰蝠龙（15）+蓝蜥蜴（20）=红蝠龙 <br />红蝠龙（40）+血蜥蜴（30）=蓝蝠龙<br />蓝蝠龙（50）+毒液龙（50）=靛蓝蝠龙 </p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>初级剧毒：宠物的攻击蕴含着剧毒，能使敌人持续流血。</p><p>初级腐蚀：宠物的攻击蕴含着酸性物质，能使敌人护甲降低。</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_dianlfl.jpg",
+      "imgs": [
+        "img/p_dianlfl.jpg"
+      ]
+    },
+    {
+      "name": "紫蝠龙",
+      "name_exif": "紫蝠龙:绿蜥蜴（10）+绿蜥蜴（10）=灰蝠龙灰蝠龙（15）+蓝蜥蜴（20）=红蝠龙红蝠龙（40）+血蜥蜴（30）=蓝蝠龙蓝蝠龙（50）+毒液龙（50）=靛蓝蝠龙靛蓝蝠龙（55）+毒液龙王（55）=紫蝠龙",
+      "share": "1",
+      "pinyin": "zifl",
+      "key": "p_zifl",
+      "filter": "宠物",
+      "html": "紫蝠龙:绿蜥蜴（10）+绿蜥蜴（10）=灰蝠龙灰蝠龙（15）+蓝蜥蜴（20）=红蝠龙红蝠龙（40）+血蜥蜴（30）=蓝蝠龙蓝蝠龙（50）+毒液龙（50）=靛蓝蝠龙靛蓝蝠龙（55）+毒液龙王（55）=紫蝠龙<br>创造与魔法紫蝠龙怎么合成 紫蝠龙怎么得2019-01-2700<br>紫蝠龙是创造与魔法游戏中的宠物之一，需要使用融合系统合成获得，许多小伙伴不知道紫蝠龙怎么合成，下面一起来看看吧。<br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1901/2G15J0L08.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">属性</td><td align=\"center\">宠物</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">合成方法</td><td align=\"center\"><p>在融合系统中融合获得：（括号为宠物等级要求）</p><p>绿蜥蜴（10）+绿蜥蜴 （10）=灰蝠龙 <br />灰蝠龙（15）+蓝蜥蜴（20）=红蝠龙 <br />红蝠龙（40）+血蜥蜴（30）=蓝蝠龙<br />蓝蝠龙（50）+毒液龙（50）=靛蓝蝠龙 <br />靛蓝蝠龙（55）+毒液龙王（55）=紫蝠龙</p><p>具体可查看：【<a href=\"http://m.news.4399.com/czymf/xinde/m/877091.html\">创造与魔法宠物合成表 宠物融合配方</a>】</p></td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">技能</td><td align=\"center\"><p>高级剧毒：宠物的攻击蕴含着剧毒，能使敌人持续流血。</p><p>初级腐蚀：宠物的攻击蕴含着酸性物质，能使敌人护甲降低。</p></td></tr></tbody></table><br>▍ ",
+      "cover": "img/p_zifl.jpg",
+      "imgs": [
+        "img/p_zifl.jpg"
+      ]
+    },
+    {
+      "name": "章鱼",
+      "name_exif": "章鱼:不能当宠物",
+      "share": "1",
+      "pinyin": "zhangy",
+      "key": "p_zhangy",
+      "filter": "其他",
+      "html": "章鱼:不能当宠物<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#0000ff\" size=\"3\">章鱼</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/1516442U4B.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>攻击/难度</b></font></p></td></tr><tr><td><b>分类</b>：野怪（5~30级）</td><td>远程墨汁攻击/难度较弱，可用弓箭</td></tr><tr><td><b>特产</b>：章鱼腿+墨汁</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><b>特产</b>：羽毛+章鱼腿+章鱼蛋</td><td>各大陆的水域中，白金海滩的浅滩较多</td></tr></tbody></table>",
+      "cover": "img/p_zhangy.jpg",
+      "imgs": [
+        "img/p_zhangy.jpg"
+      ]
+    },
+    {
+      "name": "黑曜石守护者",
+      "name_exif": "黑曜石守护者:不能当宠物",
+      "share": "1",
+      "pinyin": "heiysshz",
+      "key": "p_heiysshz",
+      "filter": "其他",
+      "html": "黑曜石守护者:不能当宠物<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#808080\" size=\"3\">黑曜石守护者</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://newsimg.5054399.com/uploads/userup/1803/1G459314449.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>特产</b></font></p></td></tr><tr><td><b>分类</b>：守护者（55级）</td><td>黑曜石、黑宝石</td></tr><tr><td><strong>攻击</strong>：近战+击退</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><strong>难度</strong>：一般</td><td>黑曜石宝箱守护者，旁边往往会刷新宝箱</td></tr></tbody></table>",
+      "cover": "img/p_heiysshz.jpg",
+      "imgs": [
+        "img/p_heiysshz.jpg"
+      ]
+    },
+    {
+      "name": "小鬼",
+      "name_exif": "小鬼:不能当宠物",
+      "share": "1",
+      "pinyin": "xiaog",
+      "key": "p_xiaog",
+      "filter": "其他",
+      "html": "小鬼:不能当宠物<br><br><img src=\"http://f2.img4399.com/newsm~uploads/userup/1811/011029229124.jpg\" width=\"100% ><br><table width=\"100% ><tbody><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">分类</td><td align=\"center\">恶魔（最低5级）</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">攻击</td><td align=\"center\">战/攻/法</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">掉落</td><td align=\"center\">魔晶、鬼火、箭</td></tr><tr><td bgcolor=\"#23c268\" height=\"30\" align=\"center\">分布</td><td align=\"center\">夜间0：00~6:30出现，不同区域不同等级不同掉落</td></tr></tbody></table><br>",
+      "cover": "img/p_xiaog.jpg",
+      "imgs": [
+        "img/p_xiaog.jpg"
+      ]
+    },
+    {
+      "name": "骷髅",
+      "name_exif": "骷髅:不能当宠物",
+      "share": "1",
+      "pinyin": "kul",
+      "key": "p_kul",
+      "filter": "其他",
+      "html": "骷髅:不能当宠物<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#33cccc\" size=\"3\">骷髅</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://newsimg.5054399.com/uploads/userup/1803/1G45I42507.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>特产</b></font></p></td></tr><tr><td><b>分类</b>：守护者（最低5级）</td><td>魔晶</td></tr><tr><td><strong>攻击</strong>：战/弓/法</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><strong>难度</strong>：一般</td><td>遗迹或者野外宝箱旁边</td></tr></tbody></table>",
+      "cover": "img/p_kul.jpg",
+      "imgs": [
+        "img/p_kul.jpg"
+      ]
+    },
+    {
+      "name": "树精",
+      "name_exif": "树精:三角魔法击中树可召唤",
+      "share": "1",
+      "pinyin": "shuj",
+      "key": "p_shuj",
+      "filter": "其他",
+      "html": "树精:三角魔法击中树可召唤<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#800000\" size=\"3\">树精</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://f2.img4399.com/newsm~uploads/userup/1803/1G4503430V.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>召唤</b></font></p></td></tr><tr><td><b>分类</b>：召唤/野生（最低5级）</td><td>三角魔法击中木头可召唤</td></tr><tr><td><strong>攻击</strong>：近战</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><strong>难度</strong>：一般</td><td>树木旁边，三角魔法击中石头可召唤</td></tr></tbody></table>",
+      "cover": "img/p_shuj.jpg",
+      "imgs": [
+        "img/p_shuj.jpg"
+      ]
+    },
+    {
+      "name": "岩石怪",
+      "name_exif": "岩石怪:三角魔法击中石头可召唤",
+      "share": "1",
+      "pinyin": "yansg",
+      "key": "p_yansg",
+      "filter": "其他",
+      "html": "岩石怪:三角魔法击中石头可召唤<br><br><table width=\"100% ><tbody><tr><td colspan=\"2\"><p align=\"center\"><font size=\"3\"><b><font color=\"#808080\" size=\"3\">岩石怪</font></b></font></p></td></tr><tr><td colspan=\"2\"><img src=\"http://newsimg.5054399.com/uploads/userup/1803/1G436023922.jpg\" alt=\"\" class=\"showImg\"/></td></tr><tr><td><p align=\"center\"><font size=\"3\"><b>属性</b></font></p></td><td><p align=\"center\"><font size=\"3\"><b>召唤</b></font></p></td></tr><tr><td><b>分类</b>：召唤/野生（最低30级）</td><td>三角魔法击中石头可召唤</td></tr><tr><td><strong>攻击</strong>：进展+击退</td><td><p align=\"center\"><font size=\"3\"><b>分布</b></font></p></td></tr><tr><td><strong>难度</strong>：一般</td><td>宝箱守护者，三角魔法击中石头可召唤</td></tr></tbody></table>",
+      "cover": "img/p_yansg.jpg",
+      "imgs": [
+        "img/p_yansg.jpg"
+      ]
+    }
+  ],
+  "version": 0,
+  "filter": [
+    "全部",
+    "坐骑",
+    "宠物",
+    "BOSS",
+    "战宠",
+    "家畜",
+    "其他"
+  ]
+}

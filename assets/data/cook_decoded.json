@@ -1,0 +1,3974 @@
+{
+  "items": [
+    {
+      "name": "菠菜炒蛋",
+      "share": "1",
+      "name_exif": "菠菜+黄豆+生鸡蛋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "bccdbchdsjd菠菜炒蛋菠菜黄豆生鸡蛋",
+      "key": "f_bccdbchdsjd",
+      "des": "菠菜炒蛋(+90食物)=菠菜+黄豆+生鸡蛋"
+    },
+    {
+      "name": "鲅鱼饺子",
+      "share": "1",
+      "name_exif": "鲅鱼+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "byjzbyxm鲅鱼饺子鲅鱼小麦",
+      "key": "f_byjzbyxm",
+      "des": "鲅鱼饺子(+90食物)=鲅鱼+小麦"
+    },
+    {
+      "name": "鲍鱼捞饭",
+      "share": "1",
+      "name_exif": "鲍鱼+胡萝卜+蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "1级血气",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "bylfbyhlbmg鲍鱼捞饭鲍鱼胡萝卜蘑菇",
+      "key": "f_bylfbyhlbmg",
+      "des": "鲍鱼捞饭(+100食物,+1级血气buff)=鲍鱼+胡萝卜+蘑菇"
+    },
+    {
+      "name": "草莓蛋糕",
+      "share": "1",
+      "name_exif": "草莓+牛奶+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "-10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "cmdgcmnnxm草莓蛋糕草莓牛奶小麦",
+      "key": "f_cmdgcmnnxm",
+      "des": "草莓蛋糕(食物+80,水分-10)=草莓+牛奶+小麦"
+    },
+    {
+      "name": "草莓酱",
+      "share": "1",
+      "name_exif": "草莓",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "cmjcm草莓酱草莓",
+      "key": "f_cmjcm",
+      "des": "草莓酱(食物,水份+20)=草莓"
+    },
+    {
+      "name": "草莓牛奶",
+      "share": "1",
+      "name_exif": "草莓+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "40",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "25",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "cmnncmnn草莓牛奶草莓牛奶",
+      "key": "f_cmnncmnn",
+      "des": "草莓牛奶(+40食物,+25水分)=草莓+牛奶"
+    },
+    {
+      "name": "草莓派",
+      "share": "1",
+      "name_exif": "草莓+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "cmpcmxm草莓派草莓小麦",
+      "key": "f_cmpcmxm",
+      "des": "草莓派(食物+50)=草莓+小麦"
+    },
+    {
+      "name": "草莓椰果",
+      "share": "1",
+      "name_exif": "草莓+椰子",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "30",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "cmygcmyz草莓椰果草莓椰子",
+      "key": "f_cmygcmyz",
+      "des": "草莓椰果(食物+30)=草莓+椰子"
+    },
+    {
+      "name": "晨夕养生汤",
+      "share": "1",
+      "name_exif": "菠菜+海带+胡萝卜",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "cxystbchdhlb晨夕养生汤菠菜海带胡萝卜",
+      "key": "f_cxystbchdhlb",
+      "des": "晨夕养生汤(+60食物)=菠菜+海带+胡萝卜"
+    },
+    {
+      "name": "大贝披萨",
+      "share": "1",
+      "name_exif": "大扇贝+小麦+青椒",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "85",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "dbpsdsbxmqj大贝披萨大扇贝小麦青椒",
+      "key": "f_dbpsdsbxmqj",
+      "des": "大贝披萨(+85食物)=大扇贝+小麦+青椒"
+    },
+    {
+      "name": "豆腐烧鲶鱼",
+      "share": "1",
+      "name_exif": "鲶鱼+黄豆",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "dfsnynyhd豆腐烧鲶鱼鲶鱼黄豆",
+      "key": "f_dfsnynyhd",
+      "des": "豆腐烧鲶鱼(+60食物)=鲶鱼+黄豆"
+    },
+    {
+      "name": "蛋黄焗南瓜",
+      "share": "1",
+      "name_exif": "南瓜+烤鸡蛋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "dhjngngkjd蛋黄焗南瓜南瓜烤鸡蛋",
+      "key": "f_dhjngngkjd",
+      "des": "蛋黄焗南瓜(+60食物)=南瓜+烤鸡蛋"
+    },
+    {
+      "name": "蛋黄小丸子",
+      "share": "1",
+      "name_exif": "烤鸡蛋+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "dhxwzkjdxm蛋黄小丸子烤鸡蛋小麦",
+      "key": "f_dhxwzkjdxm",
+      "des": "蛋黄小丸子(+80食物)=烤鸡蛋+小麦"
+    },
+    {
+      "name": "大乱炖",
+      "share": "1",
+      "name_exif": "生猪排+生羊排+生牛排",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "dldszpsypsnp大乱炖生猪排生羊排生牛排",
+      "key": "f_dldszpsypsnp",
+      "des": "大乱炖(+60食物)=生猪排+生羊排+生牛排"
+    },
+    {
+      "name": "大鹏鸡腿",
+      "share": "1",
+      "name_exif": "洋葱+胡椒+生鸡腿",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "dpjtychjsjt大鹏鸡腿洋葱胡椒生鸡腿",
+      "key": "f_dpjtychjsjt",
+      "des": "大鹏鸡腿(+60食物)=洋葱+胡椒+生鸡腿"
+    },
+    {
+      "name": "大牌卤肉",
+      "share": "1",
+      "name_exif": "洋葱+胡椒+生猪排",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "dplrychjszp大牌卤肉洋葱胡椒生猪排",
+      "key": "f_dplrychjszp",
+      "des": "大牌卤肉(+60食物)=洋葱+胡椒+生猪排"
+    },
+    {
+      "name": "豆沙包",
+      "share": "1",
+      "name_exif": "红豆+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "-10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "dsbhdxm豆沙包红豆小麦",
+      "key": "f_dsbhdxm",
+      "des": "豆沙包(+50食物,-10水分)=红豆+小麦"
+    },
+    {
+      "name": "单身狗粮",
+      "share": "1",
+      "name_exif": "生龟蛋+生鸡蛋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "30",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "dsglsgdsjd单身狗粮生龟蛋生鸡蛋",
+      "key": "f_dsglsgdsjd",
+      "des": "单身狗粮(+30食物,解除帽子炸弹效果)=生龟蛋+生鸡蛋"
+    },
+    {
+      "name": "多汁鲍鱼",
+      "share": "1",
+      "name_exif": "鲍鱼+南瓜+蜂蜜",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "120",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "60",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "dzbybyngfm多汁鲍鱼鲍鱼南瓜蜂蜜",
+      "key": "f_dzbybyngfm",
+      "des": "多汁鲍鱼(+120食物,+60水分)=鲍鱼+南瓜+蜂蜜"
+    },
+    {
+      "name": "大闸蟹鱼饵",
+      "share": "1",
+      "name_exif": "大闸蟹+饲喂料小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "120",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "60",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "dzxyedzxswlxm大闸蟹鱼饵大闸蟹饲喂料小麦",
+      "key": "f_dzxyedzxswlxm",
+      "des": "大闸蟹鱼饵(+120食物,+60水分)=大闸蟹+饲喂料小麦"
+    },
+    {
+      "name": "蜂蜜蛋糕",
+      "share": "1",
+      "name_exif": "蜂蜜+小麦+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "fmdgfmxmnn蜂蜜蛋糕蜂蜜小麦牛奶",
+      "key": "f_fmdgfmxmnn",
+      "des": "蜂蜜蛋糕(+100食物)=蜂蜜+小麦+牛奶"
+    },
+    {
+      "name": "蜂蜜鸡蛋羹",
+      "share": "1",
+      "name_exif": "蜂蜜+生鸡蛋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "20",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "fmjdgfmsjd蜂蜜鸡蛋羹蜂蜜生鸡蛋",
+      "key": "f_fmjdgfmsjd",
+      "des": "蜂蜜鸡蛋羹(+80食物,+20水分)=蜂蜜+生鸡蛋"
+    },
+    {
+      "name": "蜂蜜照烧鸡",
+      "share": "1",
+      "name_exif": "蜂蜜+甘蔗+鸡腿",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "fmzsjfmgzjt蜂蜜照烧鸡蜂蜜甘蔗鸡腿",
+      "key": "f_fmzsjfmgzjt",
+      "des": "蜂蜜照烧鸡(+60食物)=蜂蜜+甘蔗+鸡腿"
+    },
+    {
+      "name": "番茄酱",
+      "share": "1",
+      "name_exif": "番茄",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "30",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "fqjfq番茄酱番茄",
+      "key": "f_fqjfq",
+      "des": "番茄酱(食物+30)=番茄"
+    },
+    {
+      "name": "番茄鱼丸汤",
+      "share": "1",
+      "name_exif": "番茄+鲤鱼",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "30",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "20",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "fqywtfqly番茄鱼丸汤番茄鲤鱼",
+      "key": "f_fqywtfqly",
+      "des": "番茄鱼丸汤(+30食物,+20水分)=番茄+鲤鱼"
+    },
+    {
+      "name": "翻水象拔蚌",
+      "share": "1",
+      "name_exif": "胡萝卜+象拔蚌+海带",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "120",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "60",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "fsxbbhlbxbbhd翻水象拔蚌胡萝卜象拔蚌海带",
+      "key": "f_fsxbbhlbxbbhd",
+      "des": "翻水象拔蚌(+120食物,+60水分)=胡萝卜+象拔蚌+海带"
+    },
+    {
+      "name": "福源肉丸",
+      "share": "1",
+      "name_exif": "胡椒+小麦+生猪排",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "fyrwhjxmszp福源肉丸胡椒小麦生猪排",
+      "key": "f_fyrwhjxmszp",
+      "des": "福源肉丸(+60食物)=胡椒+小麦+生猪排"
+    },
+    {
+      "name": "干煸豆角",
+      "share": "1",
+      "name_exif": "生猪排+辣椒+黄豆",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "gbdjszpljhd干煸豆角生猪排辣椒黄豆",
+      "key": "f_gbdjszpljhd",
+      "des": "干煸豆角(+50食物)=生猪排+辣椒+黄豆"
+    },
+    {
+      "name": "果酱",
+      "share": "1",
+      "name_exif": "草莓+蓝莓",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "20",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "gjcmlm果酱草莓蓝莓",
+      "key": "f_gjcmlm",
+      "des": "果酱(食物+20)=草莓+蓝莓"
+    },
+    {
+      "name": "咖喱龟蛋",
+      "share": "1",
+      "name_exif": "龟蛋+洋葱+胡椒",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "glgdgdychj咖喱龟蛋龟蛋洋葱胡椒",
+      "key": "f_glgdgdychj",
+      "des": "咖喱龟蛋(+60食物)=龟蛋+洋葱+胡椒"
+    },
+    {
+      "name": "港式菠萝包",
+      "share": "1",
+      "name_exif": "小麦+蜂蜜+烤猪肉",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "gsblbxmfmkzr港式菠萝包小麦蜂蜜烤猪肉",
+      "key": "f_gsblbxmfmkzr",
+      "des": "港式菠萝包(+60食物)=小麦+蜂蜜+烤猪肉"
+    },
+    {
+      "name": "红豆糍粑",
+      "share": "1",
+      "name_exif": "小麦+红豆+烤南瓜",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "20",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hdcbxmhdkng红豆糍粑小麦红豆烤南瓜",
+      "key": "f_hdcbxmhdkng",
+      "des": "红豆糍粑(+50食物,+20水分)=小麦+红豆+烤南瓜"
+    },
+    {
+      "name": "海带蛋花汤",
+      "share": "1",
+      "name_exif": "鸡蛋+生猪排",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "30",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hddhtjdszp海带蛋花汤鸡蛋生猪排",
+      "key": "f_hddhtjdszp",
+      "des": "海带蛋花汤(+50食物,+30水分)=鸡蛋+生猪排"
+    },
+    {
+      "name": "海带莲子汤",
+      "share": "1",
+      "name_exif": "海带+红莲+白莲",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hdlzthdhlbl海带莲子汤海带红莲白莲",
+      "key": "f_hdlzthdhlbl",
+      "des": "海带莲子汤(+60食物)=海带+红莲+白莲"
+    },
+    {
+      "name": "滑蛋牛柳",
+      "share": "1",
+      "name_exif": "生鸡蛋+生牛排",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hdnlsjdsnp滑蛋牛柳生鸡蛋生牛排",
+      "key": "f_hdnlsjdsnp",
+      "des": "滑蛋牛柳(+90食物)=生鸡蛋+生牛排"
+    },
+    {
+      "name": "海带排骨汤",
+      "share": "1",
+      "name_exif": "生猪排+海带",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "20",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hdpgtszphd海带排骨汤生猪排海带",
+      "key": "f_hdpgtszphd",
+      "des": "海带排骨汤(+60食物,+20水分)=生猪排+海带"
+    },
+    {
+      "name": "红菇大虾包",
+      "share": "1",
+      "name_exif": "大龙虾+小麦+红蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "150",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "2级御寒",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hgdxbdlxxmhmg红菇大虾包大龙虾小麦红蘑菇",
+      "key": "f_hgdxbdlxxmhmg",
+      "des": "红菇大虾包(食物+150,+2级御寒buff)=大龙虾+小麦+红蘑菇"
+    },
+    {
+      "name": "红菇小虾包",
+      "share": "1",
+      "name_exif": "小龙虾+小麦+红蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "2级御寒",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hgxxbxlxxmhmg红菇小虾包小龙虾小麦红蘑菇",
+      "key": "f_hgxxbxlxxmhmg",
+      "des": "红菇小虾包(食物+100,+2级御寒buff)=小龙虾+小麦+红蘑菇"
+    },
+    {
+      "name": "荷花鱼翅",
+      "share": "1",
+      "name_exif": "白莲+菠菜+鲅鱼",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "50",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hhycblbcby荷花鱼翅白莲菠菜鲅鱼",
+      "key": "f_hhycblbcby",
+      "des": "荷花鱼翅(+80食物,+50水分)=白莲+菠菜+鲅鱼"
+    },
+    {
+      "name": "黑椒羊排",
+      "share": "1",
+      "name_exif": "青椒+胡椒+烤羊排",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "70",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hjypqjhjkyp黑椒羊排青椒胡椒烤羊排",
+      "key": "f_hjypqjhjkyp",
+      "des": "黑椒羊排(+70食物)=青椒+胡椒+烤羊排"
+    },
+    {
+      "name": "胡萝卜炒蛋",
+      "share": "1",
+      "name_exif": "胡萝卜+生鸡蛋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "75",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hlbcdhlbsjd胡萝卜炒蛋胡萝卜生鸡蛋",
+      "key": "f_hlbcdhlbsjd",
+      "des": "胡萝卜炒蛋(+75食物)=胡萝卜+生鸡蛋"
+    },
+    {
+      "name": "胡萝卜蟹肉烧",
+      "share": "1",
+      "name_exif": "胡萝卜+大闸蟹+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hlbxrshlbdzxxm胡萝卜蟹肉烧胡萝卜大闸蟹小麦",
+      "key": "f_hlbxrshlbdzxxm",
+      "des": "胡萝卜蟹肉烧(+60食物)=胡萝卜+大闸蟹+小麦"
+    },
+    {
+      "name": "红鲤鱼与绿驴鱼",
+      "share": "1",
+      "name_exif": "红鲤鱼+绿驴鱼",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hlyyllyhlylly红鲤鱼与绿驴鱼红鲤鱼绿驴鱼",
+      "key": "f_hlyyllyhlylly",
+      "des": "红鲤鱼与绿驴鱼(+90食物)=红鲤鱼+绿驴鱼"
+    },
+    {
+      "name": "红鲤鱼与绿鲤鱼",
+      "share": "1",
+      "name_exif": "绿驴鱼+红鲤鱼",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hlyyllyllyhly红鲤鱼与绿鲤鱼绿驴鱼红鲤鱼",
+      "key": "f_hlyyllyllyhly",
+      "des": "红鲤鱼与绿鲤鱼(+90食物)=绿驴鱼+红鲤鱼"
+    },
+    {
+      "name": "红蘑菇汤",
+      "share": "1",
+      "name_exif": "红蘑菇+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "30",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "2级耐寒",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hmgthmgnn红蘑菇汤红蘑菇牛奶",
+      "key": "f_hmgthmgnn",
+      "des": "红蘑菇汤(+50食物,+30水分,+2级耐寒buff)=红蘑菇+牛奶"
+    },
+    {
+      "name": "黄焖鸡",
+      "share": "1",
+      "name_exif": "蘑菇+青椒+生鸡腿",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": 0,
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hmjmgqjsjt黄焖鸡蘑菇青椒生鸡腿",
+      "key": "f_hmjmgqjsjt",
+      "des": "黄焖鸡()=蘑菇+青椒+生鸡腿"
+    },
+    {
+      "name": "红烧红鲤鱼",
+      "share": "1",
+      "name_exif": "红鲤鱼+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "hshlyhlyxm红烧红鲤鱼红鲤鱼小麦",
+      "key": "f_hshlyhlyxm",
+      "des": "红烧红鲤鱼(+90食物)=红鲤鱼+小麦"
+    },
+    {
+      "name": "经典汉堡",
+      "share": "1",
+      "name_exif": "烤鸡腿+小麦+西红柿",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "70",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "jdhbkjtxmxhs经典汉堡烤鸡腿小麦西红柿",
+      "key": "f_jdhbkjtxmxhs",
+      "des": "经典汉堡(+70食物)=烤鸡腿+小麦+西红柿"
+    },
+    {
+      "name": "菌类灵鱼汤",
+      "share": "1",
+      "name_exif": "精灵鱼+蘑菇+竹笋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "110",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "110",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "jllytjlymgzs菌类灵鱼汤精灵鱼蘑菇竹笋",
+      "key": "f_jllytjlymgzs",
+      "des": "菌类灵鱼汤(+110食物,+110水分)=精灵鱼+蘑菇+竹笋"
+    },
+    {
+      "name": "吉利虾",
+      "share": "1",
+      "name_exif": "大龙虾+洋葱+胡椒",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "jlxdlxychj吉利虾大龙虾洋葱胡椒",
+      "key": "f_jlxdlxychj",
+      "des": "吉利虾(+100食物)=大龙虾+洋葱+胡椒"
+    },
+    {
+      "name": "鸡排饭团",
+      "share": "1",
+      "name_exif": "烤鸡腿+海带+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "jpftkjthdxm鸡排饭团烤鸡腿海带小麦",
+      "key": "f_jpftkjthdxm",
+      "des": "鸡排饭团(+100食物)=烤鸡腿+海带+小麦"
+    },
+    {
+      "name": "金枪鱼饭团",
+      "share": "1",
+      "name_exif": "金枪鱼+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "75",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "jqyftjqyxm金枪鱼饭团金枪鱼小麦",
+      "key": "f_jqyftjqyxm",
+      "des": "金枪鱼饭团(+75食物)=金枪鱼+小麦"
+    },
+    {
+      "name": "金枪鱼汉堡",
+      "share": "1",
+      "name_exif": "金枪鱼+小麦+西红柿",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "75",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "jqyhbjqyxmxhs金枪鱼汉堡金枪鱼小麦西红柿",
+      "key": "f_jqyhbjqyxmxhs",
+      "des": "金枪鱼汉堡(+75食物)=金枪鱼+小麦+西红柿"
+    },
+    {
+      "name": "鸡肉饭团",
+      "share": "1",
+      "name_exif": "生鸡腿+海带+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "jrftsjthdxm鸡肉饭团生鸡腿海带小麦",
+      "key": "f_jrftsjthdxm",
+      "des": "鸡肉饭团(+90食物)=生鸡腿+海带+小麦"
+    },
+    {
+      "name": "金装水果乐园",
+      "share": "1",
+      "name_exif": "葡萄+草莓+西瓜",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "30",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "50",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "jzsglyptcmxg金装水果乐园葡萄草莓西瓜",
+      "key": "f_jzsglyptcmxg",
+      "des": "金装水果乐园(+30食物,+50水分)=葡萄+草莓+西瓜"
+    },
+    {
+      "name": "烤蛋布丁",
+      "share": "1",
+      "name_exif": "烤鸡蛋+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": 0,
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "kdbdkjdnn烤蛋布丁烤鸡蛋牛奶",
+      "key": "f_kdbdkjdnn",
+      "des": "烤蛋布丁()=烤鸡蛋+牛奶"
+    },
+    {
+      "name": "烤鸡蛋布丁",
+      "share": "1",
+      "name_exif": "烤鸡蛋+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "kjdbdkjdnn烤鸡蛋布丁烤鸡蛋牛奶",
+      "key": "f_kjdbdkjdnn",
+      "des": "烤鸡蛋布丁(+60食物,+10水分)=烤鸡蛋+牛奶"
+    },
+    {
+      "name": "咖哩龟蛋",
+      "share": "1",
+      "name_exif": "洋葱+胡椒+龟蛋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "klgdychjgd咖哩龟蛋洋葱胡椒龟蛋",
+      "key": "f_klgdychjgd",
+      "des": "咖哩龟蛋(+60食物)=洋葱+胡椒+龟蛋"
+    },
+    {
+      "name": "口水鸡",
+      "share": "1",
+      "name_exif": "菠菜+生鸡腿+黄豆",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ksjbcsjthd口水鸡菠菜生鸡腿黄豆",
+      "key": "f_ksjbcsjthd",
+      "des": "口水鸡(+60食物)=菠菜+生鸡腿+黄豆"
+    },
+    {
+      "name": "蓝菇大虾包",
+      "share": "1",
+      "name_exif": "大龙虾+小麦+蓝蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "150",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "2级御寒",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "lgdxbdlxxmlmg蓝菇大虾包大龙虾小麦蓝蘑菇",
+      "key": "f_lgdxbdlxxmlmg",
+      "des": "蓝菇大虾包(食物+150,+2级御寒buff)=大龙虾+小麦+蓝蘑菇"
+    },
+    {
+      "name": "蓝菇小虾包",
+      "share": "1",
+      "name_exif": "小龙虾+小麦+蓝蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "2级耐热",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "lgxxbxlxxmlmg蓝菇小虾包小龙虾小麦蓝蘑菇",
+      "key": "f_lgxxbxlxxmlmg",
+      "des": "蓝菇小虾包(+100食物,+2级耐热buff)=小龙虾+小麦+蓝蘑菇"
+    },
+    {
+      "name": "辣椒炒肉",
+      "share": "1",
+      "name_exif": "生猪排+辣椒",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "70",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "1级耐寒",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ljcrszplj辣椒炒肉生猪排辣椒",
+      "key": "f_ljcrszplj",
+      "des": "辣椒炒肉(+70食物,+1级耐寒buff)=生猪排+辣椒"
+    },
+    {
+      "name": "蓝莓蛋糕",
+      "share": "1",
+      "name_exif": "蓝莓+牛奶+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "-10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "lmdglmnnxm蓝莓蛋糕蓝莓牛奶小麦",
+      "key": "f_lmdglmnnxm",
+      "des": "蓝莓蛋糕(食物+80,水分-10)=蓝莓+牛奶+小麦"
+    },
+    {
+      "name": "蓝蘑菇汤",
+      "share": "1",
+      "name_exif": "蓝蘑菇+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "30",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "2级祛热",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "lmgtlmgnn蓝蘑菇汤蓝蘑菇牛奶",
+      "key": "f_lmgtlmgnn",
+      "des": "蓝蘑菇汤(+50食物,+30水分,+2级祛热buff)=蓝蘑菇+牛奶"
+    },
+    {
+      "name": "蓝莓酱",
+      "share": "1",
+      "name_exif": "蓝莓",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "20",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "lmjlm蓝莓酱蓝莓",
+      "key": "f_lmjlm",
+      "des": "蓝莓酱(+20食物)=蓝莓"
+    },
+    {
+      "name": "蓝莓榔果",
+      "share": "1",
+      "name_exif": "蓝莓+椰子",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "30",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "5",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "lmlglmyz蓝莓榔果蓝莓椰子",
+      "key": "f_lmlglmyz",
+      "des": "蓝莓榔果(+30食物,+5水分)=蓝莓+椰子"
+    },
+    {
+      "name": "蓝莓牛奶",
+      "share": "1",
+      "name_exif": "蓝莓+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "40",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "25",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "lmnnlmnn蓝莓牛奶蓝莓牛奶",
+      "key": "f_lmnnlmnn",
+      "des": "蓝莓牛奶(+40食物,+25水分)=蓝莓+牛奶"
+    },
+    {
+      "name": "蓝莓派",
+      "share": "1",
+      "name_exif": "蓝莓+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "lmplmxm蓝莓派蓝莓小麦",
+      "key": "f_lmplmxm",
+      "des": "蓝莓派(食物+50)=蓝莓+小麦"
+    },
+    {
+      "name": "龙虾小丸子",
+      "share": "1",
+      "name_exif": "大龙虾+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "1级耐力",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "lxxwzdlxxm龙虾小丸子大龙虾小麦",
+      "key": "f_lxxwzdlxxm",
+      "des": "龙虾小丸子(+80食物,+1级耐力buff)=大龙虾+小麦"
+    },
+    {
+      "name": "莲子羊汤",
+      "share": "1",
+      "name_exif": "海带+生羊排+蓝莲",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "lzythdsypll莲子羊汤海带生羊排蓝莲",
+      "key": "f_lzythdsypll",
+      "des": "莲子羊汤(+60食物)=海带+生羊排+蓝莲"
+    },
+    {
+      "name": "蘑菇大虾包",
+      "share": "1",
+      "name_exif": "大龙虾+小麦+蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": 0,
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "2级耐力",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "mgdxbdlxxmmg蘑菇大虾包大龙虾小麦蘑菇",
+      "key": "f_mgdxbdlxxmmg",
+      "des": "蘑菇大虾包(+130物,+2级耐力buff)=大龙虾+小麦+蘑菇"
+    },
+    {
+      "name": "蘑菇小虾包",
+      "share": "1",
+      "name_exif": "小龙虾+小麦+蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "mgxxbxlxxmmg蘑菇小虾包小龙虾小麦蘑菇",
+      "key": "f_mgxxbxlxxmmg",
+      "des": "蘑菇小虾包(+100食物)=小龙虾+小麦+蘑菇"
+    },
+    {
+      "name": "蘑菇猪排",
+      "share": "1",
+      "name_exif": "蘑菇+烤猪排",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": 0,
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "mgzpmgkzp蘑菇猪排蘑菇烤猪排",
+      "key": "f_mgzpmgkzp",
+      "des": "蘑菇猪排()=蘑菇+烤猪排"
+    },
+    {
+      "name": "蜜汗烤羊排",
+      "share": "1",
+      "name_exif": "烤羊排+蜂蜜",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "-10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "mhkypkypfm蜜汗烤羊排烤羊排蜂蜜",
+      "key": "f_mhkypkypfm",
+      "des": "蜜汗烤羊排(+90食物,-10水分)=烤羊排+蜂蜜"
+    },
+    {
+      "name": "麻辣桂鱼",
+      "share": "1",
+      "name_exif": "青椒+桂鱼",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "mlgyqjgy麻辣桂鱼青椒桂鱼",
+      "key": "f_mlgyqjgy",
+      "des": "麻辣桂鱼(+60食物)=青椒+桂鱼"
+    },
+    {
+      "name": "麻辣土豆丝",
+      "share": "1",
+      "name_exif": "辣椒+土豆",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "75",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "mltdsljtd麻辣土豆丝辣椒土豆",
+      "key": "f_mltdsljtd",
+      "des": "麻辣土豆丝(+75食物)=辣椒+土豆"
+    },
+    {
+      "name": "麻辣小龙虾",
+      "share": "1",
+      "name_exif": "烤辣椒+小龙虾",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "2级耐寒",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "mlxlxkljxlx麻辣小龙虾烤辣椒小龙虾",
+      "key": "f_mlxlxkljxlx",
+      "des": "麻辣小龙虾(+100食物,+2级耐寒buff)=烤辣椒+小龙虾"
+    },
+    {
+      "name": "麻婆豆腐",
+      "share": "1",
+      "name_exif": "辣椒+黄豆+生猪排",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "mpdfljhdszp麻婆豆腐辣椒黄豆生猪排",
+      "key": "f_mpdfljhdszp",
+      "des": "麻婆豆腐(+50食物)=辣椒+黄豆+生猪排"
+    },
+    {
+      "name": "鳗鱼饭",
+      "share": "1",
+      "name_exif": "鳗鱼+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "myfmyxm鳗鱼饭鳗鱼小麦",
+      "key": "f_myfmyxm",
+      "des": "鳗鱼饭(+90食物)=鳗鱼+小麦"
+    },
+    {
+      "name": "蜜汁烤羊排",
+      "share": "1",
+      "name_exif": "烤羊排+蜂蜜",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "-10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "mzkypkypfm蜜汁烤羊排烤羊排蜂蜜",
+      "key": "f_mzkypkypfm",
+      "des": "蜜汁烤羊排(+90食物,-10水分)=烤羊排+蜂蜜"
+    },
+    {
+      "name": "南瓜咖喱鸡",
+      "share": "1",
+      "name_exif": "南瓜+烤鸡腿+烤蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "nggljngkjtkmg南瓜咖喱鸡南瓜烤鸡腿烤蘑菇",
+      "key": "f_nggljngkjtkmg",
+      "des": "南瓜咖喱鸡(+60食物)=南瓜+烤鸡腿+烤蘑菇"
+    },
+    {
+      "name": "南瓜咖哩鸡",
+      "share": "1",
+      "name_exif": "南瓜+烤鸡腿+烤蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ngkljngkjtkmg南瓜咖哩鸡南瓜烤鸡腿烤蘑菇",
+      "key": "f_ngkljngkjtkmg",
+      "des": "南瓜咖哩鸡(+60食物)=南瓜+烤鸡腿+烤蘑菇"
+    },
+    {
+      "name": "南瓜小丸子",
+      "share": "1",
+      "name_exif": "南瓜+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ngxwzngxm南瓜小丸子南瓜小麦",
+      "key": "f_ngxwzngxm",
+      "des": "南瓜小丸子(+50食物)=南瓜+小麦"
+    },
+    {
+      "name": "南瓜粥",
+      "share": "1",
+      "name_exif": "南瓜+甘蔗+玉米",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "30",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "30",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ngznggzym南瓜粥南瓜甘蔗玉米",
+      "key": "f_ngznggzym",
+      "des": "南瓜粥(+30食物,+30水分)=南瓜+甘蔗+玉米"
+    },
+    {
+      "name": "牛排饭团",
+      "share": "1",
+      "name_exif": "烤牛排+海带+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "npftknphdxm牛排饭团烤牛排海带小麦",
+      "key": "f_npftknphdxm",
+      "des": "牛排饭团(+100食物)=烤牛排+海带+小麦"
+    },
+    {
+      "name": "牛排汉堡",
+      "share": "1",
+      "name_exif": "烤牛排+小麦+西红柿",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "nphbknpxmxhs牛排汉堡烤牛排小麦西红柿",
+      "key": "f_nphbknpxmxhs",
+      "des": "牛排汉堡(+80食物)=烤牛排+小麦+西红柿"
+    },
+    {
+      "name": "牛肉包",
+      "share": "1",
+      "name_exif": "生牛排+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "85",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "-10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "nrbsnpxm牛肉包生牛排小麦",
+      "key": "f_nrbsnpxm",
+      "des": "牛肉包(+85食物,-10水分)=生牛排+小麦"
+    },
+    {
+      "name": "牛肉饭团",
+      "share": "1",
+      "name_exif": "生牛排+海带+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "nrftsnphdxm牛肉饭团生牛排海带小麦",
+      "key": "f_nrftsnphdxm",
+      "des": "牛肉饭团(+100食物)=生牛排+海带+小麦"
+    },
+    {
+      "name": "奶油蘑菇汤",
+      "share": "1",
+      "name_exif": "牛奶+蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "65",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "30",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "nymgtnnmg奶油蘑菇汤牛奶蘑菇",
+      "key": "f_nymgtnnmg",
+      "des": "奶油蘑菇汤(+65食物,+30水分)=牛奶+蘑菇"
+    },
+    {
+      "name": "苹果派",
+      "share": "1",
+      "name_exif": "苹果+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "pgppgxm苹果派苹果小麦",
+      "key": "f_pgppgxm",
+      "des": "苹果派(食物+50)=苹果+小麦"
+    },
+    {
+      "name": "排骨",
+      "share": "1",
+      "name_exif": "生猪排+番茄",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "65",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "pgszpfq排骨生猪排番茄",
+      "key": "f_pgszpfq",
+      "des": "排骨(+65食物)=生猪排+番茄"
+    },
+    {
+      "name": "培根土豆泥",
+      "share": "1",
+      "name_exif": "蘑菇+土豆",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "pgtdnmgtd培根土豆泥蘑菇土豆",
+      "key": "f_pgtdnmgtd",
+      "des": "培根土豆泥(+80食物)=蘑菇+土豆"
+    },
+    {
+      "name": "蒲烧鳗鱼",
+      "share": "1",
+      "name_exif": "鳗鱼+甘蔗+洋葱",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "psmymygzyc蒲烧鳗鱼鳗鱼甘蔗洋葱",
+      "key": "f_psmymygzyc",
+      "des": "蒲烧鳗鱼(+90食物)=鳗鱼+甘蔗+洋葱"
+    },
+    {
+      "name": "葡萄奶酥",
+      "share": "1",
+      "name_exif": "葡萄+牛奶+鸡蛋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ptnsptnnjd葡萄奶酥葡萄牛奶鸡蛋",
+      "key": "f_ptnsptnnjd",
+      "des": "葡萄奶酥(+50食物)=葡萄+牛奶+鸡蛋"
+    },
+    {
+      "name": "青椒炒鸡蛋",
+      "share": "1",
+      "name_exif": "青椒+生鸡蛋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "qjcjdqjsjd青椒炒鸡蛋青椒生鸡蛋",
+      "key": "f_qjcjdqjsjd",
+      "des": "青椒炒鸡蛋(+50食物,+2级御寒)=青椒+生鸡蛋"
+    },
+    {
+      "name": "巧克力蛋糕",
+      "share": "1",
+      "name_exif": "可可豆+牛奶+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "-10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "qkldgkkdnnxm巧克力蛋糕可可豆牛奶小麦",
+      "key": "f_qkldgkkdnnxm",
+      "des": "巧克力蛋糕(食物+80,水分-10)=可可豆+牛奶+小麦"
+    },
+    {
+      "name": "巧克力酱",
+      "share": "1",
+      "name_exif": "可可豆",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "30",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "qkljkkd巧克力酱可可豆",
+      "key": "f_qkljkkd",
+      "des": "巧克力酱(食物+30)=可可豆"
+    },
+    {
+      "name": "巧克力牛奶",
+      "share": "1",
+      "name_exif": "可可豆+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "40",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "25",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "qklnnkkdnn巧克力牛奶可可豆牛奶",
+      "key": "f_qklnnkkdnn",
+      "des": "巧克力牛奶(+40食物,+25水分)=可可豆+牛奶"
+    },
+    {
+      "name": "巧克力曲奇饼",
+      "share": "1",
+      "name_exif": "可可豆+小麦+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "qklqqbkkdxmnn巧克力曲奇饼可可豆小麦牛奶",
+      "key": "f_qklqqbkkdxmnn",
+      "des": "巧克力曲奇饼(+50食物)=可可豆+小麦+牛奶"
+    },
+    {
+      "name": "巧克力椰果",
+      "share": "1",
+      "name_exif": "可可豆+椰子",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "30",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "qklygkkdyz巧克力椰果可可豆椰子",
+      "key": "f_qklygkkdyz",
+      "des": "巧克力椰果(食物+30)=可可豆+椰子"
+    },
+    {
+      "name": "清蒸大龙虾",
+      "share": "1",
+      "name_exif": "大龙虾+番茄+烤南瓜",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "qzdlxdlxfqkng清蒸大龙虾大龙虾番茄烤南瓜",
+      "key": "f_qzdlxdlxfqkng",
+      "des": "清蒸大龙虾(+100食物)=大龙虾+番茄+烤南瓜"
+    },
+    {
+      "name": "清蒸绿驴鱼",
+      "share": "1",
+      "name_exif": "绿驴鱼+土豆",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "qzllyllytd清蒸绿驴鱼绿驴鱼土豆",
+      "key": "f_qzllyllytd",
+      "des": "清蒸绿驴鱼(+90食物)=绿驴鱼+土豆"
+    },
+    {
+      "name": "肉酱土豆泥",
+      "share": "1",
+      "name_exif": "烤猪排+烤土豆+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "150",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "rjtdnkzpktdnn肉酱土豆泥烤猪排烤土豆牛奶",
+      "key": "f_rjtdnkzpktdnn",
+      "des": "肉酱土豆泥(+150食物)=烤猪排+烤土豆+牛奶"
+    },
+    {
+      "name": "肉松贝贝",
+      "share": "1",
+      "name_exif": "小麦+黄豆+生猪排",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "rsbbxmhdszp肉松贝贝小麦黄豆生猪排",
+      "key": "f_rsbbxmhdszp",
+      "des": "肉松贝贝(+60食物)=小麦+黄豆+生猪排"
+    },
+    {
+      "name": "扇贝蒸蛋",
+      "share": "1",
+      "name_exif": "小扇贝+生鸡蛋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "sbzdxsbsjd扇贝蒸蛋小扇贝生鸡蛋",
+      "key": "f_sbzdxsbsjd",
+      "des": "扇贝蒸蛋(+60食物)=小扇贝+生鸡蛋"
+    },
+    {
+      "name": "蔬菜串烧",
+      "share": "1",
+      "name_exif": "烤苹果+烤香蕉+烤玉米",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "sccskpgkxjkym蔬菜串烧烤苹果烤香蕉烤玉米",
+      "key": "f_sccskpgkxjkym",
+      "des": "蔬菜串烧(+50食物,+10水分)=烤苹果+烤香蕉+烤玉米"
+    },
+    {
+      "name": "松果蛋糕",
+      "share": "1",
+      "name_exif": "松果+小麦+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "-10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "sgdgsgxmnn松果蛋糕松果小麦牛奶",
+      "key": "f_sgdgsgxmnn",
+      "des": "松果蛋糕(+80食物,-10水分)=松果+小麦+牛奶"
+    },
+    {
+      "name": "丝滑铁肘子",
+      "share": "1",
+      "name_exif": "胡椒+黄豆+生猪排",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "shtzzhjhdszp丝滑铁肘子胡椒黄豆生猪排",
+      "key": "f_shtzzhjhdszp",
+      "des": "丝滑铁肘子(+60食物)=胡椒+黄豆+生猪排"
+    },
+    {
+      "name": "什锦河豚肉丁",
+      "share": "1",
+      "name_exif": "玉米+胡萝卜+河豚",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "sjhtrdymhlbht什锦河豚肉丁玉米胡萝卜河豚",
+      "key": "f_sjhtrdymhlbht",
+      "des": "什锦河豚肉丁(+60食物)=玉米+胡萝卜+河豚"
+    },
+    {
+      "name": "笋酿",
+      "share": "1",
+      "name_exif": "竹笋+蘑菇+生猪排",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "70",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "snzsmgszp笋酿竹笋蘑菇生猪排",
+      "key": "f_snzsmgszp",
+      "des": "笋酿(+70食物)=竹笋+蘑菇+生猪排"
+    },
+    {
+      "name": "双皮奶",
+      "share": "1",
+      "name_exif": "甘蔗+鸡蛋+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "30",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "30",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "spngzjdnn双皮奶甘蔗鸡蛋牛奶",
+      "key": "f_spngzjdnn",
+      "des": "双皮奶(+30食物,+30水分)=甘蔗+鸡蛋+牛奶"
+    },
+    {
+      "name": "松仁玉米",
+      "share": "1",
+      "name_exif": "松果+胡萝卜+玉米",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "srymsghlbym松仁玉米松果胡萝卜玉米",
+      "key": "f_srymsghlbym",
+      "des": "松仁玉米(+60食物)=松果+胡萝卜+玉米"
+    },
+    {
+      "name": "松鼠桂鱼",
+      "share": "1",
+      "name_exif": "桂鱼+香蕉+蜂蜜",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": 0,
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ssgygyxjfm松鼠桂鱼桂鱼香蕉蜂蜜",
+      "key": "f_ssgygyxjfm",
+      "des": "松鼠桂鱼()=桂鱼+香蕉+蜂蜜"
+    },
+    {
+      "name": "薯条",
+      "share": "1",
+      "name_exif": "番茄+土豆",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "-10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "stfqtd薯条番茄土豆",
+      "key": "f_stfqtd",
+      "des": "薯条(+50食物,-10水分)=番茄+土豆"
+    },
+    {
+      "name": "酸汤桂鱼",
+      "share": "1",
+      "name_exif": "桂鱼+番茄+蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "stgygyfqmg酸汤桂鱼桂鱼番茄蘑菇",
+      "key": "f_stgygyfqmg",
+      "des": "酸汤桂鱼(+90食物)=桂鱼+番茄+蘑菇"
+    },
+    {
+      "name": "三文鱼刺身",
+      "share": "1",
+      "name_exif": "三文鱼+西红柿",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "65",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "swycsswyxhs三文鱼刺身三文鱼西红柿",
+      "key": "f_swycsswyxhs",
+      "des": "三文鱼刺身(+65食物)=三文鱼+西红柿"
+    },
+    {
+      "name": "三文鱼汉堡",
+      "share": "1",
+      "name_exif": "三文鱼+小麦+西红柿",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "swyhbswyxmxhs三文鱼汉堡三文鱼小麦西红柿",
+      "key": "f_swyhbswyxmxhs",
+      "des": "三文鱼汉堡(+100食物)=三文鱼+小麦+西红柿"
+    },
+    {
+      "name": "三文鱼通心粉",
+      "share": "1",
+      "name_exif": "三文鱼+牛奶+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "120",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "2级耐力",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "swytxfswynnxm三文鱼通心粉三文鱼牛奶小麦",
+      "key": "f_swytxfswynnxm",
+      "des": "三文鱼通心粉(+120食物,+2级耐力buff)=三文鱼+牛奶+小麦"
+    },
+    {
+      "name": "糖酥鲤鱼",
+      "share": "1",
+      "name_exif": "鲤鱼+甘蔗",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "tslylygz糖酥鲤鱼鲤鱼甘蔗",
+      "key": "f_tslylygz",
+      "des": "糖酥鲤鱼(+50食物)=鲤鱼+甘蔗"
+    },
+    {
+      "name": "问政山笋",
+      "share": "1",
+      "name_exif": "竹笋+洋葱+蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "wzsszsycmg问政山笋竹笋洋葱蘑菇",
+      "key": "f_wzsszsycmg",
+      "des": "问政山笋(+60食物)=竹笋+洋葱+蘑菇"
+    },
+    {
+      "name": "小贝披萨",
+      "share": "1",
+      "name_exif": "小扇贝+小麦+青椒",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "40",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xbpsxsbxmqj小贝披萨小扇贝小麦青椒",
+      "key": "f_xbpsxsbxmqj",
+      "des": "小贝披萨(+40食物)=小扇贝+小麦+青椒"
+    },
+    {
+      "name": "虾兵蟹将",
+      "share": "1",
+      "name_exif": "小龙虾+大闸蟹",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "120",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xbxjxlxdzx虾兵蟹将小龙虾大闸蟹",
+      "key": "f_xbxjxlxdzx",
+      "des": "虾兵蟹将(+120食物)=小龙虾+大闸蟹"
+    },
+    {
+      "name": "西瓜沙冰",
+      "share": "1",
+      "name_exif": "西瓜+蜂蜜",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "40",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "2级祛热",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xgsbxgfm西瓜沙冰西瓜蜂蜜",
+      "key": "f_xgsbxgfm",
+      "des": "西瓜沙冰(+40食物,+2级祛热buff)=西瓜+蜂蜜"
+    },
+    {
+      "name": "小哈拉",
+      "share": "1",
+      "name_exif": "小麦+黄豆+鸡蛋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xhlxmhdjd小哈拉小麦黄豆鸡蛋",
+      "key": "f_xhlxmhdjd",
+      "des": "小哈拉(+60食物)=小麦+黄豆+鸡蛋"
+    },
+    {
+      "name": "西红柿炒蛋",
+      "share": "1",
+      "name_exif": "西红柿+生鸡蛋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xhscdxhssjd西红柿炒蛋西红柿生鸡蛋",
+      "key": "f_xhscdxhssjd",
+      "des": "西红柿炒蛋(+60食物)=西红柿+生鸡蛋"
+    },
+    {
+      "name": "西红柿羊肉面",
+      "share": "1",
+      "name_exif": "西红柿+生羊排+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "70",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "20",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xhsyrmxhssypxm西红柿羊肉面西红柿生羊排小麦",
+      "key": "f_xhsyrmxhssypxm",
+      "des": "西红柿羊肉面(+70食物,+20水分)=西红柿+生羊排+小麦"
+    },
+    {
+      "name": "小鸡炖蘑菇",
+      "share": "1",
+      "name_exif": "生鸡腿+蘑菇",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xjdmgsjtmg小鸡炖蘑菇生鸡腿蘑菇",
+      "key": "f_xjdmgsjtmg",
+      "des": "小鸡炖蘑菇(+60食物)=生鸡腿+蘑菇"
+    },
+    {
+      "name": "香蕉牛奶",
+      "share": "1",
+      "name_exif": "香蕉+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "40",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "25",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xjnnxjnn香蕉牛奶香蕉牛奶",
+      "key": "f_xjnnxjnn",
+      "des": "香蕉牛奶(+40食物,+25水分)=香蕉+牛奶"
+    },
+    {
+      "name": "香煎牛排",
+      "share": "1",
+      "name_exif": "生牛排+番茄",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "65",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xjnpsnpfq香煎牛排生牛排番茄",
+      "key": "f_xjnpsnpfq",
+      "des": "香煎牛排(+65食物)=生牛排+番茄"
+    },
+    {
+      "name": "香煎土豆饼",
+      "share": "1",
+      "name_exif": "小麦+土豆",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xjtdbxmtd香煎土豆饼小麦土豆",
+      "key": "f_xjtdbxmtd",
+      "des": "香煎土豆饼(+60食物)=小麦+土豆"
+    },
+    {
+      "name": "香辣小龙虾",
+      "share": "1",
+      "name_exif": "辣椒+小龙虾",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "90",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xlxlxljxlx香辣小龙虾辣椒小龙虾",
+      "key": "f_xlxlxljxlx",
+      "des": "香辣小龙虾(+90食物)=辣椒+小龙虾"
+    },
+    {
+      "name": "小龙虾鱼饵",
+      "share": "1",
+      "name_exif": "小龙虾+饲喂料小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "120",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "60",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xlxyexlxswlxm小龙虾鱼饵小龙虾饲喂料小麦",
+      "key": "f_xlxyexlxswlxm",
+      "des": "小龙虾鱼饵(+120食物,+60水分)=小龙虾+饲喂料小麦"
+    },
+    {
+      "name": "西米露",
+      "share": "1",
+      "name_exif": "椰子+小麦+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "30",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xmlyzxmnn西米露椰子小麦牛奶",
+      "key": "f_xmlyzxmnn",
+      "des": "西米露(+60食物,+30水分)=椰子+小麦+牛奶"
+    },
+    {
+      "name": "下品菠菜炒蛋",
+      "share": "1",
+      "name_exif": "菠菜+生鸡蛋",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xpbccdbcsjd下品菠菜炒蛋菠菜生鸡蛋",
+      "key": "f_xpbccdbcsjd",
+      "des": "下品菠菜炒蛋(+60食物)=菠菜+生鸡蛋"
+    },
+    {
+      "name": "香酥鱼片",
+      "share": "1",
+      "name_exif": "鲶鱼+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xsypnyxm香酥鱼片鲶鱼小麦",
+      "key": "f_xsypnyxm",
+      "des": "香酥鱼片(+60食物)=鲶鱼+小麦"
+    },
+    {
+      "name": "辛香汇钵钵鸡",
+      "share": "1",
+      "name_exif": "朝天椒+胡椒+生鸡腿",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "50",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "2级耐寒",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xxhbbjctjhjsjt辛香汇钵钵鸡朝天椒胡椒生鸡腿",
+      "key": "f_xxhbbjctjhjsjt",
+      "des": "辛香汇钵钵鸡(+50食物,+2级耐寒buff)=朝天椒+胡椒+生鸡腿"
+    },
+    {
+      "name": "辛香汇水煮鱼",
+      "share": "1",
+      "name_exif": "洋葱+朝天椒+鲶鱼",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "40",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xxhszyycctjny辛香汇水煮鱼洋葱朝天椒鲶鱼",
+      "key": "f_xxhszyycctjny",
+      "des": "辛香汇水煮鱼(+40食物)=洋葱+朝天椒+鲶鱼"
+    },
+    {
+      "name": "鲜虾酿豆腐",
+      "share": "1",
+      "name_exif": "黄豆+小龙虾+蜂蜜",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xxndfhdxlxfm鲜虾酿豆腐黄豆小龙虾蜂蜜",
+      "key": "f_xxndfhdxlxfm",
+      "des": "鲜虾酿豆腐(+60食物)=黄豆+小龙虾+蜂蜜"
+    },
+    {
+      "name": "鲜芋仙芋圆4号",
+      "share": "1",
+      "name_exif": "芋头+红豆",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "30",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "60",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xyxyy4hythd鲜芋仙芋圆4号芋头红豆",
+      "key": "f_xyxyy4hythd",
+      "des": "鲜芋仙芋圆4号(+30食物,+60水分)=芋头+红豆"
+    },
+    {
+      "name": "香芋蒸排骨",
+      "share": "1",
+      "name_exif": "芋头+生猪排",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xyzpgytszp香芋蒸排骨芋头生猪排",
+      "key": "f_xyzpgytszp",
+      "des": "香芋蒸排骨(+80食物)=芋头+生猪排"
+    },
+    {
+      "name": "香炸龙虾球",
+      "share": "1",
+      "name_exif": "小龙虾+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xzlxqxlxxm香炸龙虾球小龙虾小麦",
+      "key": "f_xzlxqxlxxm",
+      "des": "香炸龙虾球(+100食物)=小龙虾+小麦"
+    },
+    {
+      "name": "香炸蟹腿",
+      "share": "1",
+      "name_exif": "大闸蟹+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "xzxtdzxxm香炸蟹腿大闸蟹小麦",
+      "key": "f_xzxtdzxxm",
+      "des": "香炸蟹腿(+100食物)=大闸蟹+小麦"
+    },
+    {
+      "name": "玉米猪排",
+      "share": "1",
+      "name_exif": "生猪排+玉米",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "60",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ymzpszpym玉米猪排生猪排玉米",
+      "key": "f_ymzpszpym",
+      "des": "玉米猪排(+60食物)=生猪排+玉米"
+    },
+    {
+      "name": "椰奶",
+      "share": "1",
+      "name_exif": "椰子+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "40",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "25",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ynyznn椰奶椰子牛奶",
+      "key": "f_ynyznn",
+      "des": "椰奶(+40食物,+25水分)=椰子+牛奶"
+    },
+    {
+      "name": "羊排饭团",
+      "share": "1",
+      "name_exif": "烤羊排+海带+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ypftkyphdxm羊排饭团烤羊排海带小麦",
+      "key": "f_ypftkyphdxm",
+      "des": "羊排饭团(+100食物)=烤羊排+海带+小麦"
+    },
+    {
+      "name": "羊排汤",
+      "share": "1",
+      "name_exif": "生羊排+胡萝卜",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "65",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "30",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "yptsyphlb羊排汤生羊排胡萝卜",
+      "key": "f_yptsyphlb",
+      "des": "羊排汤(+65食物,+30水分)=生羊排+胡萝卜"
+    },
+    {
+      "name": "芋头牛奶",
+      "share": "1",
+      "name_exif": "芋头+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "40",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "40",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ytnnytnn芋头牛奶芋头牛奶",
+      "key": "f_ytnnytnn",
+      "des": "芋头牛奶(+40食物,+40水分)=芋头+牛奶"
+    },
+    {
+      "name": "野味汉堡",
+      "share": "1",
+      "name_exif": "烤野味+小麦+西红柿",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ywhbkywxmxhs野味汉堡烤野味小麦西红柿",
+      "key": "f_ywhbkywxmxhs",
+      "des": "野味汉堡(+80食物)=烤野味+小麦+西红柿"
+    },
+    {
+      "name": "野味肉包",
+      "share": "1",
+      "name_exif": "野味肉块+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "85",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "-10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "ywrbywrkxm野味肉包野味肉块小麦",
+      "key": "f_ywrbywrkxm",
+      "des": "野味肉包(+85食物,-10水分)=野味肉块+小麦"
+    },
+    {
+      "name": "鱿鱼汉堡",
+      "share": "1",
+      "name_exif": "烤章鱼+小麦+西红柿",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "yyhbkzyxmxhs鱿鱼汉堡烤章鱼小麦西红柿",
+      "key": "f_yyhbkzyxmxhs",
+      "des": "鱿鱼汉堡(+80食物)=烤章鱼+小麦+西红柿"
+    },
+    {
+      "name": "猪排汉堡",
+      "share": "1",
+      "name_exif": "烤猪排+小麦+西红柿",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "zphbkzpxmxhs猪排汉堡烤猪排小麦西红柿",
+      "key": "f_zphbkzpxmxhs",
+      "des": "猪排汉堡(+80食物)=烤猪排+小麦+西红柿"
+    },
+    {
+      "name": "猪排厚蛋烧",
+      "share": "1",
+      "name_exif": "烤猪排+生鸡蛋+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "40",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "zphdskzpsjdxm猪排厚蛋烧烤猪排生鸡蛋小麦",
+      "key": "f_zphdskzpsjdxm",
+      "des": "猪排厚蛋烧(+40食物)=烤猪排+生鸡蛋+小麦"
+    },
+    {
+      "name": "猪肉包",
+      "share": "1",
+      "name_exif": "生猪排+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "85",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "-10",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "zrbszpxm猪肉包生猪排小麦",
+      "key": "f_zrbszpxm",
+      "des": "猪肉包(+85食物,-10水分)=生猪排+小麦"
+    },
+    {
+      "name": "猪肉饭团",
+      "share": "1",
+      "name_exif": "生猪排+海带+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "100",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "zrftszphdxm猪肉饭团生猪排海带小麦",
+      "key": "f_zrftszphdxm",
+      "des": "猪肉饭团(+100食物)=生猪排+海带+小麦"
+    },
+    {
+      "name": "芝士焗蟹",
+      "share": "1",
+      "name_exif": "蜂蜜+帝王蟹+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "zsjxfmdwxnn芝士焗蟹蜂蜜帝王蟹牛奶",
+      "key": "f_zsjxfmdwxnn",
+      "des": "芝士焗蟹(+80食物)=蜂蜜+帝王蟹+牛奶"
+    },
+    {
+      "name": "章鱼小丸子",
+      "share": "1",
+      "name_exif": "烤章鱼+小麦",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "80",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": 0,
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "zyxwzkzyxm章鱼小丸子烤章鱼小麦",
+      "key": "f_zyxwzkzyxm",
+      "des": "章鱼小丸子(+80食物)=烤章鱼+小麦"
+    },
+    {
+      "name": "珍珠奶茶",
+      "share": "1",
+      "name_exif": "可可豆+红豆+牛奶",
+      "sort_prop": [
+        {
+          "name": "食物",
+          "value": "40",
+          "cover": "img/w_food.png"
+        },
+        {
+          "name": "水分",
+          "value": "25",
+          "cover": "img/w_water.png"
+        },
+        {
+          "name": "buff",
+          "value": "",
+          "cover": "img/w_buff.png"
+        }
+      ],
+      "pinyin": "zznckkdhdnn珍珠奶茶可可豆红豆牛奶",
+      "key": "f_zznckkdhdnn",
+      "des": "珍珠奶茶(+40食物,+25水分)=可可豆+红豆+牛奶"
+    }
+  ],
+  "version": 0,
+  "filter": [
+    "全部",
+    "排",
+    "椒",
+    "瓜",
+    "莲",
+    "菇",
+    "蛋",
+    "蟹",
+    "豆",
+    "鱼",
+    "野味",
+    "芋头",
+    "牛奶",
+    "椰子",
+    "海带",
+    "松果",
+    "苹果",
+    "竹笋",
+    "玉米",
+    "猪肉",
+    "鸡腿",
+    "番茄",
+    "草莓",
+    "蓝莓",
+    "菠菜",
+    "葡萄",
+    "洋葱",
+    "甘蔗",
+    "香蕉",
+    "龙虾",
+    "蜂蜜",
+    "河豚",
+    "扇贝",
+    "小麦",
+    "胡萝卜",
+    "西红柿",
+    "象拔蚌"
+  ],
+  "sort": [
+    "食物",
+    "水分",
+    "buff"
+  ]
+}
