@@ -1,0 +1,115 @@
+name: Flutter Build and Release
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'zulu'
+        java-version: '17'
+        
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.24.0'
+        channel: 'stable'
+        
+    - name: Get dependencies
+      run: flutter pub get
+      
+    - name: Analyze code
+      run: flutter analyze
+      continue-on-error: true
+      
+    - name: Build APK
+      run: flutter build apk --release
+      
+    - name: Build App Bundle
+      run: flutter build appbundle --release
+      
+    - name: Get version
+      id: version
+      run: |
+        VERSION=$(grep 'version:' pubspec.yaml | sed 's/version: //' | tr -d ' ')
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+        echo "Version: $VERSION"
+        
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: v${{ steps.version.outputs.version }}-${{ github.run_number }}
+        release_name: Release v${{ steps.version.outputs.version }} Build ${{ github.run_number }}
+        body: |
+          ## 创造与魔法助手 - 自动构建
+          
+          ### 版本信息
+          - 版本号: ${{ steps.version.outputs.version }}
+          - 构建号: ${{ github.run_number }}
+          - 提交: ${{ github.sha }}
+          
+          ### 下载说明
+          - **app-release.apk**: 标准APK安装包
+          - **app-release.aab**: Google Play应用包
+          
+          ### 功能特性
+          - 🎨 青绿色主题设计
+          - 🗺️ 交互式地图（4559个坐标点）
+          - 🍳 食谱系统（157个食谱，支持关键词关联）
+          - 📦 物品资料（161条）
+          - 🐾 宠物系统（135条）
+          - 🏗️ 建筑图纸（144条）
+          
+          ### 安装方法
+          1. 下载 app-release.apk
+          2. 在Android设备上安装
+          3. 允许未知来源安装
+        draft: false
+        prerelease: false
+        
+    - name: Upload APK to Release
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: build/app/outputs/flutter-apk/app-release.apk
+        asset_name: czymf-map-v${{ steps.version.outputs.version }}-build${{ github.run_number }}.apk
+        asset_content_type: application/vnd.android.package-archive
+        
+    - name: Upload App Bundle to Release
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: build/app/outputs/bundle/release/app-release.aab
+        asset_name: czymf-map-v${{ steps.version.outputs.version }}-build${{ github.run_number }}.aab
+        asset_content_type: application/octet-stream
+        
+    - name: Upload APK as Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: apk-release
+        path: build/app/outputs/flutter-apk/app-release.apk
+        
+    - name: Upload App Bundle as Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: aab-release
+        path: build/app/outputs/bundle/release/app-release.aab
