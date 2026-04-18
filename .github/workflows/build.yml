@@ -26,6 +26,10 @@ jobs:
       with:
         flutter-version: '3.24.0'
         channel: 'stable'
+        cache: true
+        
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v3
         
     - name: Generate Keystore
       run: |
@@ -53,10 +57,10 @@ jobs:
       continue-on-error: true
       
     - name: Build APK
-      run: flutter build apk --release
+      run: flutter build apk --release --verbose
       
     - name: Build App Bundle
-      run: flutter build appbundle --release
+      run: flutter build appbundle --release --verbose
       
     - name: Get version
       id: version
