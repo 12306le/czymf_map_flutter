@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'final_map_screen.dart';
 import 'recipes_screen.dart';
+import 'items_screen.dart';
+import 'pets_screen.dart';
+import 'builds_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -15,9 +18,9 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Widget> _screens = const [
     FinalMapScreen(),
     RecipesScreen(),
-    PlaceholderScreen(title: '物品'),
-    PlaceholderScreen(title: '宠物'),
-    PlaceholderScreen(title: '图纸'),
+    ItemsScreen(),
+    PetsScreen(),
+    BuildsScreen(),
   ];
 
   @override
@@ -53,39 +56,6 @@ class _HomeScreenState extends State<HomeScreen> {
             label: '图纸',
           ),
         ],
-      ),
-    );
-  }
-}
-
-class PlaceholderScreen extends StatelessWidget {
-  final String title;
-
-  const PlaceholderScreen({super.key, required this.title});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text(title)),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              Icons.construction,
-              size: 64,
-              color: Colors.grey[400],
-            ),
-            const SizedBox(height: 16),
-            Text(
-              '$title功能开发中...',
-              style: TextStyle(
-                fontSize: 18,
-                color: Colors.grey[600],
-              ),
-            ),
-          ],
-        ),
       ),
     );
   }
