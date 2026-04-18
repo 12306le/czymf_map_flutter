@@ -60,10 +60,30 @@ jobs:
       continue-on-error: true
       
     - name: Build APK
-      run: flutter build apk --release --verbose
-      
+      run: |
+        for attempt in 1 2 3 4 5; do
+          echo "=== Build APK attempt $attempt ==="
+          if flutter build apk --release --verbose; then
+            exit 0
+          fi
+          echo "Attempt $attempt failed; sleeping $((attempt * 15))s before retry..."
+          sleep $((attempt * 15))
+        done
+        echo "All attempts to build APK failed."
+        exit 1
+
     - name: Build App Bundle
-      run: flutter build appbundle --release --verbose
+      run: |
+        for attempt in 1 2 3 4 5; do
+          echo "=== Build App Bundle attempt $attempt ==="
+          if flutter build appbundle --release --verbose; then
+            exit 0
+          fi
+          echo "Attempt $attempt failed; sleeping $((attempt * 15))s before retry..."
+          sleep $((attempt * 15))
+        done
+        echo "All attempts to build App Bundle failed."
+        exit 1
       
     - name: Get version
       id: version
