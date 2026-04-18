@@ -39,7 +39,7 @@ jobs:
         storePassword=android
         keyPassword=android
         keyAlias=upload
-        storeFile=upload-keystore.jks
+        storeFile=app/upload-keystore.jks
         EOF
         
     - name: Get dependencies
