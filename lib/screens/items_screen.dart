@@ -11,6 +11,7 @@ class ItemsScreen extends StatelessWidget {
       assetPath: 'assets/data/items_decoded.json',
       emptyIcon: Icons.inventory_2,
       searchHint: '搜索物品...',
+      maxCrossAxisExtent: 110, // 4 列
     );
   }
 }

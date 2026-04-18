@@ -11,6 +11,7 @@ class BuildsScreen extends StatelessWidget {
       assetPath: 'assets/data/builds_decoded.json',
       emptyIcon: Icons.home_work,
       searchHint: '搜索建筑...',
+      maxCrossAxisExtent: 170,
     );
   }
 }

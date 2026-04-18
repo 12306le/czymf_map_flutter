@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import '../models/game_entry.dart';
 import '../services/game_entry_service.dart';
 import '../theme/app_theme.dart';
+import '../utils/html_content_parser.dart';
 import '../widgets/entry_image.dart';
+import '../widgets/html_content_view.dart';
 
 /// 通用的游戏条目网格页（物品 / 宠物 / 建筑共用 UI）
 class EntryListScreen extends StatefulWidget {
@@ -11,6 +13,9 @@ class EntryListScreen extends StatefulWidget {
   final IconData emptyIcon;
   final bool showFilter;
   final String searchHint;
+
+  /// 网格卡片最大宽度：物品建议 130（4 列），pets/builds 建议 180（2-3 列）
+  final double maxCrossAxisExtent;
 
   /// 自定义每个条目的副标题（卡片上显示）。可选。
   final String Function(GameEntry entry)? subtitleBuilder;
@@ -22,6 +27,7 @@ class EntryListScreen extends StatefulWidget {
     this.emptyIcon = Icons.inventory_2,
     this.showFilter = true,
     this.searchHint = '搜索名称...',
+    this.maxCrossAxisExtent = 180,
     this.subtitleBuilder,
   });
 
@@ -182,8 +188,8 @@ class _EntryListScreenState extends State<EntryListScreen> {
     }
     return GridView.builder(
       padding: const EdgeInsets.all(8),
-      gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-        maxCrossAxisExtent: 190,
+      gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+        maxCrossAxisExtent: widget.maxCrossAxisExtent,
         mainAxisSpacing: 8,
         crossAxisSpacing: 8,
         childAspectRatio: 0.78,
@@ -195,6 +201,7 @@ class _EntryListScreenState extends State<EntryListScreen> {
           entry: entry,
           subtitle: widget.subtitleBuilder?.call(entry),
           emptyIcon: widget.emptyIcon,
+          compact: widget.maxCrossAxisExtent < 150,
           onTap: () => _showDetail(entry),
         );
       },
@@ -253,6 +260,7 @@ class _EntryCard extends StatelessWidget {
   final GameEntry entry;
   final String? subtitle;
   final IconData emptyIcon;
+  final bool compact;
   final VoidCallback onTap;
 
   const _EntryCard({
@@ -260,6 +268,7 @@ class _EntryCard extends StatelessWidget {
     required this.onTap,
     required this.emptyIcon,
     this.subtitle,
+    this.compact = false,
   });
 
   @override
@@ -282,7 +291,9 @@ class _EntryCard extends StatelessWidget {
                       fallbackIcon: emptyIcon,
                     ),
                   ),
-                  if (entry.filter != null && entry.filter!.isNotEmpty)
+                  if (!compact &&
+                      entry.filter != null &&
+                      entry.filter!.isNotEmpty)
                     Positioned(
                       top: 6,
                       left: 6,
@@ -308,7 +319,10 @@ class _EntryCard extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+              padding: EdgeInsets.symmetric(
+                horizontal: compact ? 6 : 8,
+                vertical: compact ? 4 : 6,
+              ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -316,12 +330,12 @@ class _EntryCard extends StatelessWidget {
                     entry.name,
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
-                    style: const TextStyle(
-                      fontSize: 14,
+                    style: TextStyle(
+                      fontSize: compact ? 12 : 14,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
-                  if (subtitle != null && subtitle!.isNotEmpty)
+                  if (!compact && subtitle != null && subtitle!.isNotEmpty)
                     Padding(
                       padding: const EdgeInsets.only(top: 2),
                       child: Text(
@@ -354,6 +368,7 @@ class _EntryDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final sections = HtmlContentParser.parse(entry.html);
     return Scaffold(
       appBar: AppBar(title: Text(entry.name)),
       body: ListView(
@@ -433,12 +448,7 @@ class _EntryDetailScreen extends StatelessWidget {
                   ),
                 ],
                 const SizedBox(height: 16),
-                SelectableText(
-                  entry.cleanedText.isNotEmpty
-                      ? entry.cleanedText
-                      : '暂无详细描述',
-                  style: const TextStyle(fontSize: 15, height: 1.6),
-                ),
+                HtmlContentView(sections: sections),
               ],
             ),
           ),

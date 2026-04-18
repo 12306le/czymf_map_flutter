@@ -12,6 +12,7 @@ class PetsScreen extends StatelessWidget {
       assetPath: 'assets/data/creationmagic_pet_food_decoded.json',
       emptyIcon: Icons.pets,
       searchHint: '搜索宠物 / 饲料...',
+      maxCrossAxisExtent: 170,
       subtitleBuilder: (GameEntry entry) => entry.nameExif ?? '',
     );
   }

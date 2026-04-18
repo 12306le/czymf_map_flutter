@@ -29,6 +29,9 @@ dependencies:
   # UI组件
   cupertino_icons: ^1.0.6
 
+  # 远程图缓存（物品/宠物/建筑详情页图片）
+  cached_network_image: ^3.3.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

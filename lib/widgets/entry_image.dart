@@ -1,7 +1,8 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import '../models/game_entry.dart';
 
-/// 通用条目图片组件：优先本地图，其次网络图，最后占位图标
+/// 通用条目图片：优先本地 asset，失败回退到远程图（带缓存），再失败显示占位
 class EntryImage extends StatelessWidget {
   final GameEntry entry;
   final double? width;
@@ -32,6 +33,15 @@ class EntryImage extends StatelessWidget {
           ),
         );
 
+    Widget remoteImage(String url) => CachedNetworkImage(
+          imageUrl: url,
+          width: width,
+          height: height,
+          fit: fit,
+          placeholder: (_, __) => placeholder(),
+          errorWidget: (_, __, ___) => placeholder(),
+        );
+
     if (local != null) {
       return Image.asset(
         local,
@@ -39,33 +49,11 @@ class EntryImage extends StatelessWidget {
         height: height,
         fit: fit,
         cacheWidth: width != null ? (width! * 2).toInt() : null,
-        errorBuilder: (_, __, ___) {
-          if (network != null) {
-            return Image.network(
-              network,
-              width: width,
-              height: height,
-              fit: fit,
-              errorBuilder: (_, __, ___) => placeholder(),
-              loadingBuilder: (context, child, progress) =>
-                  progress == null ? child : placeholder(),
-            );
-          }
-          return placeholder();
-        },
+        errorBuilder: (_, __, ___) =>
+            network != null ? remoteImage(network) : placeholder(),
       );
     }
-    if (network != null) {
-      return Image.network(
-        network,
-        width: width,
-        height: height,
-        fit: fit,
-        errorBuilder: (_, __, ___) => placeholder(),
-        loadingBuilder: (context, child, progress) =>
-            progress == null ? child : placeholder(),
-      );
-    }
+    if (network != null) return remoteImage(network);
     return placeholder();
   }
 }

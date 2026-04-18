@@ -5,6 +5,8 @@ import '../providers/map_provider.dart';
 import '../services/recipe_service.dart';
 import '../theme/app_theme.dart';
 
+enum _RecipeSort { none, foodDesc, waterDesc, buffOnly }
+
 class RecipesScreen extends StatefulWidget {
   const RecipesScreen({super.key});
 
@@ -15,9 +17,10 @@ class RecipesScreen extends StatefulWidget {
 class _RecipesScreenState extends State<RecipesScreen> {
   final RecipeService _recipeService = RecipeService();
   bool _isLoading = true;
-  List<Recipe> _displayedRecipes = [];
   String? _selectedIngredient;
+  _RecipeSort _sort = _RecipeSort.none;
   final TextEditingController _searchController = TextEditingController();
+  String _query = '';
 
   @override
   void initState() {
@@ -25,20 +28,56 @@ class _RecipesScreenState extends State<RecipesScreen> {
     _loadData();
   }
 
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
+
   Future<void> _loadData() async {
     try {
       await _recipeService.loadData();
-      setState(() {
-        _displayedRecipes = _recipeService.getAllRecipes();
-        _isLoading = false;
-      });
-    } catch (e) {
+      if (!mounted) return;
       setState(() => _isLoading = false);
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('加载失败: $e')),
-        );
-      }
+    } catch (e) {
+      if (!mounted) return;
+      setState(() => _isLoading = false);
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('加载失败: $e')),
+      );
+    }
+  }
+
+  int _parseIntSafe(String value) {
+    final m = RegExp(r'-?\d+').firstMatch(value);
+    return m == null ? 0 : int.tryParse(m.group(0)!) ?? 0;
+  }
+
+  List<Recipe> get _displayed {
+    List<Recipe> list;
+    if (_selectedIngredient != null) {
+      list = _recipeService.getRecipesByIngredient(_selectedIngredient!);
+    } else if (_query.isNotEmpty) {
+      list = _recipeService.searchRecipes(_query);
+    } else {
+      list = _recipeService.getAllRecipes();
+    }
+
+    switch (_sort) {
+      case _RecipeSort.none:
+        return list;
+      case _RecipeSort.foodDesc:
+        final sorted = [...list];
+        sorted.sort((a, b) =>
+            _parseIntSafe(b.foodValue).compareTo(_parseIntSafe(a.foodValue)));
+        return sorted;
+      case _RecipeSort.waterDesc:
+        final sorted = [...list];
+        sorted.sort((a, b) =>
+            _parseIntSafe(b.waterValue).compareTo(_parseIntSafe(a.waterValue)));
+        return sorted;
+      case _RecipeSort.buffOnly:
+        return list.where((r) => r.buff.isNotEmpty).toList();
     }
   }
 
@@ -46,59 +85,97 @@ class _RecipesScreenState extends State<RecipesScreen> {
     setState(() {
       if (_selectedIngredient == ingredient) {
         _selectedIngredient = null;
-        _displayedRecipes = _recipeService.getAllRecipes();
       } else {
         _selectedIngredient = ingredient;
-        _displayedRecipes = _recipeService.getRecipesByIngredient(ingredient);
       }
       _searchController.clear();
+      _query = '';
     });
   }
 
   void _onSearch(String query) {
     setState(() {
-      if (query.isEmpty) {
-        _selectedIngredient = null;
-        _displayedRecipes = _recipeService.getAllRecipes();
-      } else {
-        _selectedIngredient = null;
-        _displayedRecipes = _recipeService.searchRecipes(query);
-      }
+      _query = query;
+      if (query.isNotEmpty) _selectedIngredient = null;
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    final displayed = _isLoading ? <Recipe>[] : _displayed;
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('食谱大全'),
         bottom: PreferredSize(
-          preferredSize: const Size.fromHeight(60),
-          child: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: TextField(
-              controller: _searchController,
-              onChanged: _onSearch,
-              decoration: InputDecoration(
-                hintText: '搜索食谱或材料...',
-                prefixIcon: const Icon(Icons.search),
-                suffixIcon: _searchController.text.isNotEmpty
-                    ? IconButton(
-                        icon: const Icon(Icons.clear),
-                        onPressed: () {
-                          _searchController.clear();
-                          _onSearch('');
-                        },
-                      )
-                    : null,
-                filled: true,
-                fillColor: Colors.white,
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(8),
-                  borderSide: BorderSide.none,
+          preferredSize: const Size.fromHeight(108),
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(8, 4, 8, 4),
+                child: TextField(
+                  controller: _searchController,
+                  onChanged: _onSearch,
+                  decoration: InputDecoration(
+                    hintText: '搜索食谱或材料...',
+                    prefixIcon: const Icon(Icons.search),
+                    suffixIcon: _searchController.text.isNotEmpty
+                        ? IconButton(
+                            icon: const Icon(Icons.clear),
+                            onPressed: () {
+                              _searchController.clear();
+                              _onSearch('');
+                            },
+                          )
+                        : null,
+                    filled: true,
+                    fillColor: Colors.white,
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8),
+                      borderSide: BorderSide.none,
+                    ),
+                  ),
                 ),
               ),
-            ),
+              SizedBox(
+                height: 44,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  padding: const EdgeInsets.symmetric(horizontal: 8),
+                  children: [
+                    _SortChip(
+                      label: '全部',
+                      selected: _sort == _RecipeSort.none,
+                      onTap: () => setState(() => _sort = _RecipeSort.none),
+                    ),
+                    const SizedBox(width: 6),
+                    _SortChip(
+                      icon: Icons.restaurant_menu,
+                      label: '食物↓',
+                      selected: _sort == _RecipeSort.foodDesc,
+                      onTap: () =>
+                          setState(() => _sort = _RecipeSort.foodDesc),
+                    ),
+                    const SizedBox(width: 6),
+                    _SortChip(
+                      icon: Icons.water_drop,
+                      label: '水分↓',
+                      selected: _sort == _RecipeSort.waterDesc,
+                      onTap: () =>
+                          setState(() => _sort = _RecipeSort.waterDesc),
+                    ),
+                    const SizedBox(width: 6),
+                    _SortChip(
+                      icon: Icons.star,
+                      label: '仅带 Buff',
+                      selected: _sort == _RecipeSort.buffOnly,
+                      onTap: () =>
+                          setState(() => _sort = _RecipeSort.buffOnly),
+                    ),
+                  ],
+                ),
+              ),
+            ],
           ),
         ),
       ),
@@ -123,14 +200,15 @@ class _RecipesScreenState extends State<RecipesScreen> {
                         ),
                         const Spacer(),
                         TextButton(
-                          onPressed: () => _onIngredientTap(_selectedIngredient!),
+                          onPressed: () =>
+                              _onIngredientTap(_selectedIngredient!),
                           child: const Text('清除'),
                         ),
                       ],
                     ),
                   ),
                 Expanded(
-                  child: _displayedRecipes.isEmpty
+                  child: displayed.isEmpty
                       ? Center(
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -153,10 +231,10 @@ class _RecipesScreenState extends State<RecipesScreen> {
                         )
                       : ListView.builder(
                           padding: const EdgeInsets.all(8),
-                          itemCount: _displayedRecipes.length,
+                          itemCount: displayed.length,
                           itemBuilder: (context, index) {
                             return _RecipeCard(
-                              recipe: _displayedRecipes[index],
+                              recipe: displayed[index],
                               onIngredientTap: _onIngredientTap,
                               selectedIngredient: _selectedIngredient,
                             );
@@ -167,11 +245,58 @@ class _RecipesScreenState extends State<RecipesScreen> {
             ),
     );
   }
+}
+
+class _SortChip extends StatelessWidget {
+  final String label;
+  final IconData? icon;
+  final bool selected;
+  final VoidCallback onTap;
+
+  const _SortChip({
+    required this.label,
+    required this.selected,
+    required this.onTap,
+    this.icon,
+  });
 
   @override
-  void dispose() {
-    _searchController.dispose();
-    super.dispose();
+  Widget build(BuildContext context) {
+    return InkWell(
+      borderRadius: BorderRadius.circular(18),
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+        decoration: BoxDecoration(
+          color: selected ? AppTheme.primary : Colors.white,
+          borderRadius: BorderRadius.circular(18),
+          border: Border.all(
+            color: AppTheme.primary.withOpacity(0.3),
+          ),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            if (icon != null) ...[
+              Icon(
+                icon,
+                size: 14,
+                color: selected ? Colors.white : AppTheme.primary,
+              ),
+              const SizedBox(width: 4),
+            ],
+            Text(
+              label,
+              style: TextStyle(
+                fontSize: 12,
+                fontWeight: selected ? FontWeight.w600 : FontWeight.normal,
+                color: selected ? Colors.white : AppTheme.textPrimary,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
 
@@ -271,11 +396,13 @@ class _RecipeCard extends StatelessWidget {
                   children: [
                     const Icon(Icons.star, size: 16, color: AppTheme.warning),
                     const SizedBox(width: 4),
-                    Text(
-                      'Buff: ${recipe.buff}',
-                      style: const TextStyle(
-                        fontSize: 12,
-                        color: AppTheme.warning,
+                    Flexible(
+                      child: Text(
+                        'Buff: ${recipe.buff}',
+                        style: const TextStyle(
+                          fontSize: 12,
+                          color: AppTheme.warning,
+                        ),
                       ),
                     ),
                   ],
@@ -317,8 +444,11 @@ class _RecipeCard extends StatelessWidget {
                       ingredient,
                       style: TextStyle(
                         fontSize: 13,
-                        color: isSelected ? Colors.white : AppTheme.textPrimary,
-                        fontWeight: isSelected ? FontWeight.w500 : FontWeight.normal,
+                        color: isSelected
+                            ? Colors.white
+                            : AppTheme.textPrimary,
+                        fontWeight:
+                            isSelected ? FontWeight.w500 : FontWeight.normal,
                       ),
                     ),
                   ),
@@ -351,7 +481,6 @@ class _RecipeCard extends StatelessWidget {
       final catId = provider.findCatIdByName(ingredient);
       if (catId != null) {
         firstFocus ??= catId;
-        // 选中但不移动（只对第一个聚焦）
         if (!provider.selectedCategories.contains(catId)) {
           provider.toggleCategory(catId);
         }
