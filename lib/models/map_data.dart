@@ -1,8 +1,3 @@
-import 'package:json_annotation/json_annotation.dart';
-
-part 'map_data.g.dart';
-
-@JsonSerializable()
 class MapData {
   final int code;
   final String msg;
@@ -14,19 +9,24 @@ class MapData {
     required this.data,
   });
 
-  factory MapData.fromJson(Map<String, dynamic> json) =>
-      _$MapDataFromJson(json);
-  Map<String, dynamic> toJson() => _$MapDataToJson(this);
+  factory MapData.fromJson(Map<String, dynamic> json) {
+    return MapData(
+      code: json['code'] ?? 0,
+      msg: json['msg'] ?? '',
+      data: GameData.fromJson(json['data'] ?? {}),
+    );
+  }
+
+  Map<String, dynamic> toJson() => {
+        'code': code,
+        'msg': msg,
+        'data': data.toJson(),
+      };
 }
 
-@JsonSerializable()
 class GameData {
-  @JsonKey(name: 'item_type')
   final List<String> itemType;
-  
-  @JsonKey(name: 'item_list')
   final List<ItemInfo> itemList;
-  
   final List<MapPoint> xys;
 
   GameData({
@@ -35,16 +35,32 @@ class GameData {
     required this.xys,
   });
 
-  factory GameData.fromJson(Map<String, dynamic> json) =>
-      _$GameDataFromJson(json);
-  Map<String, dynamic> toJson() => _$GameDataToJson(this);
+  factory GameData.fromJson(Map<String, dynamic> json) {
+    return GameData(
+      itemType: (json['item_type'] as List?)
+              ?.map((e) => e.toString())
+              .toList() ??
+          [],
+      itemList: (json['item_list'] as List?)
+              ?.map((e) => ItemInfo.fromJson(e as Map<String, dynamic>))
+              .toList() ??
+          [],
+      xys: (json['xys'] as List?)
+              ?.map((e) => MapPoint.fromJson(e as Map<String, dynamic>))
+              .toList() ??
+          [],
+    );
+  }
+
+  Map<String, dynamic> toJson() => {
+        'item_type': itemType,
+        'item_list': itemList.map((e) => e.toJson()).toList(),
+        'xys': xys.map((e) => e.toJson()).toList(),
+      };
 }
 
-@JsonSerializable()
 class ItemInfo {
-  @JsonKey(name: 'cat_id')
   final int catId;
-  
   final String name;
   final String type;
 
@@ -54,21 +70,25 @@ class ItemInfo {
     required this.type,
   });
 
-  factory ItemInfo.fromJson(Map<String, dynamic> json) =>
-      _$ItemInfoFromJson(json);
-  Map<String, dynamic> toJson() => _$ItemInfoToJson(this);
+  factory ItemInfo.fromJson(Map<String, dynamic> json) {
+    return ItemInfo(
+      catId: (json['cat_id'] as num?)?.toInt() ?? 0,
+      name: json['name']?.toString() ?? '',
+      type: json['type']?.toString() ?? '',
+    );
+  }
+
+  Map<String, dynamic> toJson() => {
+        'cat_id': catId,
+        'name': name,
+        'type': type,
+      };
 }
 
-@JsonSerializable()
 class MapPoint {
   final int id;
-  
-  @JsonKey(name: 'user_id')
   final int userId;
-  
-  @JsonKey(name: 'cat_id')
   final int catId;
-  
   final int x;
   final int y;
   final String? img;
@@ -84,7 +104,25 @@ class MapPoint {
     this.txt,
   });
 
-  factory MapPoint.fromJson(Map<String, dynamic> json) =>
-      _$MapPointFromJson(json);
-  Map<String, dynamic> toJson() => _$MapPointToJson(this);
+  factory MapPoint.fromJson(Map<String, dynamic> json) {
+    return MapPoint(
+      id: (json['id'] as num?)?.toInt() ?? 0,
+      userId: (json['user_id'] as num?)?.toInt() ?? 0,
+      catId: (json['cat_id'] as num?)?.toInt() ?? 0,
+      x: (json['x'] as num?)?.toInt() ?? 0,
+      y: (json['y'] as num?)?.toInt() ?? 0,
+      img: json['img']?.toString(),
+      txt: json['txt']?.toString(),
+    );
+  }
+
+  Map<String, dynamic> toJson() => {
+        'id': id,
+        'user_id': userId,
+        'cat_id': catId,
+        'x': x,
+        'y': y,
+        if (img != null) 'img': img,
+        if (txt != null) 'txt': txt,
+      };
 }

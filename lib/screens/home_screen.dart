@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'final_map_screen.dart';
 import 'recipes_screen.dart';
-import 'items_screen.dart';
-import 'pets_screen.dart';
-import 'builds_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -15,12 +12,12 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 0;
 
-  final List<Widget> _screens = [
-    const FinalMapScreen(),
-    const RecipesScreen(),
-    const ItemsScreen(),
-    const PetsScreen(),
-    const BuildsScreen(),
+  final List<Widget> _screens = const [
+    FinalMapScreen(),
+    RecipesScreen(),
+    PlaceholderScreen(title: '物品'),
+    PlaceholderScreen(title: '宠物'),
+    PlaceholderScreen(title: '图纸'),
   ];
 
   @override
