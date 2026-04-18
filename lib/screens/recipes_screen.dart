@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import '../models/recipe.dart';
+import '../providers/map_provider.dart';
 import '../services/recipe_service.dart';
 import '../theme/app_theme.dart';
 
@@ -213,12 +215,27 @@ class _RecipeCard extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        recipe.name,
-                        style: const TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              recipe.name,
+                              style: const TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                          IconButton(
+                            tooltip: '在地图上查看材料',
+                            icon: const Icon(
+                              Icons.map_outlined,
+                              color: AppTheme.primary,
+                            ),
+                            onPressed: () =>
+                                _openIngredientsOnMap(context, recipe),
+                          ),
+                        ],
                       ),
                       const SizedBox(height: 4),
                       Row(
@@ -267,9 +284,9 @@ class _RecipeCard extends StatelessWidget {
             ],
             const SizedBox(height: 12),
             const Text(
-              '材料:',
+              '材料（点击筛选 · 长按在地图上定位）:',
               style: TextStyle(
-                fontSize: 14,
+                fontSize: 13,
                 fontWeight: FontWeight.w500,
                 color: AppTheme.textSecondary,
               ),
@@ -282,6 +299,8 @@ class _RecipeCard extends StatelessWidget {
                 final isSelected = ingredient == selectedIngredient;
                 return InkWell(
                   onTap: () => onIngredientTap(ingredient),
+                  onLongPress: () =>
+                      _openSingleIngredientOnMap(context, ingredient),
                   borderRadius: BorderRadius.circular(16),
                   child: Container(
                     padding: const EdgeInsets.symmetric(
@@ -310,6 +329,48 @@ class _RecipeCard extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  void _openSingleIngredientOnMap(BuildContext context, String ingredient) {
+    final provider = context.read<MapProvider>();
+    final catId = provider.findCatIdByName(ingredient);
+    if (catId == null) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('地图数据中未找到「$ingredient」')),
+      );
+      return;
+    }
+    provider.switchTab(0, focusCatId: catId);
+  }
+
+  void _openIngredientsOnMap(BuildContext context, Recipe recipe) {
+    final provider = context.read<MapProvider>();
+    int? firstFocus;
+    final notFound = <String>[];
+    for (final ingredient in recipe.ingredients) {
+      final catId = provider.findCatIdByName(ingredient);
+      if (catId != null) {
+        firstFocus ??= catId;
+        // 选中但不移动（只对第一个聚焦）
+        if (!provider.selectedCategories.contains(catId)) {
+          provider.toggleCategory(catId);
+        }
+      } else {
+        notFound.add(ingredient);
+      }
+    }
+    if (firstFocus == null) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('地图中未找到该食谱的任何材料')),
+      );
+      return;
+    }
+    provider.switchTab(0, focusCatId: firstFocus);
+    if (notFound.isNotEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('未找到：${notFound.join("、")}')),
+      );
+    }
   }
 }
 

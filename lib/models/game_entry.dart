@@ -5,7 +5,7 @@ class GameEntry {
   final String? keyBase;
   final String? key;
   final String? pinyin;
-  final String? filter; // 分类/标签（主要用于宠物）
+  final String? filter; // 分类/标签
   final String? nameExif; // 饲料信息（宠物）
   final String html;
 
@@ -33,6 +33,24 @@ class GameEntry {
     );
   }
 
+  /// 本地 asset 图片路径（pets/builds 用 key 命名，items 可能没有）
+  String? get localImagePath {
+    if (key != null && key!.isNotEmpty) {
+      return 'assets/game_img/$key.jpg';
+    }
+    if (keyBase != null && keyBase!.isNotEmpty) {
+      return 'assets/game_img/m$keyBase.jpg';
+    }
+    return null;
+  }
+
+  /// 远程图片 URL（主要是 items 用）
+  String? get networkImageUrl {
+    if (cover == null) return null;
+    if (cover!.startsWith('http')) return cover;
+    return null;
+  }
+
   /// 从 HTML 提取简要描述（去标签、截取前 120 字符）
   String get summary {
     final stripped = html
@@ -41,6 +59,21 @@ class GameEntry {
         .trim();
     if (stripped.length <= 120) return stripped;
     return '${stripped.substring(0, 120)}…';
+  }
+
+  /// HTML 清理：转换 <br> 为换行、去除其他标签，方便显示
+  String get cleanedText {
+    var text = html
+        .replaceAll(RegExp(r'<br\s*/?>', caseSensitive: false), '\n')
+        .replaceAll(RegExp(r'</p>', caseSensitive: false), '\n\n')
+        .replaceAll(RegExp(r'<[^>]+>'), '')
+        .replaceAll('&nbsp;', ' ')
+        .replaceAll('&lt;', '<')
+        .replaceAll('&gt;', '>')
+        .replaceAll('&amp;', '&');
+    // 折叠多余空行
+    text = text.replaceAll(RegExp(r'\n{3,}'), '\n\n');
+    return text.trim();
   }
 }
 

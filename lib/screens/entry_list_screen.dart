@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import '../models/game_entry.dart';
 import '../services/game_entry_service.dart';
 import '../theme/app_theme.dart';
+import '../widgets/entry_image.dart';
 
-/// 通用的游戏条目列表页（物品 / 宠物 / 建筑共用 UI）
+/// 通用的游戏条目网格页（物品 / 宠物 / 建筑共用 UI）
 class EntryListScreen extends StatefulWidget {
   final String title;
   final String assetPath;
@@ -11,7 +12,7 @@ class EntryListScreen extends StatefulWidget {
   final bool showFilter;
   final String searchHint;
 
-  /// 自定义每个条目的副标题。可选。
+  /// 自定义每个条目的副标题（卡片上显示）。可选。
   final String Function(GameEntry entry)? subtitleBuilder;
 
   const EntryListScreen({
@@ -179,14 +180,21 @@ class _EntryListScreenState extends State<EntryListScreen> {
         ),
       );
     }
-    return ListView.builder(
+    return GridView.builder(
       padding: const EdgeInsets.all(8),
+      gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+        maxCrossAxisExtent: 190,
+        mainAxisSpacing: 8,
+        crossAxisSpacing: 8,
+        childAspectRatio: 0.78,
+      ),
       itemCount: list.length,
       itemBuilder: (context, index) {
         final entry = list[index];
         return _EntryCard(
           entry: entry,
           subtitle: widget.subtitleBuilder?.call(entry),
+          emptyIcon: widget.emptyIcon,
           onTap: () => _showDetail(entry),
         );
       },
@@ -196,7 +204,10 @@ class _EntryListScreenState extends State<EntryListScreen> {
   void _showDetail(GameEntry entry) {
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (_) => _EntryDetailScreen(entry: entry),
+        builder: (_) => _EntryDetailScreen(
+          entry: entry,
+          emptyIcon: widget.emptyIcon,
+        ),
       ),
     );
   }
@@ -241,104 +252,92 @@ class _FilterChip extends StatelessWidget {
 class _EntryCard extends StatelessWidget {
   final GameEntry entry;
   final String? subtitle;
+  final IconData emptyIcon;
   final VoidCallback onTap;
 
   const _EntryCard({
     required this.entry,
     required this.onTap,
+    required this.emptyIcon,
     this.subtitle,
   });
 
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: const EdgeInsets.symmetric(horizontal: 4, vertical: 4),
+      clipBehavior: Clip.antiAlias,
+      margin: EdgeInsets.zero,
       child: InkWell(
         onTap: onTap,
-        borderRadius: BorderRadius.circular(12),
-        child: Padding(
-          padding: const EdgeInsets.all(12),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Container(
-                width: 56,
-                height: 56,
-                decoration: BoxDecoration(
-                  color: AppTheme.primaryLight.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Icon(
-                  entry.filter == '坐骑'
-                      ? Icons.directions_run
-                      : Icons.auto_awesome,
-                  color: AppTheme.primary,
-                  size: 28,
-                ),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            entry.name,
-                            style: const TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w600,
-                            ),
-                          ),
-                        ),
-                        if (entry.filter != null && entry.filter!.isNotEmpty)
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 8,
-                              vertical: 2,
-                            ),
-                            decoration: BoxDecoration(
-                              color: AppTheme.accent.withOpacity(0.3),
-                              borderRadius: BorderRadius.circular(10),
-                            ),
-                            child: Text(
-                              entry.filter!,
-                              style: const TextStyle(
-                                fontSize: 11,
-                                color: AppTheme.primaryDark,
-                              ),
-                            ),
-                          ),
-                      ],
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Expanded(
+              child: Stack(
+                children: [
+                  Positioned.fill(
+                    child: EntryImage(
+                      entry: entry,
+                      fit: BoxFit.cover,
+                      fallbackIcon: emptyIcon,
                     ),
-                    if (subtitle != null && subtitle!.isNotEmpty) ...[
-                      const SizedBox(height: 4),
-                      Text(
-                        subtitle!,
-                        style: TextStyle(
-                          fontSize: 13,
-                          color: Colors.grey[700],
+                  ),
+                  if (entry.filter != null && entry.filter!.isNotEmpty)
+                    Positioned(
+                      top: 6,
+                      left: 6,
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 2,
+                        ),
+                        decoration: BoxDecoration(
+                          color: AppTheme.primary.withOpacity(0.85),
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        child: Text(
+                          entry.filter!,
+                          style: const TextStyle(
+                            fontSize: 11,
+                            color: Colors.white,
+                          ),
                         ),
                       ),
-                    ] else if (entry.summary.isNotEmpty) ...[
-                      const SizedBox(height: 4),
-                      Text(
-                        entry.summary,
-                        maxLines: 2,
+                    ),
+                ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    entry.name,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(
+                      fontSize: 14,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  if (subtitle != null && subtitle!.isNotEmpty)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 2),
+                      child: Text(
+                        subtitle!,
+                        maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
-                          fontSize: 12,
+                          fontSize: 11,
                           color: Colors.grey[600],
                         ),
                       ),
-                    ],
-                  ],
-                ),
+                    ),
+                ],
               ),
-              const Icon(Icons.chevron_right, color: Colors.grey),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
@@ -347,56 +346,103 @@ class _EntryCard extends StatelessWidget {
 
 class _EntryDetailScreen extends StatelessWidget {
   final GameEntry entry;
-  const _EntryDetailScreen({required this.entry});
+  final IconData emptyIcon;
+  const _EntryDetailScreen({
+    required this.entry,
+    required this.emptyIcon,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(entry.name)),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            if (entry.filter != null && entry.filter!.isNotEmpty)
-              Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 12,
-                  vertical: 4,
-                ),
-                decoration: BoxDecoration(
-                  color: AppTheme.accent.withOpacity(0.3),
-                  borderRadius: BorderRadius.circular(14),
-                ),
-                child: Text(
-                  entry.filter!,
-                  style: const TextStyle(
-                    fontSize: 12,
-                    color: AppTheme.primaryDark,
-                  ),
-                ),
+      body: ListView(
+        padding: EdgeInsets.zero,
+        children: [
+          AspectRatio(
+            aspectRatio: 4 / 3,
+            child: Container(
+              color: Colors.black12,
+              child: EntryImage(
+                entry: entry,
+                fit: BoxFit.contain,
+                fallbackIcon: emptyIcon,
               ),
-            if (entry.nameExif != null && entry.nameExif!.isNotEmpty) ...[
-              const SizedBox(height: 12),
-              Container(
-                padding: const EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: AppTheme.primaryLight.withOpacity(0.1),
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Text(
-                  entry.nameExif!,
-                  style: const TextStyle(fontSize: 14),
-                ),
-              ),
-            ],
-            const SizedBox(height: 16),
-            Text(
-              entry.summary.isNotEmpty ? entry.summary : '暂无详细描述',
-              style: const TextStyle(fontSize: 15, height: 1.6),
             ),
-          ],
-        ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        entry.name,
+                        style: const TextStyle(
+                          fontSize: 22,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                    if (entry.filter != null && entry.filter!.isNotEmpty)
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 12,
+                          vertical: 4,
+                        ),
+                        decoration: BoxDecoration(
+                          color: AppTheme.accent.withOpacity(0.3),
+                          borderRadius: BorderRadius.circular(14),
+                        ),
+                        child: Text(
+                          entry.filter!,
+                          style: const TextStyle(
+                            fontSize: 12,
+                            color: AppTheme.primaryDark,
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
+                if (entry.nameExif != null && entry.nameExif!.isNotEmpty) ...[
+                  const SizedBox(height: 12),
+                  Container(
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: AppTheme.primaryLight.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(
+                        color: AppTheme.primary.withOpacity(0.3),
+                      ),
+                    ),
+                    child: Row(
+                      children: [
+                        const Icon(Icons.restaurant,
+                            size: 18, color: AppTheme.primary),
+                        const SizedBox(width: 8),
+                        Expanded(
+                          child: Text(
+                            entry.nameExif!,
+                            style: const TextStyle(fontSize: 14),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+                const SizedBox(height: 16),
+                SelectableText(
+                  entry.cleanedText.isNotEmpty
+                      ? entry.cleanedText
+                      : '暂无详细描述',
+                  style: const TextStyle(fontSize: 15, height: 1.6),
+                ),
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }
