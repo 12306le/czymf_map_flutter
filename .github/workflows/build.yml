@@ -29,18 +29,21 @@ jobs:
         
     - name: Generate Keystore
       run: |
-        cd android/app
-        keytool -genkey -v -keystore upload-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload -storepass android -keypass android -dname "CN=Android Debug,O=Android,C=US"
-        cd ../..
+        keytool -genkey -v -keystore android/app/upload-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload -storepass android -keypass android -dname "CN=Android Debug,O=Android,C=US"
         
     - name: Create key.properties
       run: |
-        cat > android/key.properties << EOF
+        cat > android/key.properties << 'EOF'
         storePassword=android
         keyPassword=android
         keyAlias=upload
         storeFile=app/upload-keystore.jks
         EOF
+        
+    - name: Verify keystore exists
+      run: |
+        ls -la android/app/upload-keystore.jks
+        cat android/key.properties
         
     - name: Get dependencies
       run: flutter pub get
