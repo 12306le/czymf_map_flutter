@@ -2,15 +2,18 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   static const Color primary = Color(0xFF3B82F6);
+  static const Color primaryDark = Color(0xFF1D4ED8);
+  static const Color primaryLight = Color(0xFF93C5FD);
   static const Color accent = Color(0xFF7C3AED);
   static const Color success = Color(0xFF16A34A);
   static const Color warning = Color(0xFFF59E0B);
+  static const Color textPrimary = Color(0xFF111827);
+  static const Color textSecondary = Color(0xFF6B7280);
 
   static ThemeData get lightTheme {
     final colorScheme = ColorScheme.fromSeed(
       seedColor: primary,
       brightness: Brightness.light,
-      dynamicSchemeVariant: DynamicSchemeVariant.tonalSpot,
     );
 
     return ThemeData(
@@ -31,9 +34,9 @@ class AppTheme {
           fontWeight: FontWeight.w700,
         ),
       ),
-      cardTheme: CardThemeData(
+      cardTheme: CardTheme(
         elevation: 0,
-        color: colorScheme.surfaceContainerLow,
+        color: colorScheme.surface,
         margin: EdgeInsets.zero,
         clipBehavior: Clip.antiAlias,
         shape: RoundedRectangleBorder(
@@ -43,7 +46,7 @@ class AppTheme {
       ),
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
-        fillColor: colorScheme.surfaceContainerLow,
+        fillColor: colorScheme.surface,
         isDense: true,
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8),
@@ -63,10 +66,10 @@ class AppTheme {
         height: 68,
         backgroundColor: colorScheme.surface,
         indicatorColor: colorScheme.secondaryContainer,
-        labelTextStyle: WidgetStateProperty.resolveWith(
+        labelTextStyle: MaterialStateProperty.resolveWith(
           (states) => TextStyle(
             fontSize: 12,
-            fontWeight: states.contains(WidgetState.selected)
+            fontWeight: states.contains(MaterialState.selected)
                 ? FontWeight.w700
                 : FontWeight.w500,
           ),

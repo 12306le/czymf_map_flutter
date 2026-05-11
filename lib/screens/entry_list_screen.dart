@@ -374,7 +374,7 @@ class _EntryDetailScreen extends StatelessWidget {
           AspectRatio(
             aspectRatio: 16 / 10,
             child: ColoredBox(
-              color: colorScheme.surfaceContainerHighest,
+              color: colorScheme.surfaceVariant,
               child: EntryImage(
                 entry: entry,
                 fit: BoxFit.contain,
