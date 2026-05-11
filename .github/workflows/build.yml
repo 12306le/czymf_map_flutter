@@ -13,31 +13,31 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      
+
     - name: Setup Java
       uses: actions/setup-java@v4
       with:
         distribution: 'zulu'
         java-version: '17'
-        
+
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
         flutter-version: '3.19.0'
         channel: 'stable'
         cache: true
-        
+
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
-        
+
     - name: Generate Keystore
       run: |
         keytool -genkey -v -keystore android/app/upload-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload -storepass android -keypass android -dname "CN=Android Debug,O=Android,C=US"
-        
+
     - name: Create key.properties
       run: |
         cat > android/key.properties << 'EOF'
@@ -46,19 +46,19 @@ jobs:
         keyAlias=upload
         storeFile=app/upload-keystore.jks
         EOF
-        
+
     - name: Verify keystore exists
       run: |
         ls -la android/app/upload-keystore.jks
         cat android/key.properties
-        
+
     - name: Get dependencies
       run: flutter pub get
-      
+
     - name: Analyze code
       run: flutter analyze
       continue-on-error: true
-      
+
     - name: Build APK
       run: |
         for attempt in 1 2 3 4 5; do
@@ -72,70 +72,46 @@ jobs:
         echo "All attempts to build APK failed."
         exit 1
 
-    - name: Build App Bundle
-      run: |
-        for attempt in 1 2 3 4 5; do
-          echo "=== Build App Bundle attempt $attempt ==="
-          if flutter build appbundle --release --verbose; then
-            exit 0
-          fi
-          echo "Attempt $attempt failed; sleeping $((attempt * 15))s before retry..."
-          sleep $((attempt * 15))
-        done
-        echo "All attempts to build App Bundle failed."
-        exit 1
-      
     - name: Get version
       id: version
       run: |
         VERSION=$(grep 'version:' pubspec.yaml | sed 's/version: //' | tr -d ' ')
         echo "version=$VERSION" >> $GITHUB_OUTPUT
         echo "Version: $VERSION"
-        
+
     - name: Create Release
       uses: softprops/action-gh-release@v1
       with:
         tag_name: v${{ steps.version.outputs.version }}-${{ github.run_number }}
         name: Release v${{ steps.version.outputs.version }} Build ${{ github.run_number }}
         body: |
-          ## 创造与魔法助手 - 自动构建
-          
+          ## 创造与魔法地图工具 - 自动构建
+
           ### 版本信息
-          - 版本号: ${{ steps.version.outputs.version }}
-          - 构建号: ${{ github.run_number }}
-          - 提交: ${{ github.sha }}
-          
+          - 版本号：${{ steps.version.outputs.version }}
+          - 构建号：${{ github.run_number }}
+          - 提交：${{ github.sha }}
+
           ### 下载说明
-          - **czymf-map-vX.X.X-buildN.apk**: 标准APK安装包
-          - **czymf-map-vX.X.X-buildN.aab**: Google Play应用包
-          
+          - **app-release.apk**：Android APK 安装包，可直接安装使用。
+
           ### 功能特性
-          - 🎨 青绿色主题设计
-          - 🗺️ 交互式地图（4559个坐标点）
-          - 🍳 食谱系统（157个食谱，支持关键词关联）
-          - 📦 物品资料（161条）
-          - 🐾 宠物系统（135条）
-          - 🏗️ 建筑图纸（144条）
-          
+          - 交互式地图浏览
+          - 资源点位筛选与搜索
+          - 食谱、物品、宠物、建筑图纸资料
+
           ### 安装方法
-          1. 下载 czymf-map-vX.X.X-buildN.apk
-          2. 在Android设备上安装
-          3. 允许未知来源安装（如需要）
+          1. 下载 app-release.apk
+          2. 在 Android 设备上安装
+          3. 如系统提示，请允许安装未知来源应用
         draft: false
         prerelease: false
         files: |
           build/app/outputs/flutter-apk/app-release.apk
-          build/app/outputs/bundle/release/app-release.aab
         token: ${{ secrets.GITHUB_TOKEN }}
-        
+
     - name: Upload APK as Artifact
       uses: actions/upload-artifact@v4
       with:
         name: apk-release
         path: build/app/outputs/flutter-apk/app-release.apk
-        
-    - name: Upload App Bundle as Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: aab-release
-        path: build/app/outputs/bundle/release/app-release.aab
