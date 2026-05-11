@@ -366,7 +366,7 @@ class _FinalMapScreenState extends State<FinalMapScreen> {
   String _buildStatusText(int total, int clusterCount) {
     if (total == 0) return '暂无点位，请选择分类';
     if (clusterCount < total) {
-      return '$total 个点位已聚合为 $clusterCount（点击簇查看详情）';
+      return '$total 个点位已聚合为 $clusterCount 组，点击查看详情';
     }
     return '已显示 $total 个点位';
   }

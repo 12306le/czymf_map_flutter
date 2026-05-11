@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
 import '../providers/map_provider.dart';
 
 class CategorySelector extends StatelessWidget {
@@ -7,163 +8,138 @@ class CategorySelector extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: MediaQuery.of(context).size.height * 0.8,
-      decoration: const BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
-      ),
-      child: Column(
-        children: [
-          // 标题栏
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              border: Border(
-                bottom: BorderSide(color: Colors.grey.shade300),
+    final colorScheme = Theme.of(context).colorScheme;
+    return SafeArea(
+      child: SizedBox(
+        height: MediaQuery.sizeOf(context).height * 0.82,
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(20, 4, 8, 8),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: Text(
+                      '资源筛选',
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                            fontWeight: FontWeight.w700,
+                          ),
+                    ),
+                  ),
+                  IconButton(
+                    tooltip: '关闭',
+                    icon: const Icon(Icons.close_rounded),
+                    onPressed: () => Navigator.pop(context),
+                  ),
+                ],
               ),
             ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                const Text(
-                  '选择资源类型',
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                IconButton(
-                  icon: const Icon(Icons.close),
-                  onPressed: () => Navigator.pop(context),
-                ),
-              ],
-            ),
-          ),
-          
-          // 分类列表
-          Expanded(
-            child: Consumer<MapProvider>(
-              builder: (context, provider, child) {
-                final categories = provider.getCategories();
-                
-                return ListView.builder(
-                  itemCount: categories.length,
-                  itemBuilder: (context, index) {
-                    final categoryName = categories[index];
-                    final typeIndex = index.toString();
-                    final items = provider.getItemsByType(typeIndex);
-                    
-                    if (items.isEmpty) return const SizedBox.shrink();
-                    
-                    final selectedCount = items
-                        .where((item) => provider.selectedCategories.contains(item.catId))
-                        .length;
-                    
-                    return ExpansionTile(
-                      title: Text(
-                        categoryName,
-                        style: const TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                        ),
-                      ),
-                      subtitle: Text(
-                        '已选 $selectedCount / ${items.length}',
-                        style: TextStyle(
-                          color: Colors.grey.shade600,
-                          fontSize: 12,
-                        ),
-                      ),
-                      trailing: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          TextButton(
-                            onPressed: () => provider.selectAllInType(typeIndex),
-                            child: const Text('全选'),
+            Divider(height: 1, color: colorScheme.outlineVariant),
+            Expanded(
+              child: Consumer<MapProvider>(
+                builder: (context, provider, child) {
+                  final categories = provider.getCategories();
+                  return ListView.builder(
+                    padding: const EdgeInsets.fromLTRB(12, 8, 12, 16),
+                    itemCount: categories.length,
+                    itemBuilder: (context, index) {
+                      final categoryName = categories[index];
+                      final typeIndex = index.toString();
+                      final items = provider.getItemsByType(typeIndex);
+                      if (items.isEmpty) return const SizedBox.shrink();
+                      final selectedCount = items
+                          .where((item) =>
+                              provider.selectedCategories.contains(item.catId))
+                          .length;
+
+                      return Card(
+                        margin: const EdgeInsets.symmetric(vertical: 6),
+                        child: ExpansionTile(
+                          tilePadding:
+                              const EdgeInsets.symmetric(horizontal: 14),
+                          childrenPadding:
+                              const EdgeInsets.fromLTRB(14, 0, 14, 14),
+                          title: Text(
+                            categoryName,
+                            style: const TextStyle(fontWeight: FontWeight.w700),
                           ),
-                          TextButton(
-                            onPressed: () => provider.deselectAllInType(typeIndex),
-                            child: const Text('清空'),
+                          subtitle: Text('已选 $selectedCount / ${items.length}'),
+                          trailing: Wrap(
+                            spacing: 4,
+                            children: [
+                              IconButton(
+                                tooltip: '全选',
+                                icon: const Icon(Icons.done_all_rounded),
+                                onPressed: () =>
+                                    provider.selectAllInType(typeIndex),
+                              ),
+                              IconButton(
+                                tooltip: '清空本组',
+                                icon: const Icon(Icons.remove_done_rounded),
+                                onPressed: () =>
+                                    provider.deselectAllInType(typeIndex),
+                              ),
+                            ],
                           ),
-                        ],
-                      ),
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 16),
-                          child: Wrap(
-                            spacing: 8,
-                            runSpacing: 8,
-                            children: items.map((item) {
-                              final isSelected = provider.selectedCategories
-                                  .contains(item.catId);
-                              
-                              return FilterChip(
-                                label: Row(
-                                  mainAxisSize: MainAxisSize.min,
-                                  children: [
-                                    Image.asset(
+                          children: [
+                            Align(
+                              alignment: Alignment.centerLeft,
+                              child: Wrap(
+                                spacing: 8,
+                                runSpacing: 8,
+                                children: items.map((item) {
+                                  final isSelected = provider
+                                      .selectedCategories
+                                      .contains(item.catId);
+                                  return FilterChip(
+                                    avatar: Image.asset(
                                       'assets/icons/${item.catId}.png',
                                       width: 20,
                                       height: 20,
-                                      errorBuilder: (context, error, stackTrace) {
-                                        return const Icon(
-                                          Icons.image_not_supported,
-                                          size: 20,
-                                        );
-                                      },
+                                      errorBuilder: (_, __, ___) =>
+                                          const Icon(Icons.location_on),
                                     ),
-                                    const SizedBox(width: 4),
-                                    Text(item.name),
-                                  ],
-                                ),
-                                selected: isSelected,
-                                onSelected: (selected) {
-                                  provider.toggleCategory(item.catId);
-                                },
-                                selectedColor: Colors.blue.shade100,
-                              );
-                            }).toList(),
-                          ),
+                                    label: Text(item.name),
+                                    selected: isSelected,
+                                    onSelected: (_) =>
+                                        provider.toggleCategory(item.catId),
+                                  );
+                                }).toList(),
+                              ),
+                            ),
+                          ],
                         ),
-                        const SizedBox(height: 16),
-                      ],
-                    );
-                  },
-                );
-              },
-            ),
-          ),
-          
-          // 底部操作栏
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              border: Border(
-                top: BorderSide(color: Colors.grey.shade300),
+                      );
+                    },
+                  );
+                },
               ),
             ),
-            child: Row(
-              children: [
-                Expanded(
-                  child: OutlinedButton(
-                    onPressed: () {
-                      context.read<MapProvider>().clearSelection();
-                    },
-                    child: const Text('清空所有'),
+            Divider(height: 1, color: colorScheme.outlineVariant),
+            Padding(
+              padding: const EdgeInsets.all(16),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: OutlinedButton.icon(
+                      onPressed: context.read<MapProvider>().clearSelection,
+                      icon: const Icon(Icons.delete_sweep_rounded),
+                      label: const Text('清空所有'),
+                    ),
                   ),
-                ),
-                const SizedBox(width: 16),
-                Expanded(
-                  child: ElevatedButton(
-                    onPressed: () => Navigator.pop(context),
-                    child: const Text('确定'),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: FilledButton.icon(
+                      onPressed: () => Navigator.pop(context),
+                      icon: const Icon(Icons.check_rounded),
+                      label: const Text('完成'),
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

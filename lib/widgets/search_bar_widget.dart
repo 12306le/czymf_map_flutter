@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
 import '../models/map_data.dart';
 import '../providers/map_provider.dart';
+import 'fluxdo_shell.dart';
 
 class SearchBarWidget extends StatefulWidget {
-  final Function(String) onSearch;
-  final Function(ItemInfo) onResultSelected;
-
   const SearchBarWidget({
     super.key,
     required this.onSearch,
     required this.onResultSelected,
   });
+
+  final ValueChanged<String> onSearch;
+  final ValueChanged<ItemInfo> onResultSelected;
 
   @override
   State<SearchBarWidget> createState() => _SearchBarWidgetState();
@@ -31,127 +33,107 @@ class _SearchBarWidgetState extends State<SearchBarWidget> {
 
   @override
   Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
     return Column(
       children: [
-        Container(
-          decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.circular(24),
-            boxShadow: [
-              BoxShadow(
-                color: Colors.black.withOpacity(0.1),
-                blurRadius: 8,
-                offset: const Offset(0, 2),
-              ),
-            ],
-          ),
-          child: TextField(
+        Material(
+          color: colorScheme.surface.withOpacity(0.94),
+          borderRadius: BorderRadius.circular(8),
+          child: FluxdoSearchField(
             controller: _controller,
-            focusNode: _focusNode,
-            decoration: InputDecoration(
-              hintText: '搜索资源（支持中文/拼音）',
-              prefixIcon: const Icon(Icons.search),
-              suffixIcon: _controller.text.isNotEmpty
-                  ? IconButton(
-                      icon: const Icon(Icons.clear),
-                      onPressed: () {
-                        _controller.clear();
-                        widget.onSearch('');
-                        setState(() => _showResults = false);
-                      },
-                    )
-                  : null,
-              border: InputBorder.none,
-              contentPadding: const EdgeInsets.symmetric(
-                horizontal: 16,
-                vertical: 12,
-              ),
-            ),
+            hintText: '搜索资源、拼音或首字母',
             onChanged: (value) {
               widget.onSearch(value);
-              setState(() => _showResults = value.isNotEmpty);
+              setState(() => _showResults = value.trim().isNotEmpty);
             },
-            onTap: () {
-              if (_controller.text.isNotEmpty) {
-                setState(() => _showResults = true);
-              }
+            onClear: () {
+              _controller.clear();
+              widget.onSearch('');
+              setState(() => _showResults = false);
             },
           ),
         ),
-        
-        // 搜索结果
         if (_showResults)
           Consumer<MapProvider>(
             builder: (context, provider, child) {
-              if (provider.searchResults.isEmpty) {
-                return Container(
-                  margin: const EdgeInsets.only(top: 8),
-                  padding: const EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(12),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withOpacity(0.1),
-                        blurRadius: 8,
-                        offset: const Offset(0, 2),
-                      ),
-                    ],
-                  ),
-                  child: const Text(
-                    '未找到相关资源',
-                    style: TextStyle(color: Colors.grey),
-                  ),
-                );
-              }
-              
+              final results = provider.searchResults;
               return Container(
                 margin: const EdgeInsets.only(top: 8),
-                constraints: const BoxConstraints(maxHeight: 300),
+                constraints: const BoxConstraints(maxHeight: 320),
                 decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(12),
+                  color: colorScheme.surface,
+                  borderRadius: BorderRadius.circular(8),
+                  border: Border.all(color: colorScheme.outlineVariant),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.1),
-                      blurRadius: 8,
-                      offset: const Offset(0, 2),
+                      color: Colors.black.withOpacity(0.12),
+                      blurRadius: 24,
+                      offset: const Offset(0, 12),
                     ),
                   ],
                 ),
-                child: ListView.separated(
-                  shrinkWrap: true,
-                  itemCount: provider.searchResults.length,
-                  separatorBuilder: (context, index) => const Divider(height: 1),
-                  itemBuilder: (context, index) {
-                    final item = provider.searchResults[index];
-                    final points = provider.getPointsByCategoryId(item.catId);
-                    
-                    return ListTile(
-                      leading: Image.asset(
-                        'assets/icons/${item.catId}.png',
-                        width: 32,
-                        height: 32,
-                        errorBuilder: (context, error, stackTrace) {
-                          return const Icon(Icons.image_not_supported);
+                child: results.isEmpty
+                    ? const Padding(
+                        padding: EdgeInsets.all(16),
+                        child: Text('没有找到相关资源'),
+                      )
+                    : ListView.separated(
+                        shrinkWrap: true,
+                        padding: const EdgeInsets.symmetric(vertical: 6),
+                        itemCount: results.length,
+                        separatorBuilder: (_, __) => Divider(
+                          height: 1,
+                          color: colorScheme.outlineVariant,
+                        ),
+                        itemBuilder: (context, index) {
+                          final item = results[index];
+                          final points =
+                              provider.getPointsByCategoryId(item.catId);
+                          return ListTile(
+                            dense: true,
+                            leading: _IconThumb(catId: item.catId),
+                            title: Text(
+                              item.name,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                            subtitle: Text('${points.length} 个点位'),
+                            trailing:
+                                const Icon(Icons.arrow_forward_ios, size: 14),
+                            onTap: () {
+                              widget.onResultSelected(item);
+                              _controller.clear();
+                              setState(() => _showResults = false);
+                              _focusNode.unfocus();
+                            },
+                          );
                         },
                       ),
-                      title: Text(item.name),
-                      subtitle: Text('${points.length} 个点位'),
-                      trailing: const Icon(Icons.arrow_forward_ios, size: 16),
-                      onTap: () {
-                        widget.onResultSelected(item);
-                        _controller.clear();
-                        setState(() => _showResults = false);
-                        _focusNode.unfocus();
-                      },
-                    );
-                  },
-                ),
               );
             },
           ),
       ],
+    );
+  }
+}
+
+class _IconThumb extends StatelessWidget {
+  const _IconThumb({required this.catId});
+
+  final int catId;
+
+  @override
+  Widget build(BuildContext context) {
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(8),
+      child: Image.asset(
+        'assets/icons/$catId.png',
+        width: 34,
+        height: 34,
+        fit: BoxFit.cover,
+        errorBuilder: (_, __, ___) => const Icon(Icons.image_not_supported),
+      ),
     );
   }
 }

@@ -1,25 +1,13 @@
 import 'package:flutter/material.dart';
+
 import '../models/game_entry.dart';
 import '../services/game_entry_service.dart';
-import '../theme/app_theme.dart';
 import '../utils/html_content_parser.dart';
 import '../widgets/entry_image.dart';
+import '../widgets/fluxdo_shell.dart';
 import '../widgets/html_content_view.dart';
 
-/// 通用的游戏条目网格页（物品 / 宠物 / 建筑共用 UI）
 class EntryListScreen extends StatefulWidget {
-  final String title;
-  final String assetPath;
-  final IconData emptyIcon;
-  final bool showFilter;
-  final String searchHint;
-
-  /// 网格卡片最大宽度：物品建议 130（4 列），pets/builds 建议 180（2-3 列）
-  final double maxCrossAxisExtent;
-
-  /// 自定义每个条目的副标题（卡片上显示）。可选。
-  final String Function(GameEntry entry)? subtitleBuilder;
-
   const EntryListScreen({
     super.key,
     required this.title,
@@ -30,6 +18,14 @@ class EntryListScreen extends StatefulWidget {
     this.maxCrossAxisExtent = 180,
     this.subtitleBuilder,
   });
+
+  final String title;
+  final String assetPath;
+  final IconData emptyIcon;
+  final bool showFilter;
+  final String searchHint;
+  final double maxCrossAxisExtent;
+  final String Function(GameEntry entry)? subtitleBuilder;
 
   @override
   State<EntryListScreen> createState() => _EntryListScreenState();
@@ -66,7 +62,7 @@ class _EntryListScreenState extends State<EntryListScreen> {
       if (!mounted) return;
       setState(() {
         _loading = false;
-        _error = '加载失败: $e';
+        _error = '加载失败：$e';
       });
     }
   }
@@ -78,11 +74,13 @@ class _EntryListScreenState extends State<EntryListScreen> {
     }
     if (_query.isNotEmpty) {
       final q = _query.toLowerCase();
-      list = list.where((e) =>
-          e.name.toLowerCase().contains(q) ||
-          (e.pinyin?.toLowerCase().contains(q) ?? false) ||
-          (e.nameExif?.toLowerCase().contains(q) ?? false) ||
-          (e.keyBase?.toLowerCase().contains(q) ?? false));
+      list = list.where(
+        (e) =>
+            e.name.toLowerCase().contains(q) ||
+            (e.pinyin?.toLowerCase().contains(q) ?? false) ||
+            (e.nameExif?.toLowerCase().contains(q) ?? false) ||
+            (e.keyBase?.toLowerCase().contains(q) ?? false),
+      );
     }
     return list.toList();
   }
@@ -90,108 +88,68 @@ class _EntryListScreenState extends State<EntryListScreen> {
   @override
   Widget build(BuildContext context) {
     final filters = widget.showFilter ? _service.filters() : <String>[];
+    final list = _entries;
 
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
-        bottom: PreferredSize(
-          preferredSize: Size.fromHeight(filters.isNotEmpty ? 120 : 64),
-          child: Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.all(8),
-                child: TextField(
-                  controller: _searchController,
-                  onChanged: (v) => setState(() => _query = v),
-                  decoration: InputDecoration(
-                    hintText: widget.searchHint,
-                    prefixIcon: const Icon(Icons.search),
-                    suffixIcon: _query.isNotEmpty
-                        ? IconButton(
-                            icon: const Icon(Icons.clear),
-                            onPressed: () {
-                              _searchController.clear();
-                              setState(() => _query = '');
-                            },
-                          )
-                        : null,
-                    filled: true,
-                    fillColor: Colors.white,
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(8),
-                      borderSide: BorderSide.none,
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 12),
+            child: Center(
+              child: Text(
+                _loading ? '' : '${list.length} 项',
+                style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                      color: Theme.of(context).colorScheme.onSurfaceVariant,
                     ),
-                  ),
-                ),
               ),
-              if (filters.isNotEmpty)
-                SizedBox(
-                  height: 48,
-                  child: ListView.separated(
-                    padding: const EdgeInsets.symmetric(horizontal: 8),
-                    scrollDirection: Axis.horizontal,
-                    itemCount: filters.length + 1,
-                    separatorBuilder: (_, __) => const SizedBox(width: 6),
-                    itemBuilder: (context, index) {
-                      if (index == 0) {
-                        final selected = _selectedFilter == null;
-                        return _FilterChip(
-                          label: '全部',
-                          selected: selected,
-                          onTap: () => setState(() => _selectedFilter = null),
-                        );
-                      }
-                      final filter = filters[index - 1];
-                      final selected = _selectedFilter == filter;
-                      return _FilterChip(
-                        label: filter,
-                        selected: selected,
-                        onTap: () =>
-                            setState(() => _selectedFilter = filter),
-                      );
-                    },
-                  ),
-                ),
-            ],
+            ),
           ),
-        ),
+        ],
       ),
-      body: _buildBody(),
+      body: Column(
+        children: [
+          _Toolbar(
+            controller: _searchController,
+            searchHint: widget.searchHint,
+            query: _query,
+            filters: filters,
+            selectedFilter: _selectedFilter,
+            onQueryChanged: (value) => setState(() => _query = value),
+            onClearQuery: () {
+              _searchController.clear();
+              setState(() => _query = '');
+            },
+            onFilterChanged: (value) => setState(() => _selectedFilter = value),
+          ),
+          Expanded(child: _buildBody(list)),
+        ],
+      ),
     );
   }
 
-  Widget _buildBody() {
-    if (_loading) {
-      return const Center(child: CircularProgressIndicator());
-    }
+  Widget _buildBody(List<GameEntry> list) {
+    if (_loading) return const Center(child: CircularProgressIndicator());
     if (_error != null) {
-      return Center(
-        child: Padding(
-          padding: const EdgeInsets.all(24),
-          child: Text(_error!),
-        ),
+      return FluxdoEmptyState(
+        icon: Icons.error_outline_rounded,
+        title: _error!,
+        subtitle: '请检查资源文件是否完整。',
       );
     }
-    final list = _entries;
     if (list.isEmpty) {
-      return Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(widget.emptyIcon, size: 64, color: Colors.grey[400]),
-            const SizedBox(height: 12),
-            Text('没有匹配的结果',
-                style: TextStyle(fontSize: 16, color: Colors.grey[600])),
-          ],
-        ),
+      return FluxdoEmptyState(
+        icon: widget.emptyIcon,
+        title: '没有匹配结果',
+        subtitle: '换个关键词或清空筛选后再试。',
       );
     }
     return GridView.builder(
-      padding: const EdgeInsets.all(8),
+      padding: const EdgeInsets.all(12),
       gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
         maxCrossAxisExtent: widget.maxCrossAxisExtent,
-        mainAxisSpacing: 8,
-        crossAxisSpacing: 8,
+        mainAxisSpacing: 10,
+        crossAxisSpacing: 10,
         childAspectRatio: 0.78,
       ),
       itemCount: list.length,
@@ -220,36 +178,67 @@ class _EntryListScreenState extends State<EntryListScreen> {
   }
 }
 
-class _FilterChip extends StatelessWidget {
-  final String label;
-  final bool selected;
-  final VoidCallback onTap;
-
-  const _FilterChip({
-    required this.label,
-    required this.selected,
-    required this.onTap,
+class _Toolbar extends StatelessWidget {
+  const _Toolbar({
+    required this.controller,
+    required this.searchHint,
+    required this.query,
+    required this.filters,
+    required this.selectedFilter,
+    required this.onQueryChanged,
+    required this.onClearQuery,
+    required this.onFilterChanged,
   });
+
+  final TextEditingController controller;
+  final String searchHint;
+  final String query;
+  final List<String> filters;
+  final String? selectedFilter;
+  final ValueChanged<String> onQueryChanged;
+  final VoidCallback onClearQuery;
+  final ValueChanged<String?> onFilterChanged;
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      borderRadius: BorderRadius.circular(16),
-      onTap: onTap,
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-        decoration: BoxDecoration(
-          color: selected ? AppTheme.primary : Colors.white,
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: AppTheme.primary.withOpacity(0.3)),
+    final colorScheme = Theme.of(context).colorScheme;
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        color: colorScheme.surface,
+        border: Border(
+          bottom: BorderSide(color: colorScheme.outlineVariant),
         ),
-        child: Text(
-          label,
-          style: TextStyle(
-            fontSize: 13,
-            fontWeight: selected ? FontWeight.w600 : FontWeight.normal,
-            color: selected ? Colors.white : AppTheme.textPrimary,
-          ),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(12, 8, 12, 10),
+        child: Column(
+          children: [
+            FluxdoSearchField(
+              controller: controller,
+              hintText: searchHint,
+              onChanged: onQueryChanged,
+              onClear: query.isEmpty ? null : onClearQuery,
+            ),
+            if (filters.isNotEmpty) ...[
+              const SizedBox(height: 8),
+              SizedBox(
+                height: 40,
+                child: ListView.separated(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: filters.length + 1,
+                  separatorBuilder: (_, __) => const SizedBox(width: 8),
+                  itemBuilder: (context, index) {
+                    final value = index == 0 ? null : filters[index - 1];
+                    return ChoiceChip(
+                      label: Text(value ?? '全部'),
+                      selected: selectedFilter == value,
+                      onSelected: (_) => onFilterChanged(value),
+                    );
+                  },
+                ),
+              ),
+            ],
+          ],
         ),
       ),
     );
@@ -257,12 +246,6 @@ class _FilterChip extends StatelessWidget {
 }
 
 class _EntryCard extends StatelessWidget {
-  final GameEntry entry;
-  final String? subtitle;
-  final IconData emptyIcon;
-  final bool compact;
-  final VoidCallback onTap;
-
   const _EntryCard({
     required this.entry,
     required this.onTap,
@@ -271,11 +254,16 @@ class _EntryCard extends StatelessWidget {
     this.compact = false,
   });
 
+  final GameEntry entry;
+  final String? subtitle;
+  final IconData emptyIcon;
+  final bool compact;
+  final VoidCallback onTap;
+
   @override
   Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
     return Card(
-      clipBehavior: Clip.antiAlias,
-      margin: EdgeInsets.zero,
       child: InkWell(
         onTap: onTap,
         child: Column(
@@ -291,26 +279,33 @@ class _EntryCard extends StatelessWidget {
                       fallbackIcon: emptyIcon,
                     ),
                   ),
-                  if (!compact &&
-                      entry.filter != null &&
-                      entry.filter!.isNotEmpty)
+                  if (!compact && entry.filter?.isNotEmpty == true)
                     Positioned(
                       top: 6,
                       left: 6,
-                      child: Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 8,
-                          vertical: 2,
-                        ),
-                        decoration: BoxDecoration(
-                          color: AppTheme.primary.withOpacity(0.85),
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        child: Text(
-                          entry.filter!,
-                          style: const TextStyle(
-                            fontSize: 11,
-                            color: Colors.white,
+                      right: 6,
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: DecoratedBox(
+                          decoration: BoxDecoration(
+                            color: colorScheme.secondaryContainer,
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 8,
+                              vertical: 3,
+                            ),
+                            child: Text(
+                              entry.filter!,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: TextStyle(
+                                fontSize: 11,
+                                color: colorScheme.onSecondaryContainer,
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
                           ),
                         ),
                       ),
@@ -320,8 +315,8 @@ class _EntryCard extends StatelessWidget {
             ),
             Padding(
               padding: EdgeInsets.symmetric(
-                horizontal: compact ? 6 : 8,
-                vertical: compact ? 4 : 6,
+                horizontal: compact ? 7 : 9,
+                vertical: compact ? 5 : 7,
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -332,10 +327,10 @@ class _EntryCard extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(
                       fontSize: compact ? 12 : 14,
-                      fontWeight: FontWeight.w600,
+                      fontWeight: FontWeight.w700,
                     ),
                   ),
-                  if (!compact && subtitle != null && subtitle!.isNotEmpty)
+                  if (!compact && subtitle?.isNotEmpty == true)
                     Padding(
                       padding: const EdgeInsets.only(top: 2),
                       child: Text(
@@ -344,7 +339,7 @@ class _EntryCard extends StatelessWidget {
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
                           fontSize: 11,
-                          color: Colors.grey[600],
+                          color: colorScheme.onSurfaceVariant,
                         ),
                       ),
                     ),
@@ -359,25 +354,27 @@ class _EntryCard extends StatelessWidget {
 }
 
 class _EntryDetailScreen extends StatelessWidget {
-  final GameEntry entry;
-  final IconData emptyIcon;
   const _EntryDetailScreen({
     required this.entry,
     required this.emptyIcon,
   });
 
+  final GameEntry entry;
+  final IconData emptyIcon;
+
   @override
   Widget build(BuildContext context) {
     final sections = HtmlContentParser.parse(entry.html);
+    final colorScheme = Theme.of(context).colorScheme;
     return Scaffold(
       appBar: AppBar(title: Text(entry.name)),
       body: ListView(
         padding: EdgeInsets.zero,
         children: [
           AspectRatio(
-            aspectRatio: 4 / 3,
-            child: Container(
-              color: Colors.black12,
+            aspectRatio: 16 / 10,
+            child: ColoredBox(
+              color: colorScheme.surfaceContainerHighest,
               child: EntryImage(
                 entry: entry,
                 fit: BoxFit.contain,
@@ -395,55 +392,32 @@ class _EntryDetailScreen extends StatelessWidget {
                     Expanded(
                       child: Text(
                         entry.name,
-                        style: const TextStyle(
-                          fontSize: 22,
-                          fontWeight: FontWeight.bold,
-                        ),
+                        style: Theme.of(context)
+                            .textTheme
+                            .headlineSmall
+                            ?.copyWith(fontWeight: FontWeight.w800),
                       ),
                     ),
-                    if (entry.filter != null && entry.filter!.isNotEmpty)
-                      Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 12,
-                          vertical: 4,
-                        ),
-                        decoration: BoxDecoration(
-                          color: AppTheme.accent.withOpacity(0.3),
-                          borderRadius: BorderRadius.circular(14),
-                        ),
-                        child: Text(
-                          entry.filter!,
-                          style: const TextStyle(
-                            fontSize: 12,
-                            color: AppTheme.primaryDark,
-                          ),
-                        ),
-                      ),
+                    if (entry.filter?.isNotEmpty == true)
+                      Chip(label: Text(entry.filter!)),
                   ],
                 ),
-                if (entry.nameExif != null && entry.nameExif!.isNotEmpty) ...[
+                if (entry.nameExif?.isNotEmpty == true) ...[
                   const SizedBox(height: 12),
-                  Container(
-                    padding: const EdgeInsets.all(12),
-                    decoration: BoxDecoration(
-                      color: AppTheme.primaryLight.withOpacity(0.1),
-                      borderRadius: BorderRadius.circular(8),
-                      border: Border.all(
-                        color: AppTheme.primary.withOpacity(0.3),
-                      ),
-                    ),
-                    child: Row(
-                      children: [
-                        const Icon(Icons.restaurant,
-                            size: 18, color: AppTheme.primary),
-                        const SizedBox(width: 8),
-                        Expanded(
-                          child: Text(
-                            entry.nameExif!,
-                            style: const TextStyle(fontSize: 14),
+                  Card(
+                    child: Padding(
+                      padding: const EdgeInsets.all(12),
+                      child: Row(
+                        children: [
+                          Icon(
+                            Icons.info_outline_rounded,
+                            color: colorScheme.primary,
+                            size: 20,
                           ),
-                        ),
-                      ],
+                          const SizedBox(width: 10),
+                          Expanded(child: Text(entry.nameExif!)),
+                        ],
+                      ),
                     ),
                   ),
                 ],

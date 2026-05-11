@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'entry_list_screen.dart';
 
 class ItemsScreen extends StatelessWidget {
@@ -9,9 +10,9 @@ class ItemsScreen extends StatelessWidget {
     return const EntryListScreen(
       title: '物品资料',
       assetPath: 'assets/data/items_decoded.json',
-      emptyIcon: Icons.inventory_2,
-      searchHint: '搜索物品...',
-      maxCrossAxisExtent: 110, // 4 列
+      emptyIcon: Icons.inventory_2_outlined,
+      searchHint: '搜索物品、拼音或关键词',
+      maxCrossAxisExtent: 120,
     );
   }
 }

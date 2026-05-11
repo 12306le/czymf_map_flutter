@@ -47,3 +47,8 @@ flutter:
     - assets/data/
     - assets/icons/
     - assets/game_img/
+
+  fonts:
+    - family: MiSans
+      fonts:
+        - asset: assets/fonts/MiSans-Regular.ttf

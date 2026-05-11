@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../models/game_entry.dart';
 import 'entry_list_screen.dart';
 
@@ -10,9 +11,9 @@ class PetsScreen extends StatelessWidget {
     return EntryListScreen(
       title: '宠物大全',
       assetPath: 'assets/data/creationmagic_pet_food_decoded.json',
-      emptyIcon: Icons.pets,
-      searchHint: '搜索宠物 / 饲料...',
-      maxCrossAxisExtent: 170,
+      emptyIcon: Icons.pets_outlined,
+      searchHint: '搜索宠物、饲料或拼音',
+      maxCrossAxisExtent: 180,
       subtitleBuilder: (GameEntry entry) => entry.nameExif ?? '',
     );
   }
